@@ -1,28 +1,47 @@
 export const defaultTheme = {
-  brand: {
-    yellow: "#833205",
-    yellowDark: "#6b3b26",
-    yellowLight: "#efe3d0",
+  /* colors */
+  color: {
+    black: "#000000",
+    white: "#ffffff",
+    whiteOpacity: {
+      "7": "rgba(255, 255, 255, 0.07)",
+      "20": "rgba(255, 255, 255, 0.2)",
+    },
+
+    greenOlive: "#b3be6e",
+    greenOliveOpacity: {
+      "80": "rgba(179, 190, 110, 0.8)",
+    },
+    greenTea: "#77c091",
+    greenTeaOpacity: {
+      "50": "rgba(119, 192, 145, 0.5)",
+      "80": "rgba(119, 192, 145, 0.8)",
+    },
+    greenWasabi: "#778822",
+    greenSpring: "#267342",
+    greenLeaf: "#366346",
+    greenPalm: "#0c2716",
+    greenPalmOpacity: {
+      "20": "rgba(12, 39, 22, 0.2)",
+      "35": "rgba(12, 39, 22, 0.35)",
+    },
+
+    nudeRose: "#decaba",
+    nudeDust: "#caad90",
+    nudeLion: "#c29670",
+    nudeCoffee: "#674a32",
+
+    orangeSaffron: "#ff9233",
+    redCarmine: "#eb4747",
   },
-  base: {
-    background: "#100909",
-    card: "#331D1D",
-    button: "#6b3b26",
-    input: "#e0d3bc",
-    hover: "#edd9b91a",
-    label: "#8D8686",
-    title: "#efe3d0",
-    subtitle: "#efe3d0",
-    text: "#f2eeeb",
-    white: "#FFFFFF",
-    success: "#52BB50",
-    error: "#FF6363",
-    disabled: "#8D8686",
-  },
+
+  /* fonts */
   font: {
     main: `'Roboto', sans-serif`,
     display: `'Baloo 2', cursive`,
   },
+
+  /* font sizes */
   fontSize: {
     10: "0.625rem",
     12: "0.75rem",
@@ -34,10 +53,14 @@ export const defaultTheme = {
     32: "2rem",
     48: "3rem",
   },
+
+  /* line height */
   lineHeight: {
     130: "130%",
     160: "160%",
   },
+
+  /* breakpoints */
   breakpoints: {
     sm: "576px",
     md: "768px",
