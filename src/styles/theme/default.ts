@@ -1,0 +1,47 @@
+export const defaultTheme = {
+  brand: {
+    yellow: "#833205",
+    yellowDark: "#6b3b26",
+    yellowLight: "#efe3d0",
+  },
+  base: {
+    background: "#100909",
+    card: "#331D1D",
+    button: "#6b3b26",
+    input: "#e0d3bc",
+    hover: "#edd9b91a",
+    label: "#8D8686",
+    title: "#efe3d0",
+    subtitle: "#efe3d0",
+    text: "#f2eeeb",
+    white: "#FFFFFF",
+    success: "#52BB50",
+    error: "#FF6363",
+    disabled: "#8D8686",
+  },
+  font: {
+    main: `'Roboto', sans-serif`,
+    display: `'Baloo 2', cursive`,
+  },
+  fontSize: {
+    10: "0.625rem",
+    12: "0.75rem",
+    14: "0.875rem",
+    16: "1rem",
+    18: "1.125rem",
+    20: "1.25rem",
+    24: "1.5rem",
+    32: "2rem",
+    48: "3rem",
+  },
+  lineHeight: {
+    130: "130%",
+    160: "160%",
+  },
+  breakpoints: {
+    sm: "576px",
+    md: "768px",
+    lg: "992px",
+    xl: "1200px",
+  },
+};
