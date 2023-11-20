@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import bgMesh from "../assets/images/bgMesh.png";
 
 export const GlobalStyle = createGlobalStyle`
 
@@ -10,9 +11,29 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
   }
 
+  html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  position: relative;
+  background: url(${bgMesh}) no-repeat;
+  background-color: ${(props) => props.theme.color.nudeDust};
+  color: ${(props) => props.theme.color.black};
+  font-family: ${(props) => props.theme.font.main};
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  padding-inline: 16px;
+  height: 100%;
+  width: 100%;
+}
+
   body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+
+    font-family: ${(props) => props.theme.font.main};
   }
 
   input, button, textarea, select {

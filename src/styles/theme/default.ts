@@ -37,8 +37,8 @@ export const defaultTheme = {
 
   /* fonts */
   font: {
-    main: `'Roboto', sans-serif`,
-    display: `'Baloo 2', cursive`,
+    main: `'Noto Sans', sans-serif`,
+    display: `'Baloo 2', sans-serif`,
   },
 
   /* font sizes */
