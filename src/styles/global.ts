@@ -1,22 +1,35 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-  * {
-    margin: 0;
-    padding: 0;
+
+  *, *::before, *::after {
     box-sizing: border-box;
   }
 
-  h1,
-  h2,
-  h3 {
-    text-wrap: balance;
-  } 
+  * {
+    margin: 0;
+  }
 
-  img,
-  picture,
-  svg {
-    max-width: 100%;
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  img, picture, video, canvas, svg {
     display: block;
+    max-width: 100%;
+  }
+
+  // 8. Create a root stacking context
+  #root, #__next {
+    isolation: isolate;
   }
 `;
