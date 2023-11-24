@@ -1,6 +1,8 @@
 export type ButtonProps = {
   text: string;
   size: "small" | "default" | "large";
+  color?: "primary" | "secondary";
+  outlined?: boolean;
 };
 
 export type CityProps = {
