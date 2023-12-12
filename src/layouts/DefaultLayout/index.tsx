@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { LayoutContainer } from "./styles";
 import { useLocation } from "react-router-dom";
+import Header from "@/components/Header/Header";
 
 export const DefaultLayout = () => {
   const { pathname } = useLocation();
@@ -8,7 +9,7 @@ export const DefaultLayout = () => {
 
   return (
     <LayoutContainer>
-      {hasHeader ? <h1>HEADER</h1> : null}
+      {hasHeader ? <Header /> : null}
       <Outlet />
     </LayoutContainer>
   );

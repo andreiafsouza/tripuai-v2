@@ -1,18 +1,14 @@
-import {
-  PrimaryBtn,
-  SecondaryBtn,
-  OutlinedBtn,
-} from "@/components/Buttons/Buttons";
+import { DefaultBtn, OutlinedBtn } from "@/components/Buttons/Buttons";
 import Logo from "../Logo/Logo";
-import styles from "./styles.module.css";
+import * as S from "./styles";
 
 const Header = () => {
   return (
-    <header className={styles.header}>
-      <div className={styles.container}>
+    <header>
+      <S.HeaderContainer>
         <Logo size="small" />
-        <PrimaryBtn text="Menu" size="small" />
-      </div>
+        <DefaultBtn text="Menu" size="small" color="primary" />
+      </S.HeaderContainer>
     </header>
   );
 };
