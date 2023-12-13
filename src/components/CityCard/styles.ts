@@ -11,6 +11,7 @@ export const CardContainer = styled.section`
 export const CardContent = styled.div`
   padding: 0.4rem;
   background-color: ${(props) => props.theme.color.nudeRose};
+  font-size: ${(props) => props.theme.fontSize["12"]};
   text-align: center;
   display: flex;
   flex-direction: column;

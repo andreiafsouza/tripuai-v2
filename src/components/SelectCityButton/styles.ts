@@ -8,7 +8,7 @@ export const SelectButton = styled.button`
 
   cursor: pointer;
 
-  &:hover {
+  & :hover {
     background: ${(props) => props.theme.color.greenTea};
   }
 `;

@@ -5,7 +5,7 @@ import Header from "@/components/Header/Header";
 
 export const DefaultLayout = () => {
   const { pathname } = useLocation();
-  const hasHeader = pathname !== "play" && pathname !== "/";
+  const hasHeader = pathname !== "/play" && pathname !== "/";
 
   return (
     <LayoutContainer>

@@ -4,6 +4,7 @@ import { DefaultLayout } from "@/layouts/DefaultLayout";
 
 const Home = lazy(() => import("@/pages/Home"));
 const Cards = lazy(() => import("@/pages/Cards"));
+const Play = lazy(() => import("@/pages/Play"));
 
 export function Router() {
   return (
@@ -12,6 +13,7 @@ export function Router() {
         <Route path="/" element={<DefaultLayout />}>
           <Route path="/" element={<Home />} />
           <Route path="/cartas" element={<Cards />} />
+          <Route path="/play" element={<Play />} />
         </Route>
       </Routes>
     </Suspense>
