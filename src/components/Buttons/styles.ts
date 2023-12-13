@@ -34,41 +34,41 @@ export const ButtonContainer = styled.button<ButtonProps>`
   justify-content: center;
   height: fit-content;
 
-  &.outlinedText {
-  --stroke-color: ${(props) => props.theme.color.nudeDust}
-  --stroke-width: 2px;
-  text-shadow: calc(var(--stroke-width) * 1) calc(var(--stroke-width) * 0) 0
-      var(--stroke-color),
-    calc(var(--stroke-width) * 0.9239) calc(var(--stroke-width) * 0.3827) 0
-      var(--stroke-color),
-    calc(var(--stroke-width) * 0.7071) calc(var(--stroke-width) * 0.7071) 0
-      var(--stroke-color),
-    calc(var(--stroke-width) * 0.3827) calc(var(--stroke-width) * 0.9239) 0
-      var(--stroke-color),
-    calc(var(--stroke-width) * 0) calc(var(--stroke-width) * 1) 0
-      var(--stroke-color),
-    calc(var(--stroke-width) * -0.3827) calc(var(--stroke-width) * 0.9239) 0
-      var(--stroke-color),
-    calc(var(--stroke-width) * -0.7071) calc(var(--stroke-width) * 0.7071) 0
-      var(--stroke-color),
-    calc(var(--stroke-width) * -0.9239) calc(var(--stroke-width) * 0.3827) 0
-      var(--stroke-color),
-    calc(var(--stroke-width) * -1) calc(var(--stroke-width) * 0) 0
-      var(--stroke-color),
-    calc(var(--stroke-width) * -0.9239) calc(var(--stroke-width) * -0.3827) 0
-      var(--stroke-color),
-    calc(var(--stroke-width) * -0.7071) calc(var(--stroke-width) * -0.7071) 0
-      var(--stroke-color),
-    calc(var(--stroke-width) * -0.3827) calc(var(--stroke-width) * -0.9239) 0
-      var(--stroke-color),
-    calc(var(--stroke-width) * 0) calc(var(--stroke-width) * -1) 0
-      var(--stroke-color),
-    calc(var(--stroke-width) * 0.3827) calc(var(--stroke-width) * -0.9239) 0
-      var(--stroke-color),
-    calc(var(--stroke-width) * 0.7071) calc(var(--stroke-width) * -0.7071) 0
-      var(--stroke-color),
-    calc(var(--stroke-width) * 0.9239) calc(var(--stroke-width) * -0.3827) 0
-      var(--stroke-color);
+  & .outlinedText {
+    --stroke-color: ${(props) => props.theme.color.nudeDust};
+    --stroke-width: 2px;
+    text-shadow: calc(var(--stroke-width) * 1) calc(var(--stroke-width) * 0) 0
+        var(--stroke-color),
+      calc(var(--stroke-width) * 0.9239) calc(var(--stroke-width) * 0.3827) 0
+        var(--stroke-color),
+      calc(var(--stroke-width) * 0.7071) calc(var(--stroke-width) * 0.7071) 0
+        var(--stroke-color),
+      calc(var(--stroke-width) * 0.3827) calc(var(--stroke-width) * 0.9239) 0
+        var(--stroke-color),
+      calc(var(--stroke-width) * 0) calc(var(--stroke-width) * 1) 0
+        var(--stroke-color),
+      calc(var(--stroke-width) * -0.3827) calc(var(--stroke-width) * 0.9239) 0
+        var(--stroke-color),
+      calc(var(--stroke-width) * -0.7071) calc(var(--stroke-width) * 0.7071) 0
+        var(--stroke-color),
+      calc(var(--stroke-width) * -0.9239) calc(var(--stroke-width) * 0.3827) 0
+        var(--stroke-color),
+      calc(var(--stroke-width) * -1) calc(var(--stroke-width) * 0) 0
+        var(--stroke-color),
+      calc(var(--stroke-width) * -0.9239) calc(var(--stroke-width) * -0.3827) 0
+        var(--stroke-color),
+      calc(var(--stroke-width) * -0.7071) calc(var(--stroke-width) * -0.7071) 0
+        var(--stroke-color),
+      calc(var(--stroke-width) * -0.3827) calc(var(--stroke-width) * -0.9239) 0
+        var(--stroke-color),
+      calc(var(--stroke-width) * 0) calc(var(--stroke-width) * -1) 0
+        var(--stroke-color),
+      calc(var(--stroke-width) * 0.3827) calc(var(--stroke-width) * -0.9239) 0
+        var(--stroke-color),
+      calc(var(--stroke-width) * 0.7071) calc(var(--stroke-width) * -0.7071) 0
+        var(--stroke-color),
+      calc(var(--stroke-width) * 0.9239) calc(var(--stroke-width) * -0.3827) 0
+        var(--stroke-color);
   }
 `;
 

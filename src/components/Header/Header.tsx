@@ -7,7 +7,7 @@ const Header = () => {
     <header>
       <S.HeaderContainer>
         <Logo size="small" />
-        <DefaultBtn text="Menu" size="small" color="primary" />
+        <OutlinedBtn text="Menu" size="small" />
       </S.HeaderContainer>
     </header>
   );
