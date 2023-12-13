@@ -9,8 +9,18 @@ export type LogoProps = {
 const Logo = ({ size }: LogoProps) => {
   return (
     <S.Wrapper>
-      <S.ImageLogo src={logo} alt="Logo tripUAI" size={size} />
-      <S.ImageLogoBg src={logoBg} alt="" size={size} />
+      <S.ImageLogo
+        src={logo}
+        alt="Logo tripUAI"
+        size={size}
+        width={size === "small" ? 208 : 573}
+      />
+      <S.ImageLogoBg
+        src={logoBg}
+        alt=""
+        size={size}
+        width={size === "small" ? 248 : 685}
+      />
     </S.Wrapper>
   );
 };
