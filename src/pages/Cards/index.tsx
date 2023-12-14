@@ -7,7 +7,6 @@ const Cards = () => {
   const cities: CityProps[] = citiesData;
   return (
     <S.Main>
-      {" "}
       <CityCardList cities={cities} />
     </S.Main>
   );
