@@ -1,11 +1,13 @@
-import Logo from "@/components/Logo/Logo";
+import Deck from "@/components/Deck/Deck";
+import Board from "@/components/Board/Board";
 import * as S from "./styles";
-import { Link } from "react-router-dom";
 
 const Play = () => {
   return (
     <S.Main>
-      <h1>play</h1>
+      <Deck />
+      <Board />
+      <Deck />
     </S.Main>
   );
 };
