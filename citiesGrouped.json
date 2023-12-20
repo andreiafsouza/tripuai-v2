@@ -1,0 +1,7679 @@
+[
+  {
+    "id": 3100104,
+    "nome": "Abadia dos Dourados",
+    "bottom": 7,
+    "left": 5,
+    "right": 7,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3100203,
+    "nome": "Abaeté",
+    "bottom": 8,
+    "left": 9,
+    "right": 10,
+    "bioma": "Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3100302,
+    "nome": "Abre Campo",
+    "bottom": 5,
+    "left": 4,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3100401,
+    "nome": "Acaiaca",
+    "bottom": 4,
+    "left": 5,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3100500,
+    "nome": "Açucena",
+    "bottom": 4,
+    "left": 3,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3100609,
+    "nome": "Água Boa",
+    "bottom": 3,
+    "left": 4,
+    "right": 1,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3100708,
+    "nome": "Água Comprida",
+    "bottom": 10,
+    "left": 9,
+    "right": 1,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 1
+  },
+  {
+    "id": 3100807,
+    "nome": "Aguanil",
+    "bottom": 5,
+    "left": 6,
+    "right": 5,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3100906,
+    "nome": "Águas Formosas",
+    "bottom": 3,
+    "left": 6,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3101003,
+    "nome": "Águas Vermelhas",
+    "bottom": 5,
+    "left": 2,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3101102,
+    "nome": "Aimorés",
+    "bottom": 7,
+    "left": 8,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3101201,
+    "nome": "Aiuruoca",
+    "bottom": 6,
+    "left": 3,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3101300,
+    "nome": "Alagoa",
+    "bottom": 6,
+    "left": 4,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3101409,
+    "nome": "Albertina",
+    "bottom": 9,
+    "left": 6,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3101508,
+    "nome": "Além Paraíba",
+    "bottom": 8,
+    "left": 8,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3101607,
+    "nome": "Alfenas",
+    "bottom": 9,
+    "left": 10,
+    "right": 6,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3101631,
+    "nome": "Alfredo Vasconcelos",
+    "bottom": 5,
+    "left": 5,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3101706,
+    "nome": "Almenara",
+    "bottom": 4,
+    "left": 7,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3101805,
+    "nome": "Alpercata",
+    "bottom": 2,
+    "left": 7,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3101904,
+    "nome": "Alpinópolis",
+    "bottom": 7,
+    "left": 8,
+    "right": 4,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3102001,
+    "nome": "Alterosa",
+    "bottom": 5,
+    "left": 7,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3102050,
+    "nome": "Alto Caparaó",
+    "bottom": 4,
+    "left": 6,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3153509,
+    "nome": "Alto Jequitibá",
+    "bottom": 4,
+    "left": 3,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3102100,
+    "nome": "Alto Rio Doce",
+    "bottom": 5,
+    "left": 3,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3102209,
+    "nome": "Alvarenga",
+    "bottom": 3,
+    "left": 4,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3102308,
+    "nome": "Alvinópolis",
+    "bottom": 7,
+    "left": 7,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3102407,
+    "nome": "Alvorada de Minas",
+    "bottom": 5,
+    "left": 2,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3102506,
+    "nome": "Amparo do Serra",
+    "bottom": 2,
+    "left": 4,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3102605,
+    "nome": "Andradas",
+    "bottom": 8,
+    "left": 8,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3102803,
+    "nome": "Andrelândia",
+    "bottom": 7,
+    "left": 8,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3102852,
+    "nome": "Angelândia",
+    "bottom": 4,
+    "left": 3,
+    "right": 7,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3102902,
+    "nome": "Antônio Carlos",
+    "bottom": 6,
+    "left": 6,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3103009,
+    "nome": "Antônio Dias",
+    "bottom": 9,
+    "left": 4,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3103108,
+    "nome": "Antônio Prado de Minas",
+    "bottom": 5,
+    "left": 8,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3103207,
+    "nome": "Araçaí",
+    "bottom": 8,
+    "left": 4,
+    "right": 9,
+    "bioma": "Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3103306,
+    "nome": "Aracitaba",
+    "bottom": 4,
+    "left": 5,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3103405,
+    "nome": "Araçuaí",
+    "bottom": 4,
+    "left": 3,
+    "right": 5,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3103504,
+    "nome": "Araguari",
+    "bottom": 10,
+    "left": 9,
+    "right": 6,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3103603,
+    "nome": "Arantina",
+    "bottom": 8,
+    "left": 8,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3103702,
+    "nome": "Araponga",
+    "bottom": 2,
+    "left": 2,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3103751,
+    "nome": "Araporã",
+    "bottom": 10,
+    "left": 10,
+    "right": 10,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3103801,
+    "nome": "Arapuá",
+    "bottom": 10,
+    "left": 7,
+    "right": 7,
+    "bioma": "Cerrado",
+    "top": 4
+  },
+  {
+    "id": 3103900,
+    "nome": "Araújos",
+    "bottom": 9,
+    "left": 9,
+    "right": 2,
+    "bioma": "Cerrado",
+    "top": 7
+  },
+  {
+    "id": 3104007,
+    "nome": "Araxá",
+    "bottom": 10,
+    "left": 10,
+    "right": 4,
+    "bioma": "Cerrado",
+    "top": 9
+  },
+  {
+    "id": 3104106,
+    "nome": "Arceburgo",
+    "bottom": 8,
+    "left": 9,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3104205,
+    "nome": "Arcos",
+    "bottom": 9,
+    "left": 10,
+    "right": 8,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3104304,
+    "nome": "Areado",
+    "bottom": 5,
+    "left": 9,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3104403,
+    "nome": "Argirita",
+    "bottom": 4,
+    "left": 6,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3104452,
+    "nome": "Aricanduva",
+    "bottom": 2,
+    "left": 3,
+    "right": 7,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3104502,
+    "nome": "Arinos",
+    "bottom": 5,
+    "left": 2,
+    "right": 3,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3104601,
+    "nome": "Astolfo Dutra",
+    "bottom": 6,
+    "left": 3,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3104700,
+    "nome": "Ataléia",
+    "bottom": 4,
+    "left": 4,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3104809,
+    "nome": "Augusto de Lima",
+    "bottom": 4,
+    "left": 1,
+    "right": 9,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3104908,
+    "nome": "Baependi",
+    "bottom": 5,
+    "left": 8,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3105004,
+    "nome": "Baldim",
+    "bottom": 7,
+    "left": 4,
+    "right": 3,
+    "bioma": "Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3105103,
+    "nome": "Bambuí",
+    "bottom": 8,
+    "left": 9,
+    "right": 8,
+    "bioma": "Cerrado",
+    "top": 4
+  },
+  {
+    "id": 3105202,
+    "nome": "Bandeira",
+    "bottom": 2,
+    "left": 4,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3105301,
+    "nome": "Bandeira do Sul",
+    "bottom": 4,
+    "left": 9,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3105400,
+    "nome": "Barão de Cocais",
+    "bottom": 9,
+    "left": 9,
+    "right": 9,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3105509,
+    "nome": "Barão de Monte Alto",
+    "bottom": 2,
+    "left": 8,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3105608,
+    "nome": "Barbacena",
+    "bottom": 7,
+    "left": 9,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3105707,
+    "nome": "Barra Longa",
+    "bottom": 4,
+    "left": 5,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3105905,
+    "nome": "Barroso",
+    "bottom": 8,
+    "left": 9,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3106002,
+    "nome": "Bela Vista de Minas",
+    "bottom": 9,
+    "left": 9,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3106101,
+    "nome": "Belmiro Braga",
+    "bottom": 5,
+    "left": 3,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3106200,
+    "nome": "Belo Horizonte",
+    "bottom": 9,
+    "left": 10,
+    "right": 5,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3106309,
+    "nome": "Belo Oriente",
+    "bottom": 10,
+    "left": 7,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3106408,
+    "nome": "Belo Vale",
+    "bottom": 8,
+    "left": 4,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3106507,
+    "nome": "Berilo",
+    "bottom": 1,
+    "left": 2,
+    "right": 9,
+    "bioma": "Cerrado",
+    "top": 4
+  },
+  {
+    "id": 3106655,
+    "nome": "Berizal",
+    "bottom": 2,
+    "left": 1,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3106606,
+    "nome": "Bertópolis",
+    "bottom": 1,
+    "left": 2,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3106705,
+    "nome": "Betim",
+    "bottom": 10,
+    "left": 9,
+    "right": 6,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3106804,
+    "nome": "Bias Fortes",
+    "bottom": 2,
+    "left": 3,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3106903,
+    "nome": "Bicas",
+    "bottom": 6,
+    "left": 10,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3107000,
+    "nome": "Biquinhas",
+    "bottom": 7,
+    "left": 1,
+    "right": 9,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3107109,
+    "nome": "Boa Esperança",
+    "bottom": 7,
+    "left": 9,
+    "right": 3,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3107208,
+    "nome": "Bocaina de Minas",
+    "bottom": 4,
+    "left": 3,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3107307,
+    "nome": "Bocaiúva",
+    "bottom": 7,
+    "left": 7,
+    "right": 6,
+    "bioma": "Cerrado",
+    "top": 4
+  },
+  {
+    "id": 3107406,
+    "nome": "Bom Despacho",
+    "bottom": 8,
+    "left": 10,
+    "right": 7,
+    "bioma": "Cerrado",
+    "top": 8
+  },
+  {
+    "id": 3107505,
+    "nome": "Bom Jardim de Minas",
+    "bottom": 6,
+    "left": 8,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3107604,
+    "nome": "Bom Jesus da Penha",
+    "bottom": 9,
+    "left": 8,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3107703,
+    "nome": "Bom Jesus do Amparo",
+    "bottom": 8,
+    "left": 5,
+    "right": 5,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3107802,
+    "nome": "Bom Jesus do Galho",
+    "bottom": 2,
+    "left": 4,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3107901,
+    "nome": "Bom Repouso",
+    "bottom": 4,
+    "left": 4,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3108008,
+    "nome": "Bom Sucesso",
+    "bottom": 7,
+    "left": 9,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3108107,
+    "nome": "Bonfim",
+    "bottom": 5,
+    "left": 3,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3108206,
+    "nome": "Bonfinópolis de Minas",
+    "bottom": 10,
+    "left": 6,
+    "right": 5,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3108255,
+    "nome": "Bonito de Minas",
+    "bottom": 1,
+    "left": 1,
+    "right": 1,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3108305,
+    "nome": "Borda da Mata",
+    "bottom": 6,
+    "left": 9,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3108404,
+    "nome": "Botelhos",
+    "bottom": 6,
+    "left": 8,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3108503,
+    "nome": "Botumirim",
+    "bottom": 1,
+    "left": 1,
+    "right": 2,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3108701,
+    "nome": "Brás Pires",
+    "bottom": 2,
+    "left": 4,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3108552,
+    "nome": "Brasilândia de Minas",
+    "bottom": 7,
+    "left": 2,
+    "right": 5,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3108602,
+    "nome": "Brasília de Minas",
+    "bottom": 2,
+    "left": 4,
+    "right": 3,
+    "bioma": "Caatinga, Cerrado",
+    "top": 5
+  },
+  {
+    "id": 3108800,
+    "nome": "Braúnas",
+    "bottom": 9,
+    "left": 2,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3108909,
+    "nome": "Brazópolis",
+    "bottom": 3,
+    "left": 5,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3109006,
+    "nome": "Brumadinho",
+    "bottom": 10,
+    "left": 6,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3109105,
+    "nome": "Bueno Brandão",
+    "bottom": 5,
+    "left": 5,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3109204,
+    "nome": "Buenópolis",
+    "bottom": 3,
+    "left": 2,
+    "right": 1,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3109253,
+    "nome": "Bugre",
+    "bottom": 2,
+    "left": 1,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3109303,
+    "nome": "Buritis",
+    "bottom": 9,
+    "left": 2,
+    "right": 6,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3109402,
+    "nome": "Buritizeiro",
+    "bottom": 7,
+    "left": 1,
+    "right": 3,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3109451,
+    "nome": "Cabeceira Grande",
+    "bottom": 10,
+    "left": 1,
+    "right": 7,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3109501,
+    "nome": "Cabo Verde",
+    "bottom": 6,
+    "left": 6,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3109600,
+    "nome": "Cachoeira da Prata",
+    "bottom": 4,
+    "left": 10,
+    "right": 7,
+    "bioma": "Cerrado",
+    "top": 9
+  },
+  {
+    "id": 3109709,
+    "nome": "Cachoeira de Minas",
+    "bottom": 9,
+    "left": 7,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3102704,
+    "nome": "Cachoeira de Pajeú",
+    "bottom": 3,
+    "left": 2,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3109808,
+    "nome": "Cachoeira Dourada",
+    "bottom": 9,
+    "left": 10,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3109907,
+    "nome": "Caetanópolis",
+    "bottom": 7,
+    "left": 6,
+    "right": 7,
+    "bioma": "Cerrado",
+    "top": 9
+  },
+  {
+    "id": 3110004,
+    "nome": "Caeté",
+    "bottom": 7,
+    "left": 8,
+    "right": 3,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3110103,
+    "nome": "Caiana",
+    "bottom": 7,
+    "left": 4,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3110202,
+    "nome": "Cajuri",
+    "bottom": 8,
+    "left": 7,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3110301,
+    "nome": "Caldas",
+    "bottom": 6,
+    "left": 6,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3110400,
+    "nome": "Camacho",
+    "bottom": 5,
+    "left": 7,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3110509,
+    "nome": "Camanducaia",
+    "bottom": 9,
+    "left": 6,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3110608,
+    "nome": "Cambuí",
+    "bottom": 10,
+    "left": 9,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3110707,
+    "nome": "Cambuquira",
+    "bottom": 8,
+    "left": 8,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3110806,
+    "nome": "Campanário",
+    "bottom": 3,
+    "left": 5,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 1
+  },
+  {
+    "id": 3110905,
+    "nome": "Campanha",
+    "bottom": 7,
+    "left": 8,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3111002,
+    "nome": "Campestre",
+    "bottom": 6,
+    "left": 5,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3111101,
+    "nome": "Campina Verde",
+    "bottom": 8,
+    "left": 8,
+    "right": 1,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 1
+  },
+  {
+    "id": 3111150,
+    "nome": "Campo Azul",
+    "bottom": 2,
+    "left": 1,
+    "right": 7,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3111200,
+    "nome": "Campo Belo",
+    "bottom": 7,
+    "left": 10,
+    "right": 8,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3111309,
+    "nome": "Campo do Meio",
+    "bottom": 5,
+    "left": 9,
+    "right": 6,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3111408,
+    "nome": "Campo Florido",
+    "bottom": 10,
+    "left": 7,
+    "right": 9,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3111507,
+    "nome": "Campos Altos",
+    "bottom": 8,
+    "left": 10,
+    "right": 5,
+    "bioma": "Cerrado",
+    "top": 4
+  },
+  {
+    "id": 3111606,
+    "nome": "Campos Gerais",
+    "bottom": 7,
+    "left": 7,
+    "right": 5,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3111903,
+    "nome": "Cana Verde",
+    "bottom": 3,
+    "left": 7,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3111705,
+    "nome": "Canaã",
+    "bottom": 5,
+    "left": 3,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3111804,
+    "nome": "Canápolis",
+    "bottom": 10,
+    "left": 10,
+    "right": 9,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3112000,
+    "nome": "Candeias",
+    "bottom": 6,
+    "left": 7,
+    "right": 7,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3112059,
+    "nome": "Cantagalo",
+    "bottom": 2,
+    "left": 4,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3112109,
+    "nome": "Caparaó",
+    "bottom": 5,
+    "left": 3,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3112208,
+    "nome": "Capela Nova",
+    "bottom": 3,
+    "left": 2,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3112307,
+    "nome": "Capelinha",
+    "bottom": 6,
+    "left": 5,
+    "right": 4,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3112406,
+    "nome": "Capetinga",
+    "bottom": 8,
+    "left": 10,
+    "right": 2,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3112505,
+    "nome": "Capim Branco",
+    "bottom": 1,
+    "left": 2,
+    "right": 10,
+    "bioma": "Cerrado",
+    "top": 9
+  },
+  {
+    "id": 3112604,
+    "nome": "Capinópolis",
+    "bottom": 9,
+    "left": 10,
+    "right": 10,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3112653,
+    "nome": "Capitão Andrade",
+    "bottom": 1,
+    "left": 7,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3112703,
+    "nome": "Capitão Enéas",
+    "bottom": 8,
+    "left": 2,
+    "right": 3,
+    "bioma": "Caatinga",
+    "top": 3
+  },
+  {
+    "id": 3112802,
+    "nome": "Capitólio",
+    "bottom": 9,
+    "left": 9,
+    "right": 9,
+    "bioma": "Cerrado",
+    "top": 5
+  },
+  {
+    "id": 3112901,
+    "nome": "Caputira",
+    "bottom": 2,
+    "left": 4,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3113008,
+    "nome": "Caraí",
+    "bottom": 1,
+    "left": 2,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3113107,
+    "nome": "Caranaíba",
+    "bottom": 2,
+    "left": 3,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3113206,
+    "nome": "Carandaí",
+    "bottom": 8,
+    "left": 6,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3113305,
+    "nome": "Carangola",
+    "bottom": 6,
+    "left": 6,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3113404,
+    "nome": "Caratinga",
+    "bottom": 7,
+    "left": 6,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3113503,
+    "nome": "Carbonita",
+    "bottom": 7,
+    "left": 6,
+    "right": 10,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3113602,
+    "nome": "Careaçu",
+    "bottom": 7,
+    "left": 7,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3113701,
+    "nome": "Carlos Chagas",
+    "bottom": 8,
+    "left": 6,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 1
+  },
+  {
+    "id": 3113800,
+    "nome": "Carmésia",
+    "bottom": 3,
+    "left": 6,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3113909,
+    "nome": "Carmo da Cachoeira",
+    "bottom": 7,
+    "left": 8,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3114006,
+    "nome": "Carmo da Mata",
+    "bottom": 5,
+    "left": 8,
+    "right": 6,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3114105,
+    "nome": "Carmo de Minas",
+    "bottom": 4,
+    "left": 7,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3114204,
+    "nome": "Carmo do Cajuru",
+    "bottom": 7,
+    "left": 9,
+    "right": 8,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3114303,
+    "nome": "Carmo do Paranaíba",
+    "bottom": 8,
+    "left": 10,
+    "right": 5,
+    "bioma": "Cerrado",
+    "top": 5
+  },
+  {
+    "id": 3114402,
+    "nome": "Carmo do Rio Claro",
+    "bottom": 8,
+    "left": 7,
+    "right": 2,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3114501,
+    "nome": "Carmópolis de Minas",
+    "bottom": 7,
+    "left": 7,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3114550,
+    "nome": "Carneirinho",
+    "bottom": 9,
+    "left": 5,
+    "right": 6,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 1
+  },
+  {
+    "id": 3114600,
+    "nome": "Carrancas",
+    "bottom": 8,
+    "left": 7,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 1
+  },
+  {
+    "id": 3114709,
+    "nome": "Carvalhópolis",
+    "bottom": 5,
+    "left": 7,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3114808,
+    "nome": "Carvalhos",
+    "bottom": 5,
+    "left": 3,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3114907,
+    "nome": "Casa Grande",
+    "bottom": 8,
+    "left": 5,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3115003,
+    "nome": "Cascalho Rico",
+    "bottom": 7,
+    "left": 3,
+    "right": 3,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3115102,
+    "nome": "Cássia",
+    "bottom": 7,
+    "left": 8,
+    "right": 4,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3115300,
+    "nome": "Cataguases",
+    "bottom": 7,
+    "left": 9,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3115359,
+    "nome": "Catas Altas",
+    "bottom": 10,
+    "left": 9,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3115409,
+    "nome": "Catas Altas da Noruega",
+    "bottom": 2,
+    "left": 3,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3115458,
+    "nome": "Catuji",
+    "bottom": 2,
+    "left": 3,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3115474,
+    "nome": "Catuti",
+    "bottom": 2,
+    "left": 1,
+    "right": 7,
+    "bioma": "Caatinga",
+    "top": 4
+  },
+  {
+    "id": 3115508,
+    "nome": "Caxambu",
+    "bottom": 5,
+    "left": 10,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3115607,
+    "nome": "Cedro do Abaeté",
+    "bottom": 6,
+    "left": 2,
+    "right": 10,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3115706,
+    "nome": "Central de Minas",
+    "bottom": 2,
+    "left": 6,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3115805,
+    "nome": "Centralina",
+    "bottom": 9,
+    "left": 3,
+    "right": 2,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3115904,
+    "nome": "Chácara",
+    "bottom": 4,
+    "left": 8,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3116001,
+    "nome": "Chalé",
+    "bottom": 4,
+    "left": 3,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3116100,
+    "nome": "Chapada do Norte",
+    "bottom": 1,
+    "left": 2,
+    "right": 5,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3116159,
+    "nome": "Chapada Gaúcha",
+    "bottom": 7,
+    "left": 2,
+    "right": 6,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3116209,
+    "nome": "Chiador",
+    "bottom": 4,
+    "left": 6,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3116308,
+    "nome": "Cipotânea",
+    "bottom": 1,
+    "left": 3,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3116407,
+    "nome": "Claraval",
+    "bottom": 9,
+    "left": 4,
+    "right": 3,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3116506,
+    "nome": "Claro dos Poções",
+    "bottom": 1,
+    "left": 2,
+    "right": 4,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3116605,
+    "nome": "Cláudio",
+    "bottom": 8,
+    "left": 10,
+    "right": 3,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3116704,
+    "nome": "Coimbra",
+    "bottom": 5,
+    "left": 4,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3116803,
+    "nome": "Coluna",
+    "bottom": 3,
+    "left": 3,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3116902,
+    "nome": "Comendador Gomes",
+    "bottom": 9,
+    "left": 5,
+    "right": 3,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3117009,
+    "nome": "Comercinho",
+    "bottom": 1,
+    "left": 2,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3117108,
+    "nome": "Conceição da Aparecida",
+    "bottom": 7,
+    "left": 5,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3115201,
+    "nome": "Conceição da Barra de Minas",
+    "bottom": 5,
+    "left": 3,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3117306,
+    "nome": "Conceição das Alagoas",
+    "bottom": 9,
+    "left": 9,
+    "right": 2,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3117207,
+    "nome": "Conceição das Pedras",
+    "bottom": 6,
+    "left": 6,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3117405,
+    "nome": "Conceição de Ipanema",
+    "bottom": 4,
+    "left": 3,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3117504,
+    "nome": "Conceição do Mato Dentro",
+    "bottom": 10,
+    "left": 3,
+    "right": 6,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3117603,
+    "nome": "Conceição do Pará",
+    "bottom": 10,
+    "left": 4,
+    "right": 7,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3117702,
+    "nome": "Conceição do Rio Verde",
+    "bottom": 6,
+    "left": 10,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3117801,
+    "nome": "Conceição dos Ouros",
+    "bottom": 5,
+    "left": 7,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3117836,
+    "nome": "Cônego Marinho",
+    "bottom": 1,
+    "left": 1,
+    "right": 8,
+    "bioma": "Caatinga, Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3117876,
+    "nome": "Confins",
+    "bottom": 10,
+    "left": 1,
+    "right": 10,
+    "bioma": "Cerrado",
+    "top": 10
+  },
+  {
+    "id": 3117900,
+    "nome": "Congonhal",
+    "bottom": 4,
+    "left": 8,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3118007,
+    "nome": "Congonhas",
+    "bottom": 10,
+    "left": 8,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3118106,
+    "nome": "Congonhas do Norte",
+    "bottom": 1,
+    "left": 2,
+    "right": 1,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3118205,
+    "nome": "Conquista",
+    "bottom": 10,
+    "left": 9,
+    "right": 10,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3118304,
+    "nome": "Conselheiro Lafaiete",
+    "bottom": 6,
+    "left": 10,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3118403,
+    "nome": "Conselheiro Pena",
+    "bottom": 4,
+    "left": 7,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3118502,
+    "nome": "Consolação",
+    "bottom": 5,
+    "left": 4,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3118601,
+    "nome": "Contagem",
+    "bottom": 10,
+    "left": 10,
+    "right": 5,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3118700,
+    "nome": "Coqueiral",
+    "bottom": 7,
+    "left": 6,
+    "right": 5,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3118809,
+    "nome": "Coração de Jesus",
+    "bottom": 1,
+    "left": 1,
+    "right": 3,
+    "bioma": "Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3118908,
+    "nome": "Cordisburgo",
+    "bottom": 3,
+    "left": 2,
+    "right": 1,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3119005,
+    "nome": "Cordislândia",
+    "bottom": 7,
+    "left": 8,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3119104,
+    "nome": "Corinto",
+    "bottom": 8,
+    "left": 9,
+    "right": 5,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3119203,
+    "nome": "Coroaci",
+    "bottom": 3,
+    "left": 4,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3119302,
+    "nome": "Coromandel",
+    "bottom": 10,
+    "left": 7,
+    "right": 2,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3119401,
+    "nome": "Coronel Fabriciano",
+    "bottom": 5,
+    "left": 9,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3119500,
+    "nome": "Coronel Murta",
+    "bottom": 1,
+    "left": 3,
+    "right": 8,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3119609,
+    "nome": "Coronel Pacheco",
+    "bottom": 6,
+    "left": 6,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3119708,
+    "nome": "Coronel Xavier Chaves",
+    "bottom": 6,
+    "left": 6,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3119807,
+    "nome": "Córrego Danta",
+    "bottom": 10,
+    "left": 5,
+    "right": 10,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3119906,
+    "nome": "Córrego do Bom Jesus",
+    "bottom": 2,
+    "left": 3,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3119955,
+    "nome": "Córrego Fundo",
+    "bottom": 9,
+    "left": 2,
+    "right": 5,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3120003,
+    "nome": "Córrego Novo",
+    "bottom": 3,
+    "left": 6,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3120102,
+    "nome": "Couto de Magalhães de Minas",
+    "bottom": 4,
+    "left": 7,
+    "right": 8,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3120151,
+    "nome": "Crisólita",
+    "bottom": 2,
+    "left": 3,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 1
+  },
+  {
+    "id": 3120201,
+    "nome": "Cristais",
+    "bottom": 6,
+    "left": 8,
+    "right": 4,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3120300,
+    "nome": "Cristália",
+    "bottom": 1,
+    "left": 3,
+    "right": 1,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3120409,
+    "nome": "Cristiano Otoni",
+    "bottom": 8,
+    "left": 6,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3120508,
+    "nome": "Cristina",
+    "bottom": 7,
+    "left": 4,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3120607,
+    "nome": "Crucilândia",
+    "bottom": 5,
+    "left": 5,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3120706,
+    "nome": "Cruzeiro da Fortaleza",
+    "bottom": 9,
+    "left": 10,
+    "right": 4,
+    "bioma": "Cerrado",
+    "top": 4
+  },
+  {
+    "id": 3120805,
+    "nome": "Cruzília",
+    "bottom": 6,
+    "left": 10,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3120839,
+    "nome": "Cuparaque",
+    "bottom": 3,
+    "left": 9,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3120870,
+    "nome": "Curral de Dentro",
+    "bottom": 1,
+    "left": 3,
+    "right": 2,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3120904,
+    "nome": "Curvelo",
+    "bottom": 8,
+    "left": 8,
+    "right": 8,
+    "bioma": "Cerrado",
+    "top": 6
+  },
+  {
+    "id": 3121001,
+    "nome": "Datas",
+    "bottom": 2,
+    "left": 6,
+    "right": 6,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3121100,
+    "nome": "Delfim Moreira",
+    "bottom": 4,
+    "left": 5,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3121209,
+    "nome": "Delfinópolis",
+    "bottom": 9,
+    "left": 8,
+    "right": 9,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3121258,
+    "nome": "Delta",
+    "bottom": 9,
+    "left": 10,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3121308,
+    "nome": "Descoberto",
+    "bottom": 4,
+    "left": 9,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3121407,
+    "nome": "Desterro de Entre Rios",
+    "bottom": 9,
+    "left": 3,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3121506,
+    "nome": "Desterro do Melo",
+    "bottom": 4,
+    "left": 2,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3121605,
+    "nome": "Diamantina",
+    "bottom": 6,
+    "left": 7,
+    "right": 6,
+    "bioma": "Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3121704,
+    "nome": "Diogo de Vasconcelos",
+    "bottom": 2,
+    "left": 3,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3121803,
+    "nome": "Dionísio",
+    "bottom": 2,
+    "left": 7,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3121902,
+    "nome": "Divinésia",
+    "bottom": 5,
+    "left": 3,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3122009,
+    "nome": "Divino",
+    "bottom": 4,
+    "left": 4,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3122108,
+    "nome": "Divino das Laranjeiras",
+    "bottom": 2,
+    "left": 7,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3122207,
+    "nome": "Divinolândia de Minas",
+    "bottom": 1,
+    "left": 5,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3122306,
+    "nome": "Divinópolis",
+    "bottom": 8,
+    "left": 10,
+    "right": 8,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3122355,
+    "nome": "Divisa Alegre",
+    "bottom": 6,
+    "left": 1,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3122405,
+    "nome": "Divisa Nova",
+    "bottom": 5,
+    "left": 7,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3122454,
+    "nome": "Divisópolis",
+    "bottom": 1,
+    "left": 1,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3122470,
+    "nome": "Dom Bosco",
+    "bottom": 5,
+    "left": 3,
+    "right": 10,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3122504,
+    "nome": "Dom Cavati",
+    "bottom": 3,
+    "left": 8,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3122603,
+    "nome": "Dom Joaquim",
+    "bottom": 3,
+    "left": 5,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3122702,
+    "nome": "Dom Silvério",
+    "bottom": 6,
+    "left": 4,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3122801,
+    "nome": "Dom Viçoso",
+    "bottom": 3,
+    "left": 5,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3122900,
+    "nome": "Dona Euzébia",
+    "bottom": 4,
+    "left": 5,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3123007,
+    "nome": "Dores de Campos",
+    "bottom": 9,
+    "left": 8,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3123106,
+    "nome": "Dores de Guanhães",
+    "bottom": 9,
+    "left": 2,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3123205,
+    "nome": "Dores do Indaiá",
+    "bottom": 7,
+    "left": 9,
+    "right": 4,
+    "bioma": "Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3123304,
+    "nome": "Dores do Turvo",
+    "bottom": 4,
+    "left": 2,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3123403,
+    "nome": "Doresópolis",
+    "bottom": 9,
+    "left": 9,
+    "right": 3,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3123502,
+    "nome": "Douradoquara",
+    "bottom": 9,
+    "left": 6,
+    "right": 8,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3123528,
+    "nome": "Durandé",
+    "bottom": 4,
+    "left": 2,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3123601,
+    "nome": "Elói Mendes",
+    "bottom": 8,
+    "left": 9,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3123700,
+    "nome": "Engenheiro Caldas",
+    "bottom": 2,
+    "left": 7,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3123809,
+    "nome": "Engenheiro Navarro",
+    "bottom": 2,
+    "left": 2,
+    "right": 8,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3123858,
+    "nome": "Entre Folhas",
+    "bottom": 2,
+    "left": 5,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3123908,
+    "nome": "Entre Rios de Minas",
+    "bottom": 6,
+    "left": 6,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3124005,
+    "nome": "Ervália",
+    "bottom": 6,
+    "left": 4,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3124104,
+    "nome": "Esmeraldas",
+    "bottom": 2,
+    "left": 2,
+    "right": 4,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3124203,
+    "nome": "Espera Feliz",
+    "bottom": 5,
+    "left": 4,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3124302,
+    "nome": "Espinosa",
+    "bottom": 2,
+    "left": 1,
+    "right": 2,
+    "bioma": "Caatinga, Cerrado",
+    "top": 4
+  },
+  {
+    "id": 3124401,
+    "nome": "Espírito Santo do Dourado",
+    "bottom": 7,
+    "left": 4,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3124500,
+    "nome": "Estiva",
+    "bottom": 8,
+    "left": 4,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3124609,
+    "nome": "Estrela Dalva",
+    "bottom": 5,
+    "left": 6,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3124708,
+    "nome": "Estrela do Indaiá",
+    "bottom": 9,
+    "left": 4,
+    "right": 4,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3124807,
+    "nome": "Estrela do Sul",
+    "bottom": 10,
+    "left": 7,
+    "right": 3,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3124906,
+    "nome": "Eugenópolis",
+    "bottom": 5,
+    "left": 7,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3125002,
+    "nome": "Ewbank da Câmara",
+    "bottom": 3,
+    "left": 10,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3125101,
+    "nome": "Extrema",
+    "bottom": 10,
+    "left": 8,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3125200,
+    "nome": "Fama",
+    "bottom": 6,
+    "left": 4,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3125309,
+    "nome": "Faria Lemos",
+    "bottom": 6,
+    "left": 5,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3125408,
+    "nome": "Felício dos Santos",
+    "bottom": 2,
+    "left": 1,
+    "right": 5,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3125606,
+    "nome": "Felisburgo",
+    "bottom": 1,
+    "left": 6,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3125705,
+    "nome": "Felixlândia",
+    "bottom": 5,
+    "left": 1,
+    "right": 6,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3125804,
+    "nome": "Fernandes Tourinho",
+    "bottom": 3,
+    "left": 6,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3125903,
+    "nome": "Ferros",
+    "bottom": 4,
+    "left": 2,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3125952,
+    "nome": "Fervedouro",
+    "bottom": 3,
+    "left": 3,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3126000,
+    "nome": "Florestal",
+    "bottom": 6,
+    "left": 8,
+    "right": 9,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3126109,
+    "nome": "Formiga",
+    "bottom": 8,
+    "left": 10,
+    "right": 5,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3126208,
+    "nome": "Formoso",
+    "bottom": 8,
+    "left": 1,
+    "right": 2,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3126307,
+    "nome": "Fortaleza de Minas",
+    "bottom": 6,
+    "left": 7,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3126406,
+    "nome": "Fortuna de Minas",
+    "bottom": 4,
+    "left": 4,
+    "right": 8,
+    "bioma": "Cerrado",
+    "top": 4
+  },
+  {
+    "id": 3126505,
+    "nome": "Francisco Badaró",
+    "bottom": 1,
+    "left": 1,
+    "right": 8,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3126604,
+    "nome": "Francisco Dumont",
+    "bottom": 3,
+    "left": 1,
+    "right": 2,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3126703,
+    "nome": "Francisco Sá",
+    "bottom": 5,
+    "left": 3,
+    "right": 9,
+    "bioma": "Caatinga, Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3126752,
+    "nome": "Franciscópolis",
+    "bottom": 4,
+    "left": 3,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3126802,
+    "nome": "Frei Gaspar",
+    "bottom": 2,
+    "left": 4,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3126901,
+    "nome": "Frei Inocêncio",
+    "bottom": 3,
+    "left": 6,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3126950,
+    "nome": "Frei Lagonegro",
+    "bottom": 1,
+    "left": 1,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3127008,
+    "nome": "Fronteira",
+    "bottom": 10,
+    "left": 10,
+    "right": 2,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3127057,
+    "nome": "Fronteira dos Vales",
+    "bottom": 1,
+    "left": 3,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3127073,
+    "nome": "Fruta de Leite",
+    "bottom": 1,
+    "left": 1,
+    "right": 1,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 1
+  },
+  {
+    "id": 3127107,
+    "nome": "Frutal",
+    "bottom": 9,
+    "left": 9,
+    "right": 5,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3127206,
+    "nome": "Funilândia",
+    "bottom": 5,
+    "left": 3,
+    "right": 5,
+    "bioma": "Cerrado",
+    "top": 6
+  },
+  {
+    "id": 3127305,
+    "nome": "Galiléia",
+    "bottom": 4,
+    "left": 7,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3127339,
+    "nome": "Gameleiras",
+    "bottom": 1,
+    "left": 1,
+    "right": 9,
+    "bioma": "Caatinga",
+    "top": 1
+  },
+  {
+    "id": 3127354,
+    "nome": "Glaucilândia",
+    "bottom": 3,
+    "left": 2,
+    "right": 10,
+    "bioma": "Cerrado",
+    "top": 5
+  },
+  {
+    "id": 3127370,
+    "nome": "Goiabeira",
+    "bottom": 3,
+    "left": 6,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3127388,
+    "nome": "Goianá",
+    "bottom": 5,
+    "left": 8,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3127404,
+    "nome": "Gonçalves",
+    "bottom": 6,
+    "left": 3,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3127503,
+    "nome": "Gonzaga",
+    "bottom": 1,
+    "left": 3,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3127602,
+    "nome": "Gouveia",
+    "bottom": 3,
+    "left": 7,
+    "right": 8,
+    "bioma": "Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3127701,
+    "nome": "Governador Valadares",
+    "bottom": 8,
+    "left": 10,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3127800,
+    "nome": "Grão Mogol",
+    "bottom": 10,
+    "left": 2,
+    "right": 3,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3127909,
+    "nome": "Grupiara",
+    "bottom": 8,
+    "left": 1,
+    "right": 10,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3128006,
+    "nome": "Guanhães",
+    "bottom": 7,
+    "left": 7,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3128105,
+    "nome": "Guapé",
+    "bottom": 7,
+    "left": 6,
+    "right": 6,
+    "bioma": "Cerrado",
+    "top": 4
+  },
+  {
+    "id": 3128204,
+    "nome": "Guaraciaba",
+    "bottom": 1,
+    "left": 3,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3128253,
+    "nome": "Guaraciama",
+    "bottom": 2,
+    "left": 1,
+    "right": 2,
+    "bioma": "Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3128303,
+    "nome": "Guaranésia",
+    "bottom": 8,
+    "left": 10,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3128402,
+    "nome": "Guarani",
+    "bottom": 5,
+    "left": 7,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3128501,
+    "nome": "Guarará",
+    "bottom": 4,
+    "left": 9,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3128600,
+    "nome": "Guarda-Mor",
+    "bottom": 10,
+    "left": 4,
+    "right": 6,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3128709,
+    "nome": "Guaxupé",
+    "bottom": 9,
+    "left": 10,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3128808,
+    "nome": "Guidoval",
+    "bottom": 5,
+    "left": 6,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3128907,
+    "nome": "Guimarânia",
+    "bottom": 9,
+    "left": 8,
+    "right": 5,
+    "bioma": "Cerrado",
+    "top": 6
+  },
+  {
+    "id": 3129004,
+    "nome": "Guiricema",
+    "bottom": 3,
+    "left": 3,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3129103,
+    "nome": "Gurinhatã",
+    "bottom": 8,
+    "left": 3,
+    "right": 4,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 1
+  },
+  {
+    "id": 3129202,
+    "nome": "Heliodora",
+    "bottom": 6,
+    "left": 7,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3129301,
+    "nome": "Iapu",
+    "bottom": 3,
+    "left": 5,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3129400,
+    "nome": "Ibertioga",
+    "bottom": 5,
+    "left": 6,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3129509,
+    "nome": "Ibiá",
+    "bottom": 10,
+    "left": 9,
+    "right": 6,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3129608,
+    "nome": "Ibiaí",
+    "bottom": 1,
+    "left": 1,
+    "right": 4,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3129657,
+    "nome": "Ibiracatu",
+    "bottom": 1,
+    "left": 2,
+    "right": 6,
+    "bioma": "Caatinga, Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3129707,
+    "nome": "Ibiraci",
+    "bottom": 10,
+    "left": 8,
+    "right": 1,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3129806,
+    "nome": "Ibirité",
+    "bottom": 4,
+    "left": 8,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3129905,
+    "nome": "Ibitiúra de Minas",
+    "bottom": 5,
+    "left": 8,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3130002,
+    "nome": "Ibituruna",
+    "bottom": 5,
+    "left": 10,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3130051,
+    "nome": "Icaraí de Minas",
+    "bottom": 1,
+    "left": 5,
+    "right": 1,
+    "bioma": "Caatinga, Cerrado",
+    "top": 4
+  },
+  {
+    "id": 3130101,
+    "nome": "Igarapé",
+    "bottom": 7,
+    "left": 6,
+    "right": 3,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3130200,
+    "nome": "Igaratinga",
+    "bottom": 10,
+    "left": 7,
+    "right": 1,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3130309,
+    "nome": "Iguatama",
+    "bottom": 10,
+    "left": 9,
+    "right": 5,
+    "bioma": "Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3130408,
+    "nome": "Ijaci",
+    "bottom": 10,
+    "left": 8,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3130507,
+    "nome": "Ilicínea",
+    "bottom": 5,
+    "left": 8,
+    "right": 6,
+    "bioma": "Cerrado",
+    "top": 7
+  },
+  {
+    "id": 3130556,
+    "nome": "Imbé de Minas",
+    "bottom": 2,
+    "left": 2,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3130606,
+    "nome": "Inconfidentes",
+    "bottom": 5,
+    "left": 5,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3130655,
+    "nome": "Indaiabira",
+    "bottom": 1,
+    "left": 1,
+    "right": 6,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 1
+  },
+  {
+    "id": 3130705,
+    "nome": "Indianópolis",
+    "bottom": 10,
+    "left": 5,
+    "right": 7,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3130804,
+    "nome": "Ingaí",
+    "bottom": 9,
+    "left": 6,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3130903,
+    "nome": "Inhapim",
+    "bottom": 5,
+    "left": 3,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3131000,
+    "nome": "Inhaúma",
+    "bottom": 6,
+    "left": 2,
+    "right": 10,
+    "bioma": "Cerrado",
+    "top": 6
+  },
+  {
+    "id": 3131109,
+    "nome": "Inimutaba",
+    "bottom": 2,
+    "left": 3,
+    "right": 7,
+    "bioma": "Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3131158,
+    "nome": "Ipaba",
+    "bottom": 1,
+    "left": 7,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3131208,
+    "nome": "Ipanema",
+    "bottom": 4,
+    "left": 6,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3131307,
+    "nome": "Ipatinga",
+    "bottom": 9,
+    "left": 10,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3131406,
+    "nome": "Ipiaçu",
+    "bottom": 9,
+    "left": 10,
+    "right": 8,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3131505,
+    "nome": "Ipuiúna",
+    "bottom": 6,
+    "left": 5,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3131604,
+    "nome": "Iraí de Minas",
+    "bottom": 9,
+    "left": 9,
+    "right": 1,
+    "bioma": "Cerrado",
+    "top": 5
+  },
+  {
+    "id": 3131703,
+    "nome": "Itabira",
+    "bottom": 10,
+    "left": 10,
+    "right": 9,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3131802,
+    "nome": "Itabirinha",
+    "bottom": 3,
+    "left": 6,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3131901,
+    "nome": "Itabirito",
+    "bottom": 10,
+    "left": 9,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3132008,
+    "nome": "Itacambira",
+    "bottom": 3,
+    "left": 1,
+    "right": 1,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3132107,
+    "nome": "Itacarambi",
+    "bottom": 2,
+    "left": 3,
+    "right": 5,
+    "bioma": "Caatinga, Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3132206,
+    "nome": "Itaguara",
+    "bottom": 8,
+    "left": 8,
+    "right": 2,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3132305,
+    "nome": "Itaipé",
+    "bottom": 1,
+    "left": 2,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3132404,
+    "nome": "Itajubá",
+    "bottom": 9,
+    "left": 10,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3132503,
+    "nome": "Itamarandiba",
+    "bottom": 6,
+    "left": 4,
+    "right": 4,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3132602,
+    "nome": "Itamarati de Minas",
+    "bottom": 4,
+    "left": 7,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3132701,
+    "nome": "Itambacuri",
+    "bottom": 4,
+    "left": 5,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3132800,
+    "nome": "Itambé do Mato Dentro",
+    "bottom": 5,
+    "left": 4,
+    "right": 4,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 1
+  },
+  {
+    "id": 3132909,
+    "nome": "Itamogi",
+    "bottom": 7,
+    "left": 7,
+    "right": 3,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3133006,
+    "nome": "Itamonte",
+    "bottom": 10,
+    "left": 7,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3133105,
+    "nome": "Itanhandu",
+    "bottom": 8,
+    "left": 9,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3133204,
+    "nome": "Itanhomi",
+    "bottom": 2,
+    "left": 5,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3133303,
+    "nome": "Itaobim",
+    "bottom": 3,
+    "left": 2,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3133402,
+    "nome": "Itapagipe",
+    "bottom": 9,
+    "left": 7,
+    "right": 4,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3133501,
+    "nome": "Itapecerica",
+    "bottom": 8,
+    "left": 7,
+    "right": 6,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3133600,
+    "nome": "Itapeva",
+    "bottom": 10,
+    "left": 6,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3133709,
+    "nome": "Itatiaiuçu",
+    "bottom": 10,
+    "left": 7,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3133758,
+    "nome": "Itaú de Minas",
+    "bottom": 9,
+    "left": 10,
+    "right": 9,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3133808,
+    "nome": "Itaúna",
+    "bottom": 9,
+    "left": 10,
+    "right": 7,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3133907,
+    "nome": "Itaverava",
+    "bottom": 2,
+    "left": 2,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3134004,
+    "nome": "Itinga",
+    "bottom": 1,
+    "left": 3,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3134103,
+    "nome": "Itueta",
+    "bottom": 4,
+    "left": 5,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3134202,
+    "nome": "Ituiutaba",
+    "bottom": 9,
+    "left": 10,
+    "right": 7,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3134301,
+    "nome": "Itumirim",
+    "bottom": 3,
+    "left": 5,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3134400,
+    "nome": "Iturama",
+    "bottom": 10,
+    "left": 9,
+    "right": 9,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3134509,
+    "nome": "Itutinga",
+    "bottom": 9,
+    "left": 4,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3134608,
+    "nome": "Jaboticatubas",
+    "bottom": 3,
+    "left": 4,
+    "right": 7,
+    "bioma": "Cerrado",
+    "top": 4
+  },
+  {
+    "id": 3134707,
+    "nome": "Jacinto",
+    "bottom": 2,
+    "left": 3,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3134806,
+    "nome": "Jacuí",
+    "bottom": 6,
+    "left": 5,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3134905,
+    "nome": "Jacutinga",
+    "bottom": 9,
+    "left": 10,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3135001,
+    "nome": "Jaguaraçu",
+    "bottom": 9,
+    "left": 8,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3135050,
+    "nome": "Jaíba",
+    "bottom": 5,
+    "left": 2,
+    "right": 5,
+    "bioma": "Caatinga",
+    "top": 3
+  },
+  {
+    "id": 3135076,
+    "nome": "Jampruca",
+    "bottom": 3,
+    "left": 3,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3135100,
+    "nome": "Janaúba",
+    "bottom": 5,
+    "left": 1,
+    "right": 8,
+    "bioma": "Caatinga, Cerrado",
+    "top": 7
+  },
+  {
+    "id": 3135209,
+    "nome": "Januária",
+    "bottom": 3,
+    "left": 3,
+    "right": 2,
+    "bioma": "Caatinga, Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3135308,
+    "nome": "Japaraíba",
+    "bottom": 6,
+    "left": 5,
+    "right": 10,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3135357,
+    "nome": "Japonvar",
+    "bottom": 1,
+    "left": 1,
+    "right": 6,
+    "bioma": "Caatinga, Cerrado",
+    "top": 5
+  },
+  {
+    "id": 3135407,
+    "nome": "Jeceaba",
+    "bottom": 10,
+    "left": 4,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3135456,
+    "nome": "Jenipapo de Minas",
+    "bottom": 1,
+    "left": 2,
+    "right": 9,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3135506,
+    "nome": "Jequeri",
+    "bottom": 4,
+    "left": 5,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3135605,
+    "nome": "Jequitaí",
+    "bottom": 5,
+    "left": 1,
+    "right": 6,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3135704,
+    "nome": "Jequitibá",
+    "bottom": 7,
+    "left": 2,
+    "right": 3,
+    "bioma": "Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3135803,
+    "nome": "Jequitinhonha",
+    "bottom": 1,
+    "left": 2,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3135902,
+    "nome": "Jesuânia",
+    "bottom": 6,
+    "left": 7,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3136009,
+    "nome": "Joaíma",
+    "bottom": 2,
+    "left": 5,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3136108,
+    "nome": "Joanésia",
+    "bottom": 8,
+    "left": 2,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3136207,
+    "nome": "João Monlevade",
+    "bottom": 9,
+    "left": 10,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3136306,
+    "nome": "João Pinheiro",
+    "bottom": 9,
+    "left": 8,
+    "right": 1,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3136405,
+    "nome": "Joaquim Felício",
+    "bottom": 4,
+    "left": 2,
+    "right": 5,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3136504,
+    "nome": "Jordânia",
+    "bottom": 1,
+    "left": 5,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3136520,
+    "nome": "José Gonçalves de Minas",
+    "bottom": 2,
+    "left": 2,
+    "right": 10,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3136553,
+    "nome": "José Raydan",
+    "bottom": 4,
+    "left": 2,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3136579,
+    "nome": "Josenópolis",
+    "bottom": 1,
+    "left": 4,
+    "right": 2,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3136652,
+    "nome": "Juatuba",
+    "bottom": 10,
+    "left": 4,
+    "right": 9,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3136702,
+    "nome": "Juiz de Fora",
+    "bottom": 8,
+    "left": 10,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3136801,
+    "nome": "Juramento",
+    "bottom": 2,
+    "left": 3,
+    "right": 9,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3136900,
+    "nome": "Juruaia",
+    "bottom": 6,
+    "left": 4,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3136959,
+    "nome": "Juvenília",
+    "bottom": 2,
+    "left": 1,
+    "right": 3,
+    "bioma": "Caatinga",
+    "top": 1
+  },
+  {
+    "id": 3137007,
+    "nome": "Ladainha",
+    "bottom": 1,
+    "left": 1,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3137106,
+    "nome": "Lagamar",
+    "bottom": 8,
+    "left": 6,
+    "right": 10,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3137205,
+    "nome": "Lagoa da Prata",
+    "bottom": 9,
+    "left": 10,
+    "right": 9,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3137304,
+    "nome": "Lagoa dos Patos",
+    "bottom": 3,
+    "left": 1,
+    "right": 9,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3137403,
+    "nome": "Lagoa Dourada",
+    "bottom": 7,
+    "left": 5,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3137502,
+    "nome": "Lagoa Formosa",
+    "bottom": 8,
+    "left": 7,
+    "right": 8,
+    "bioma": "Cerrado",
+    "top": 5
+  },
+  {
+    "id": 3137536,
+    "nome": "Lagoa Grande",
+    "bottom": 8,
+    "left": 2,
+    "right": 4,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3137601,
+    "nome": "Lagoa Santa",
+    "bottom": 8,
+    "left": 4,
+    "right": 4,
+    "bioma": "Cerrado",
+    "top": 10
+  },
+  {
+    "id": 3137700,
+    "nome": "Lajinha",
+    "bottom": 6,
+    "left": 3,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3137809,
+    "nome": "Lambari",
+    "bottom": 6,
+    "left": 7,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3137908,
+    "nome": "Lamim",
+    "bottom": 4,
+    "left": 2,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3138005,
+    "nome": "Laranjal",
+    "bottom": 3,
+    "left": 8,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3138104,
+    "nome": "Lassance",
+    "bottom": 8,
+    "left": 1,
+    "right": 2,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3138203,
+    "nome": "Lavras",
+    "bottom": 8,
+    "left": 10,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3138302,
+    "nome": "Leandro Ferreira",
+    "bottom": 4,
+    "left": 7,
+    "right": 5,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3138351,
+    "nome": "Leme do Prado",
+    "bottom": 3,
+    "left": 5,
+    "right": 10,
+    "bioma": "Cerrado",
+    "top": 4
+  },
+  {
+    "id": 3138401,
+    "nome": "Leopoldina",
+    "bottom": 6,
+    "left": 9,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3138500,
+    "nome": "Liberdade",
+    "bottom": 6,
+    "left": 7,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3138609,
+    "nome": "Lima Duarte",
+    "bottom": 6,
+    "left": 7,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3138625,
+    "nome": "Limeira do Oeste",
+    "bottom": 10,
+    "left": 5,
+    "right": 9,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 1
+  },
+  {
+    "id": 3138658,
+    "nome": "Lontra",
+    "bottom": 1,
+    "left": 1,
+    "right": 6,
+    "bioma": "Caatinga, Cerrado",
+    "top": 7
+  },
+  {
+    "id": 3138674,
+    "nome": "Luisburgo",
+    "bottom": 5,
+    "left": 2,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3138682,
+    "nome": "Luislândia",
+    "bottom": 1,
+    "left": 1,
+    "right": 6,
+    "bioma": "Cerrado",
+    "top": 4
+  },
+  {
+    "id": 3138708,
+    "nome": "Luminárias",
+    "bottom": 6,
+    "left": 7,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3138807,
+    "nome": "Luz",
+    "bottom": 9,
+    "left": 9,
+    "right": 9,
+    "bioma": "Cerrado",
+    "top": 4
+  },
+  {
+    "id": 3138906,
+    "nome": "Machacalis",
+    "bottom": 4,
+    "left": 7,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3139003,
+    "nome": "Machado",
+    "bottom": 8,
+    "left": 8,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3139102,
+    "nome": "Madre de Deus de Minas",
+    "bottom": 10,
+    "left": 8,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3139201,
+    "nome": "Malacacheta",
+    "bottom": 3,
+    "left": 5,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3139250,
+    "nome": "Mamonas",
+    "bottom": 1,
+    "left": 1,
+    "right": 8,
+    "bioma": "Caatinga",
+    "top": 5
+  },
+  {
+    "id": 3139300,
+    "nome": "Manga",
+    "bottom": 3,
+    "left": 1,
+    "right": 2,
+    "bioma": "Caatinga, Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3139409,
+    "nome": "Manhuaçu",
+    "bottom": 9,
+    "left": 7,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3139508,
+    "nome": "Manhumirim",
+    "bottom": 7,
+    "left": 6,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3139607,
+    "nome": "Mantena",
+    "bottom": 5,
+    "left": 8,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3139805,
+    "nome": "Mar de Espanha",
+    "bottom": 5,
+    "left": 9,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3139706,
+    "nome": "Maravilhas",
+    "bottom": 8,
+    "left": 5,
+    "right": 7,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3139904,
+    "nome": "Maria da Fé",
+    "bottom": 3,
+    "left": 6,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3140001,
+    "nome": "Mariana",
+    "bottom": 10,
+    "left": 8,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3140100,
+    "nome": "Marilac",
+    "bottom": 4,
+    "left": 8,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3140159,
+    "nome": "Mário Campos",
+    "bottom": 2,
+    "left": 3,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3140209,
+    "nome": "Maripá de Minas",
+    "bottom": 8,
+    "left": 5,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3140308,
+    "nome": "Marliéria",
+    "bottom": 3,
+    "left": 8,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3140407,
+    "nome": "Marmelópolis",
+    "bottom": 4,
+    "left": 5,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3140506,
+    "nome": "Martinho Campos",
+    "bottom": 8,
+    "left": 3,
+    "right": 7,
+    "bioma": "Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3140530,
+    "nome": "Martins Soares",
+    "bottom": 9,
+    "left": 4,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3140555,
+    "nome": "Mata Verde",
+    "bottom": 1,
+    "left": 7,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3140605,
+    "nome": "Materlândia",
+    "bottom": 3,
+    "left": 2,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3140704,
+    "nome": "Mateus Leme",
+    "bottom": 7,
+    "left": 5,
+    "right": 4,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3171501,
+    "nome": "Mathias Lobato",
+    "bottom": 3,
+    "left": 8,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3140803,
+    "nome": "Matias Barbosa",
+    "bottom": 9,
+    "left": 6,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3140852,
+    "nome": "Matias Cardoso",
+    "bottom": 3,
+    "left": 2,
+    "right": 3,
+    "bioma": "Caatinga",
+    "top": 1
+  },
+  {
+    "id": 3140902,
+    "nome": "Matipó",
+    "bottom": 7,
+    "left": 6,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3141009,
+    "nome": "Mato Verde",
+    "bottom": 3,
+    "left": 1,
+    "right": 4,
+    "bioma": "Caatinga, Cerrado",
+    "top": 6
+  },
+  {
+    "id": 3141108,
+    "nome": "Matozinhos",
+    "bottom": 9,
+    "left": 6,
+    "right": 10,
+    "bioma": "Cerrado",
+    "top": 10
+  },
+  {
+    "id": 3141207,
+    "nome": "Matutina",
+    "bottom": 7,
+    "left": 9,
+    "right": 1,
+    "bioma": "Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3141306,
+    "nome": "Medeiros",
+    "bottom": 10,
+    "left": 6,
+    "right": 10,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3141405,
+    "nome": "Medina",
+    "bottom": 2,
+    "left": 6,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3141504,
+    "nome": "Mendes Pimentel",
+    "bottom": 2,
+    "left": 4,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3141603,
+    "nome": "Mercês",
+    "bottom": 3,
+    "left": 6,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3141702,
+    "nome": "Mesquita",
+    "bottom": 1,
+    "left": 5,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3141801,
+    "nome": "Minas Novas",
+    "bottom": 2,
+    "left": 1,
+    "right": 4,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3141900,
+    "nome": "Minduri",
+    "bottom": 9,
+    "left": 9,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3142007,
+    "nome": "Mirabela",
+    "bottom": 2,
+    "left": 1,
+    "right": 8,
+    "bioma": "Caatinga, Cerrado",
+    "top": 5
+  },
+  {
+    "id": 3142106,
+    "nome": "Miradouro",
+    "bottom": 3,
+    "left": 5,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3142205,
+    "nome": "Miraí",
+    "bottom": 6,
+    "left": 9,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3142254,
+    "nome": "Miravânia",
+    "bottom": 1,
+    "left": 1,
+    "right": 2,
+    "bioma": "Caatinga, Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3142304,
+    "nome": "Moeda",
+    "bottom": 4,
+    "left": 2,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3142403,
+    "nome": "Moema",
+    "bottom": 5,
+    "left": 6,
+    "right": 5,
+    "bioma": "Cerrado",
+    "top": 7
+  },
+  {
+    "id": 3142502,
+    "nome": "Monjolos",
+    "bottom": 6,
+    "left": 1,
+    "right": 4,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3142601,
+    "nome": "Monsenhor Paulo",
+    "bottom": 7,
+    "left": 8,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3142700,
+    "nome": "Montalvânia",
+    "bottom": 1,
+    "left": 1,
+    "right": 2,
+    "bioma": "Caatinga, Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3142809,
+    "nome": "Monte Alegre de Minas",
+    "bottom": 8,
+    "left": 7,
+    "right": 1,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3142908,
+    "nome": "Monte Azul",
+    "bottom": 2,
+    "left": 1,
+    "right": 7,
+    "bioma": "Caatinga, Cerrado",
+    "top": 5
+  },
+  {
+    "id": 3143005,
+    "nome": "Monte Belo",
+    "bottom": 8,
+    "left": 6,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3143104,
+    "nome": "Monte Carmelo",
+    "bottom": 8,
+    "left": 9,
+    "right": 8,
+    "bioma": "Cerrado",
+    "top": 7
+  },
+  {
+    "id": 3143153,
+    "nome": "Monte Formoso",
+    "bottom": 1,
+    "left": 2,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3143203,
+    "nome": "Monte Santo de Minas",
+    "bottom": 7,
+    "left": 9,
+    "right": 7,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3143401,
+    "nome": "Monte Sião",
+    "bottom": 6,
+    "left": 9,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3143302,
+    "nome": "Montes Claros",
+    "bottom": 8,
+    "left": 10,
+    "right": 8,
+    "bioma": "Caatinga, Cerrado",
+    "top": 10
+  },
+  {
+    "id": 3143450,
+    "nome": "Montezuma",
+    "bottom": 2,
+    "left": 2,
+    "right": 4,
+    "bioma": "Caatinga, Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3143500,
+    "nome": "Morada Nova de Minas",
+    "bottom": 10,
+    "left": 1,
+    "right": 6,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3143609,
+    "nome": "Morro da Garça",
+    "bottom": 7,
+    "left": 3,
+    "right": 3,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3143708,
+    "nome": "Morro do Pilar",
+    "bottom": 3,
+    "left": 4,
+    "right": 2,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 1
+  },
+  {
+    "id": 3143807,
+    "nome": "Munhoz",
+    "bottom": 6,
+    "left": 4,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3143906,
+    "nome": "Muriaé",
+    "bottom": 7,
+    "left": 9,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3144003,
+    "nome": "Mutum",
+    "bottom": 6,
+    "left": 3,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3144102,
+    "nome": "Muzambinho",
+    "bottom": 8,
+    "left": 8,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3144201,
+    "nome": "Nacip Raydan",
+    "bottom": 2,
+    "left": 5,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3144300,
+    "nome": "Nanuque",
+    "bottom": 7,
+    "left": 8,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3144359,
+    "nome": "Naque",
+    "bottom": 3,
+    "left": 8,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3144375,
+    "nome": "Natalândia",
+    "bottom": 6,
+    "left": 4,
+    "right": 10,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3144409,
+    "nome": "Natércia",
+    "bottom": 6,
+    "left": 4,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3144508,
+    "nome": "Nazareno",
+    "bottom": 10,
+    "left": 6,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3144607,
+    "nome": "Nepomuceno",
+    "bottom": 6,
+    "left": 8,
+    "right": 2,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3144656,
+    "nome": "Ninheira",
+    "bottom": 1,
+    "left": 1,
+    "right": 4,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3144672,
+    "nome": "Nova Belém",
+    "bottom": 7,
+    "left": 3,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3144706,
+    "nome": "Nova Era",
+    "bottom": 7,
+    "left": 8,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3144805,
+    "nome": "Nova Lima",
+    "bottom": 10,
+    "left": 10,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3144904,
+    "nome": "Nova Módica",
+    "bottom": 4,
+    "left": 4,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3145000,
+    "nome": "Nova Ponte",
+    "bottom": 10,
+    "left": 9,
+    "right": 3,
+    "bioma": "Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3145059,
+    "nome": "Nova Porteirinha",
+    "bottom": 4,
+    "left": 2,
+    "right": 7,
+    "bioma": "Caatinga",
+    "top": 8
+  },
+  {
+    "id": 3145109,
+    "nome": "Nova Resende",
+    "bottom": 6,
+    "left": 4,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3145208,
+    "nome": "Nova Serrana",
+    "bottom": 7,
+    "left": 10,
+    "right": 4,
+    "bioma": "Cerrado",
+    "top": 10
+  },
+  {
+    "id": 3136603,
+    "nome": "Nova União",
+    "bottom": 5,
+    "left": 6,
+    "right": 8,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3145307,
+    "nome": "Novo Cruzeiro",
+    "bottom": 1,
+    "left": 2,
+    "right": 2,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3145356,
+    "nome": "Novo Oriente de Minas",
+    "bottom": 2,
+    "left": 3,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3145372,
+    "nome": "Novorizonte",
+    "bottom": 2,
+    "left": 1,
+    "right": 3,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3145406,
+    "nome": "Olaria",
+    "bottom": 5,
+    "left": 4,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3145455,
+    "nome": "Olhos-d'Água",
+    "bottom": 9,
+    "left": 1,
+    "right": 4,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3145505,
+    "nome": "Olímpio Noronha",
+    "bottom": 4,
+    "left": 10,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3145604,
+    "nome": "Oliveira",
+    "bottom": 7,
+    "left": 10,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3145703,
+    "nome": "Oliveira Fortes",
+    "bottom": 5,
+    "left": 3,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3145802,
+    "nome": "Onça de Pitangui",
+    "bottom": 6,
+    "left": 6,
+    "right": 4,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3145851,
+    "nome": "Oratórios",
+    "bottom": 3,
+    "left": 7,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3145877,
+    "nome": "Orizânia",
+    "bottom": 2,
+    "left": 2,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3145901,
+    "nome": "Ouro Branco",
+    "bottom": 10,
+    "left": 10,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3146008,
+    "nome": "Ouro Fino",
+    "bottom": 8,
+    "left": 7,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3146107,
+    "nome": "Ouro Preto",
+    "bottom": 10,
+    "left": 7,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3146206,
+    "nome": "Ouro Verde de Minas",
+    "bottom": 1,
+    "left": 5,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3146255,
+    "nome": "Padre Carvalho",
+    "bottom": 1,
+    "left": 1,
+    "right": 1,
+    "bioma": "Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3146305,
+    "nome": "Padre Paraíso",
+    "bottom": 1,
+    "left": 5,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3146552,
+    "nome": "Pai Pedro",
+    "bottom": 1,
+    "left": 1,
+    "right": 1,
+    "bioma": "Caatinga",
+    "top": 1
+  },
+  {
+    "id": 3146404,
+    "nome": "Paineiras",
+    "bottom": 5,
+    "left": 1,
+    "right": 7,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3146503,
+    "nome": "Pains",
+    "bottom": 10,
+    "left": 9,
+    "right": 10,
+    "bioma": "Cerrado",
+    "top": 5
+  },
+  {
+    "id": 3146602,
+    "nome": "Paiva",
+    "bottom": 5,
+    "left": 4,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3146701,
+    "nome": "Palma",
+    "bottom": 4,
+    "left": 8,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3146750,
+    "nome": "Palmópolis",
+    "bottom": 2,
+    "left": 3,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3146909,
+    "nome": "Papagaios",
+    "bottom": 6,
+    "left": 2,
+    "right": 3,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3147105,
+    "nome": "Pará de Minas",
+    "bottom": 9,
+    "left": 10,
+    "right": 9,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3147006,
+    "nome": "Paracatu",
+    "bottom": 10,
+    "left": 8,
+    "right": 4,
+    "bioma": "Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3147204,
+    "nome": "Paraguaçu",
+    "bottom": 8,
+    "left": 8,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3147303,
+    "nome": "Paraisópolis",
+    "bottom": 8,
+    "left": 9,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3147402,
+    "nome": "Paraopeba",
+    "bottom": 9,
+    "left": 8,
+    "right": 9,
+    "bioma": "Cerrado",
+    "top": 7
+  },
+  {
+    "id": 3147600,
+    "nome": "Passa Quatro",
+    "bottom": 9,
+    "left": 7,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3147709,
+    "nome": "Passa Tempo",
+    "bottom": 9,
+    "left": 7,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3147808,
+    "nome": "Passa Vinte",
+    "bottom": 6,
+    "left": 5,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3147501,
+    "nome": "Passabém",
+    "bottom": 4,
+    "left": 3,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3147907,
+    "nome": "Passos",
+    "bottom": 7,
+    "left": 10,
+    "right": 3,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3147956,
+    "nome": "Patis",
+    "bottom": 1,
+    "left": 1,
+    "right": 3,
+    "bioma": "Caatinga, Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3148004,
+    "nome": "Patos de Minas",
+    "bottom": 9,
+    "left": 10,
+    "right": 8,
+    "bioma": "Cerrado",
+    "top": 8
+  },
+  {
+    "id": 3148103,
+    "nome": "Patrocínio",
+    "bottom": 9,
+    "left": 9,
+    "right": 6,
+    "bioma": "Cerrado",
+    "top": 7
+  },
+  {
+    "id": 3148202,
+    "nome": "Patrocínio do Muriaé",
+    "bottom": 7,
+    "left": 8,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3148301,
+    "nome": "Paula Cândido",
+    "bottom": 3,
+    "left": 5,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3148400,
+    "nome": "Paulistas",
+    "bottom": 3,
+    "left": 4,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3148509,
+    "nome": "Pavão",
+    "bottom": 1,
+    "left": 5,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3148608,
+    "nome": "Peçanha",
+    "bottom": 3,
+    "left": 2,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3148707,
+    "nome": "Pedra Azul",
+    "bottom": 3,
+    "left": 6,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3148756,
+    "nome": "Pedra Bonita",
+    "bottom": 2,
+    "left": 2,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3148806,
+    "nome": "Pedra do Anta",
+    "bottom": 5,
+    "left": 6,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3148905,
+    "nome": "Pedra do Indaiá",
+    "bottom": 8,
+    "left": 5,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3149002,
+    "nome": "Pedra Dourada",
+    "bottom": 4,
+    "left": 7,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3149101,
+    "nome": "Pedralva",
+    "bottom": 3,
+    "left": 4,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3149150,
+    "nome": "Pedras de Maria da Cruz",
+    "bottom": 1,
+    "left": 1,
+    "right": 8,
+    "bioma": "Caatinga, Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3149200,
+    "nome": "Pedrinópolis",
+    "bottom": 9,
+    "left": 8,
+    "right": 2,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3149309,
+    "nome": "Pedro Leopoldo",
+    "bottom": 8,
+    "left": 6,
+    "right": 7,
+    "bioma": "Cerrado",
+    "top": 10
+  },
+  {
+    "id": 3149408,
+    "nome": "Pedro Teixeira",
+    "bottom": 4,
+    "left": 2,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3149507,
+    "nome": "Pequeri",
+    "bottom": 5,
+    "left": 7,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3149606,
+    "nome": "Pequi",
+    "bottom": 6,
+    "left": 2,
+    "right": 6,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3149705,
+    "nome": "Perdigão",
+    "bottom": 6,
+    "left": 10,
+    "right": 1,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3149804,
+    "nome": "Perdizes",
+    "bottom": 10,
+    "left": 7,
+    "right": 5,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3149903,
+    "nome": "Perdões",
+    "bottom": 8,
+    "left": 10,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3149952,
+    "nome": "Periquito",
+    "bottom": 4,
+    "left": 7,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3150000,
+    "nome": "Pescador",
+    "bottom": 2,
+    "left": 6,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3150109,
+    "nome": "Piau",
+    "bottom": 8,
+    "left": 5,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3150158,
+    "nome": "Piedade de Caratinga",
+    "bottom": 3,
+    "left": 9,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3150208,
+    "nome": "Piedade de Ponte Nova",
+    "bottom": 4,
+    "left": 9,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3150307,
+    "nome": "Piedade do Rio Grande",
+    "bottom": 7,
+    "left": 4,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3150406,
+    "nome": "Piedade dos Gerais",
+    "bottom": 5,
+    "left": 1,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3150505,
+    "nome": "Pimenta",
+    "bottom": 8,
+    "left": 10,
+    "right": 5,
+    "bioma": "Cerrado",
+    "top": 5
+  },
+  {
+    "id": 3150539,
+    "nome": "Pingo-d'Água",
+    "bottom": 1,
+    "left": 9,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3150570,
+    "nome": "Pintópolis",
+    "bottom": 1,
+    "left": 1,
+    "right": 5,
+    "bioma": "Caatinga, Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3150604,
+    "nome": "Piracema",
+    "bottom": 9,
+    "left": 4,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3150703,
+    "nome": "Pirajuba",
+    "bottom": 10,
+    "left": 9,
+    "right": 2,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3150802,
+    "nome": "Piranga",
+    "bottom": 2,
+    "left": 2,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3150901,
+    "nome": "Piranguçu",
+    "bottom": 3,
+    "left": 4,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3151008,
+    "nome": "Piranguinho",
+    "bottom": 4,
+    "left": 5,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3151107,
+    "nome": "Pirapetinga",
+    "bottom": 10,
+    "left": 9,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3151206,
+    "nome": "Pirapora",
+    "bottom": 9,
+    "left": 1,
+    "right": 7,
+    "bioma": "Cerrado",
+    "top": 9
+  },
+  {
+    "id": 3151305,
+    "nome": "Piraúba",
+    "bottom": 6,
+    "left": 9,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3151404,
+    "nome": "Pitangui",
+    "bottom": 7,
+    "left": 10,
+    "right": 1,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3151503,
+    "nome": "Piumhi",
+    "bottom": 9,
+    "left": 10,
+    "right": 10,
+    "bioma": "Cerrado",
+    "top": 7
+  },
+  {
+    "id": 3151602,
+    "nome": "Planura",
+    "bottom": 9,
+    "left": 10,
+    "right": 5,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3151701,
+    "nome": "Poço Fundo",
+    "bottom": 6,
+    "left": 5,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3151800,
+    "nome": "Poços de Caldas",
+    "bottom": 10,
+    "left": 10,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3151909,
+    "nome": "Pocrane",
+    "bottom": 3,
+    "left": 5,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3152006,
+    "nome": "Pompéu",
+    "bottom": 8,
+    "left": 7,
+    "right": 2,
+    "bioma": "Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3152105,
+    "nome": "Ponte Nova",
+    "bottom": 9,
+    "left": 9,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3152131,
+    "nome": "Ponto Chique",
+    "bottom": 2,
+    "left": 2,
+    "right": 9,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3152170,
+    "nome": "Ponto dos Volantes",
+    "bottom": 1,
+    "left": 1,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3152204,
+    "nome": "Porteirinha",
+    "bottom": 2,
+    "left": 1,
+    "right": 8,
+    "bioma": "Caatinga, Cerrado",
+    "top": 5
+  },
+  {
+    "id": 3152303,
+    "nome": "Porto Firme",
+    "bottom": 1,
+    "left": 3,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3152402,
+    "nome": "Poté",
+    "bottom": 1,
+    "left": 2,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3152501,
+    "nome": "Pouso Alegre",
+    "bottom": 10,
+    "left": 10,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3152600,
+    "nome": "Pouso Alto",
+    "bottom": 10,
+    "left": 4,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3152709,
+    "nome": "Prados",
+    "bottom": 7,
+    "left": 8,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3152808,
+    "nome": "Prata",
+    "bottom": 9,
+    "left": 8,
+    "right": 2,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3152907,
+    "nome": "Pratápolis",
+    "bottom": 7,
+    "left": 9,
+    "right": 8,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3153004,
+    "nome": "Pratinha",
+    "bottom": 9,
+    "left": 5,
+    "right": 2,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3153103,
+    "nome": "Presidente Bernardes",
+    "bottom": 2,
+    "left": 3,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3153202,
+    "nome": "Presidente Juscelino",
+    "bottom": 4,
+    "left": 3,
+    "right": 2,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3153301,
+    "nome": "Presidente Kubitschek",
+    "bottom": 2,
+    "left": 7,
+    "right": 1,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3153400,
+    "nome": "Presidente Olegário",
+    "bottom": 8,
+    "left": 5,
+    "right": 9,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3153608,
+    "nome": "Prudente de Morais",
+    "bottom": 5,
+    "left": 4,
+    "right": 6,
+    "bioma": "Cerrado",
+    "top": 9
+  },
+  {
+    "id": 3153707,
+    "nome": "Quartel Geral",
+    "bottom": 6,
+    "left": 3,
+    "right": 3,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3153806,
+    "nome": "Queluzito",
+    "bottom": 6,
+    "left": 4,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3153905,
+    "nome": "Raposos",
+    "bottom": 5,
+    "left": 9,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3154002,
+    "nome": "Raul Soares",
+    "bottom": 5,
+    "left": 4,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3154101,
+    "nome": "Recreio",
+    "bottom": 2,
+    "left": 8,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3154150,
+    "nome": "Reduto",
+    "bottom": 4,
+    "left": 5,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3154200,
+    "nome": "Resende Costa",
+    "bottom": 5,
+    "left": 3,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3154309,
+    "nome": "Resplendor",
+    "bottom": 4,
+    "left": 7,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3154408,
+    "nome": "Ressaquinha",
+    "bottom": 10,
+    "left": 2,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3154457,
+    "nome": "Riachinho",
+    "bottom": 5,
+    "left": 1,
+    "right": 4,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3154507,
+    "nome": "Riacho dos Machados",
+    "bottom": 10,
+    "left": 2,
+    "right": 1,
+    "bioma": "Caatinga, Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3154606,
+    "nome": "Ribeirão das Neves",
+    "bottom": 3,
+    "left": 7,
+    "right": 3,
+    "bioma": "Cerrado",
+    "top": 10
+  },
+  {
+    "id": 3154705,
+    "nome": "Ribeirão Vermelho",
+    "bottom": 8,
+    "left": 10,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3154804,
+    "nome": "Rio Acima",
+    "bottom": 7,
+    "left": 8,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3154903,
+    "nome": "Rio Casca",
+    "bottom": 5,
+    "left": 7,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3155108,
+    "nome": "Rio do Prado",
+    "bottom": 1,
+    "left": 4,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3155009,
+    "nome": "Rio Doce",
+    "bottom": 6,
+    "left": 7,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3155207,
+    "nome": "Rio Espera",
+    "bottom": 1,
+    "left": 2,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3155306,
+    "nome": "Rio Manso",
+    "bottom": 6,
+    "left": 1,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3155405,
+    "nome": "Rio Novo",
+    "bottom": 3,
+    "left": 9,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3155504,
+    "nome": "Rio Paranaíba",
+    "bottom": 10,
+    "left": 6,
+    "right": 8,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3155603,
+    "nome": "Rio Pardo de Minas",
+    "bottom": 1,
+    "left": 1,
+    "right": 9,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3155702,
+    "nome": "Rio Piracicaba",
+    "bottom": 10,
+    "left": 7,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3155801,
+    "nome": "Rio Pomba",
+    "bottom": 7,
+    "left": 8,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3155900,
+    "nome": "Rio Preto",
+    "bottom": 3,
+    "left": 7,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3156007,
+    "nome": "Rio Vermelho",
+    "bottom": 1,
+    "left": 2,
+    "right": 1,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3156106,
+    "nome": "Ritápolis",
+    "bottom": 6,
+    "left": 2,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3156205,
+    "nome": "Rochedo de Minas",
+    "bottom": 10,
+    "left": 8,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3156304,
+    "nome": "Rodeiro",
+    "bottom": 10,
+    "left": 10,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3156403,
+    "nome": "Romaria",
+    "bottom": 10,
+    "left": 8,
+    "right": 10,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3156452,
+    "nome": "Rosário da Limeira",
+    "bottom": 2,
+    "left": 4,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3156502,
+    "nome": "Rubelita",
+    "bottom": 2,
+    "left": 2,
+    "right": 3,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 1
+  },
+  {
+    "id": 3156601,
+    "nome": "Rubim",
+    "bottom": 1,
+    "left": 6,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3156700,
+    "nome": "Sabará",
+    "bottom": 7,
+    "left": 9,
+    "right": 4,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3156809,
+    "nome": "Sabinópolis",
+    "bottom": 3,
+    "left": 4,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3156908,
+    "nome": "Sacramento",
+    "bottom": 10,
+    "left": 9,
+    "right": 4,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3157005,
+    "nome": "Salinas",
+    "bottom": 4,
+    "left": 6,
+    "right": 4,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3157104,
+    "nome": "Salto da Divisa",
+    "bottom": 4,
+    "left": 5,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 1
+  },
+  {
+    "id": 3157203,
+    "nome": "Santa Bárbara",
+    "bottom": 9,
+    "left": 9,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3157252,
+    "nome": "Santa Bárbara do Leste",
+    "bottom": 3,
+    "left": 3,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3157278,
+    "nome": "Santa Bárbara do Monte Verde",
+    "bottom": 5,
+    "left": 5,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3157302,
+    "nome": "Santa Bárbara do Tugúrio",
+    "bottom": 5,
+    "left": 3,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3157336,
+    "nome": "Santa Cruz de Minas",
+    "bottom": 2,
+    "left": 10,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3157377,
+    "nome": "Santa Cruz de Salinas",
+    "bottom": 2,
+    "left": 2,
+    "right": 10,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 1
+  },
+  {
+    "id": 3157401,
+    "nome": "Santa Cruz do Escalvado",
+    "bottom": 3,
+    "left": 3,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3157500,
+    "nome": "Santa Efigênia de Minas",
+    "bottom": 2,
+    "left": 4,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3157609,
+    "nome": "Santa Fé de Minas",
+    "bottom": 3,
+    "left": 1,
+    "right": 4,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3157658,
+    "nome": "Santa Helena de Minas",
+    "bottom": 1,
+    "left": 3,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3157708,
+    "nome": "Santa Juliana",
+    "bottom": 10,
+    "left": 10,
+    "right": 1,
+    "bioma": "Cerrado",
+    "top": 5
+  },
+  {
+    "id": 3157807,
+    "nome": "Santa Luzia",
+    "bottom": 7,
+    "left": 9,
+    "right": 3,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3157906,
+    "nome": "Santa Margarida",
+    "bottom": 6,
+    "left": 4,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3158003,
+    "nome": "Santa Maria de Itabira",
+    "bottom": 6,
+    "left": 5,
+    "right": 7,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3158102,
+    "nome": "Santa Maria do Salto",
+    "bottom": 1,
+    "left": 5,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3158201,
+    "nome": "Santa Maria do Suaçuí",
+    "bottom": 2,
+    "left": 5,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3159209,
+    "nome": "Santa Rita de Caldas",
+    "bottom": 7,
+    "left": 5,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3159407,
+    "nome": "Santa Rita de Ibitipoca",
+    "bottom": 6,
+    "left": 5,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3159308,
+    "nome": "Santa Rita de Jacutinga",
+    "bottom": 4,
+    "left": 8,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3159357,
+    "nome": "Santa Rita de Minas",
+    "bottom": 6,
+    "left": 6,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3159506,
+    "nome": "Santa Rita do Itueto",
+    "bottom": 7,
+    "left": 2,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3159605,
+    "nome": "Santa Rita do Sapucaí",
+    "bottom": 9,
+    "left": 9,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3159704,
+    "nome": "Santa Rosa da Serra",
+    "bottom": 7,
+    "left": 4,
+    "right": 9,
+    "bioma": "Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3159803,
+    "nome": "Santa Vitória",
+    "bottom": 9,
+    "left": 9,
+    "right": 4,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3158300,
+    "nome": "Santana da Vargem",
+    "bottom": 7,
+    "left": 7,
+    "right": 9,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3158409,
+    "nome": "Santana de Cataguases",
+    "bottom": 3,
+    "left": 9,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3158508,
+    "nome": "Santana de Pirapama",
+    "bottom": 4,
+    "left": 2,
+    "right": 10,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3158607,
+    "nome": "Santana do Deserto",
+    "bottom": 2,
+    "left": 6,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3158706,
+    "nome": "Santana do Garambéu",
+    "bottom": 4,
+    "left": 6,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3158805,
+    "nome": "Santana do Jacaré",
+    "bottom": 6,
+    "left": 10,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3158904,
+    "nome": "Santana do Manhuaçu",
+    "bottom": 5,
+    "left": 4,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3158953,
+    "nome": "Santana do Paraíso",
+    "bottom": 7,
+    "left": 8,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3159001,
+    "nome": "Santana do Riacho",
+    "bottom": 7,
+    "left": 3,
+    "right": 7,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3159100,
+    "nome": "Santana dos Montes",
+    "bottom": 3,
+    "left": 4,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3159902,
+    "nome": "Santo Antônio do Amparo",
+    "bottom": 6,
+    "left": 9,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3160009,
+    "nome": "Santo Antônio do Aventureiro",
+    "bottom": 5,
+    "left": 1,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3160108,
+    "nome": "Santo Antônio do Grama",
+    "bottom": 7,
+    "left": 8,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3160207,
+    "nome": "Santo Antônio do Itambé",
+    "bottom": 2,
+    "left": 3,
+    "right": 1,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3160306,
+    "nome": "Santo Antônio do Jacinto",
+    "bottom": 1,
+    "left": 3,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3160405,
+    "nome": "Santo Antônio do Monte",
+    "bottom": 8,
+    "left": 9,
+    "right": 1,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3160454,
+    "nome": "Santo Antônio do Retiro",
+    "bottom": 1,
+    "left": 2,
+    "right": 2,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3160504,
+    "nome": "Santo Antônio do Rio Abaixo",
+    "bottom": 5,
+    "left": 2,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3160603,
+    "nome": "Santo Hipólito",
+    "bottom": 4,
+    "left": 1,
+    "right": 5,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3160702,
+    "nome": "Santos Dumont",
+    "bottom": 7,
+    "left": 6,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3160801,
+    "nome": "São Bento Abade",
+    "bottom": 4,
+    "left": 10,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3160900,
+    "nome": "São Brás do Suaçuí",
+    "bottom": 6,
+    "left": 4,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3160959,
+    "nome": "São Domingos das Dores",
+    "bottom": 4,
+    "left": 6,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3161007,
+    "nome": "São Domingos do Prata",
+    "bottom": 5,
+    "left": 4,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3161056,
+    "nome": "São Félix de Minas",
+    "bottom": 3,
+    "left": 4,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3161106,
+    "nome": "São Francisco",
+    "bottom": 2,
+    "left": 1,
+    "right": 5,
+    "bioma": "Caatinga, Cerrado",
+    "top": 4
+  },
+  {
+    "id": 3161205,
+    "nome": "São Francisco de Paula",
+    "bottom": 5,
+    "left": 9,
+    "right": 3,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3161304,
+    "nome": "São Francisco de Sales",
+    "bottom": 8,
+    "left": 6,
+    "right": 1,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 1
+  },
+  {
+    "id": 3161403,
+    "nome": "São Francisco do Glória",
+    "bottom": 4,
+    "left": 5,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3161502,
+    "nome": "São Geraldo",
+    "bottom": 6,
+    "left": 6,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3161601,
+    "nome": "São Geraldo da Piedade",
+    "bottom": 2,
+    "left": 4,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3161650,
+    "nome": "São Geraldo do Baixio",
+    "bottom": 3,
+    "left": 5,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3161700,
+    "nome": "São Gonçalo do Abaeté",
+    "bottom": 9,
+    "left": 5,
+    "right": 7,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3161809,
+    "nome": "São Gonçalo do Pará",
+    "bottom": 6,
+    "left": 7,
+    "right": 6,
+    "bioma": "Cerrado",
+    "top": 8
+  },
+  {
+    "id": 3161908,
+    "nome": "São Gonçalo do Rio Abaixo",
+    "bottom": 10,
+    "left": 6,
+    "right": 8,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3125507,
+    "nome": "São Gonçalo do Rio Preto",
+    "bottom": 3,
+    "left": 1,
+    "right": 8,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3162005,
+    "nome": "São Gonçalo do Sapucaí",
+    "bottom": 9,
+    "left": 9,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3162104,
+    "nome": "São Gotardo",
+    "bottom": 8,
+    "left": 8,
+    "right": 2,
+    "bioma": "Cerrado",
+    "top": 8
+  },
+  {
+    "id": 3162203,
+    "nome": "São João Batista do Glória",
+    "bottom": 8,
+    "left": 8,
+    "right": 6,
+    "bioma": "Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3162252,
+    "nome": "São João da Lagoa",
+    "bottom": 2,
+    "left": 1,
+    "right": 9,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3162302,
+    "nome": "São João da Mata",
+    "bottom": 6,
+    "left": 7,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3162401,
+    "nome": "São João da Ponte",
+    "bottom": 2,
+    "left": 1,
+    "right": 6,
+    "bioma": "Caatinga, Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3162450,
+    "nome": "São João das Missões",
+    "bottom": 1,
+    "left": 1,
+    "right": 1,
+    "bioma": "Caatinga, Cerrado",
+    "top": 5
+  },
+  {
+    "id": 3162500,
+    "nome": "São João del Rei",
+    "bottom": 8,
+    "left": 9,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3162559,
+    "nome": "São João do Manhuaçu",
+    "bottom": 3,
+    "left": 4,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3162575,
+    "nome": "São João do Manteninha",
+    "bottom": 3,
+    "left": 9,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3162609,
+    "nome": "São João do Oriente",
+    "bottom": 4,
+    "left": 7,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3162658,
+    "nome": "São João do Pacuí",
+    "bottom": 1,
+    "left": 1,
+    "right": 8,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3162708,
+    "nome": "São João do Paraíso",
+    "bottom": 2,
+    "left": 1,
+    "right": 4,
+    "bioma": "Caatinga, Cerrado;Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3162807,
+    "nome": "São João Evangelista",
+    "bottom": 4,
+    "left": 5,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3162906,
+    "nome": "São João Nepomuceno",
+    "bottom": 5,
+    "left": 10,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3162922,
+    "nome": "São Joaquim de Bicas",
+    "bottom": 7,
+    "left": 6,
+    "right": 2,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3162948,
+    "nome": "São José da Barra",
+    "bottom": 10,
+    "left": 9,
+    "right": 10,
+    "bioma": "Cerrado",
+    "top": 6
+  },
+  {
+    "id": 3162955,
+    "nome": "São José da Lapa",
+    "bottom": 8,
+    "left": 8,
+    "right": 8,
+    "bioma": "Cerrado",
+    "top": 10
+  },
+  {
+    "id": 3163003,
+    "nome": "São José da Safira",
+    "bottom": 1,
+    "left": 6,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3163102,
+    "nome": "São José da Varginha",
+    "bottom": 7,
+    "left": 4,
+    "right": 7,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3163201,
+    "nome": "São José do Alegre",
+    "bottom": 3,
+    "left": 7,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3163300,
+    "nome": "São José do Divino",
+    "bottom": 3,
+    "left": 8,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3163409,
+    "nome": "São José do Goiabal",
+    "bottom": 2,
+    "left": 7,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3163508,
+    "nome": "São José do Jacuri",
+    "bottom": 4,
+    "left": 2,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3163607,
+    "nome": "São José do Mantimento",
+    "bottom": 4,
+    "left": 9,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3163706,
+    "nome": "São Lourenço",
+    "bottom": 7,
+    "left": 10,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3163805,
+    "nome": "São Miguel do Anta",
+    "bottom": 4,
+    "left": 4,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3163904,
+    "nome": "São Pedro da União",
+    "bottom": 8,
+    "left": 5,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3164100,
+    "nome": "São Pedro do Suaçuí",
+    "bottom": 5,
+    "left": 3,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3164001,
+    "nome": "São Pedro dos Ferros",
+    "bottom": 5,
+    "left": 8,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3164209,
+    "nome": "São Romão",
+    "bottom": 4,
+    "left": 1,
+    "right": 4,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3164308,
+    "nome": "São Roque de Minas",
+    "bottom": 9,
+    "left": 5,
+    "right": 6,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3164407,
+    "nome": "São Sebastião da Bela Vista",
+    "bottom": 10,
+    "left": 5,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3164431,
+    "nome": "São Sebastião da Vargem Alegre",
+    "bottom": 6,
+    "left": 3,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3164472,
+    "nome": "São Sebastião do Anta",
+    "bottom": 3,
+    "left": 5,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3164506,
+    "nome": "São Sebastião do Maranhão",
+    "bottom": 1,
+    "left": 2,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3164605,
+    "nome": "São Sebastião do Oeste",
+    "bottom": 10,
+    "left": 6,
+    "right": 4,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3164704,
+    "nome": "São Sebastião do Paraíso",
+    "bottom": 8,
+    "left": 10,
+    "right": 6,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3164803,
+    "nome": "São Sebastião do Rio Preto",
+    "bottom": 5,
+    "left": 1,
+    "right": 2,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3164902,
+    "nome": "São Sebastião do Rio Verde",
+    "bottom": 5,
+    "left": 7,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3165008,
+    "nome": "São Tiago",
+    "bottom": 6,
+    "left": 7,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3165107,
+    "nome": "São Tomás de Aquino",
+    "bottom": 8,
+    "left": 8,
+    "right": 5,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3165206,
+    "nome": "São Tomé das Letras",
+    "bottom": 5,
+    "left": 8,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3165305,
+    "nome": "São Vicente de Minas",
+    "bottom": 8,
+    "left": 8,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3165404,
+    "nome": "Sapucaí-Mirim",
+    "bottom": 5,
+    "left": 6,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3165503,
+    "nome": "Sardoá",
+    "bottom": 1,
+    "left": 2,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3165537,
+    "nome": "Sarzedo",
+    "bottom": 9,
+    "left": 9,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3165560,
+    "nome": "Sem-Peixe",
+    "bottom": 3,
+    "left": 3,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3165578,
+    "nome": "Senador Amaral",
+    "bottom": 4,
+    "left": 5,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3165602,
+    "nome": "Senador Cortes",
+    "bottom": 6,
+    "left": 6,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3165701,
+    "nome": "Senador Firmino",
+    "bottom": 3,
+    "left": 4,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3165800,
+    "nome": "Senador José Bento",
+    "bottom": 6,
+    "left": 2,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3165909,
+    "nome": "Senador Modestino Gonçalves",
+    "bottom": 7,
+    "left": 3,
+    "right": 8,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 1
+  },
+  {
+    "id": 3166006,
+    "nome": "Senhora de Oliveira",
+    "bottom": 3,
+    "left": 5,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3166105,
+    "nome": "Senhora do Porto",
+    "bottom": 2,
+    "left": 3,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3166204,
+    "nome": "Senhora dos Remédios",
+    "bottom": 1,
+    "left": 4,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3166303,
+    "nome": "Sericita",
+    "bottom": 5,
+    "left": 3,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3166402,
+    "nome": "Seritinga",
+    "bottom": 7,
+    "left": 8,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3166501,
+    "nome": "Serra Azul de Minas",
+    "bottom": 1,
+    "left": 3,
+    "right": 1,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3166600,
+    "nome": "Serra da Saudade",
+    "bottom": 8,
+    "left": 4,
+    "right": 2,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3166808,
+    "nome": "Serra do Salitre",
+    "bottom": 10,
+    "left": 6,
+    "right": 4,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3166709,
+    "nome": "Serra dos Aimorés",
+    "bottom": 1,
+    "left": 2,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3166907,
+    "nome": "Serrania",
+    "bottom": 6,
+    "left": 10,
+    "right": 2,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3166956,
+    "nome": "Serranópolis de Minas",
+    "bottom": 1,
+    "left": 1,
+    "right": 10,
+    "bioma": "Caatinga, Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3167004,
+    "nome": "Serranos",
+    "bottom": 5,
+    "left": 6,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 2
+  },
+  {
+    "id": 3167103,
+    "nome": "Serro",
+    "bottom": 3,
+    "left": 3,
+    "right": 6,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3167202,
+    "nome": "Sete Lagoas",
+    "bottom": 9,
+    "left": 10,
+    "right": 8,
+    "bioma": "Cerrado",
+    "top": 10
+  },
+  {
+    "id": 3165552,
+    "nome": "Setubinha",
+    "bottom": 1,
+    "left": 1,
+    "right": 1,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3167301,
+    "nome": "Silveirânia",
+    "bottom": 4,
+    "left": 6,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3167400,
+    "nome": "Silvianópolis",
+    "bottom": 7,
+    "left": 10,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3167509,
+    "nome": "Simão Pereira",
+    "bottom": 9,
+    "left": 8,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3167608,
+    "nome": "Simonésia",
+    "bottom": 3,
+    "left": 2,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3167707,
+    "nome": "Sobrália",
+    "bottom": 2,
+    "left": 5,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3167806,
+    "nome": "Soledade de Minas",
+    "bottom": 3,
+    "left": 5,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3167905,
+    "nome": "Tabuleiro",
+    "bottom": 5,
+    "left": 8,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3168002,
+    "nome": "Taiobeiras",
+    "bottom": 4,
+    "left": 1,
+    "right": 7,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3168051,
+    "nome": "Taparuba",
+    "bottom": 4,
+    "left": 5,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3168101,
+    "nome": "Tapira",
+    "bottom": 10,
+    "left": 6,
+    "right": 4,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3168200,
+    "nome": "Tapiraí",
+    "bottom": 8,
+    "left": 5,
+    "right": 2,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3168309,
+    "nome": "Taquaraçu de Minas",
+    "bottom": 4,
+    "left": 3,
+    "right": 9,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3168408,
+    "nome": "Tarumirim",
+    "bottom": 2,
+    "left": 4,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3168507,
+    "nome": "Teixeiras",
+    "bottom": 4,
+    "left": 6,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3168606,
+    "nome": "Teófilo Otoni",
+    "bottom": 6,
+    "left": 8,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3168705,
+    "nome": "Timóteo",
+    "bottom": 9,
+    "left": 10,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3168804,
+    "nome": "Tiradentes",
+    "bottom": 7,
+    "left": 8,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3168903,
+    "nome": "Tiros",
+    "bottom": 10,
+    "left": 7,
+    "right": 5,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3169000,
+    "nome": "Tocantins",
+    "bottom": 6,
+    "left": 8,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3169059,
+    "nome": "Tocos do Moji",
+    "bottom": 4,
+    "left": 2,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3169109,
+    "nome": "Toledo",
+    "bottom": 3,
+    "left": 3,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3169208,
+    "nome": "Tombos",
+    "bottom": 4,
+    "left": 6,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3169307,
+    "nome": "Três Corações",
+    "bottom": 9,
+    "left": 10,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3169356,
+    "nome": "Três Marias",
+    "bottom": 10,
+    "left": 9,
+    "right": 8,
+    "bioma": "Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3169406,
+    "nome": "Três Pontas",
+    "bottom": 8,
+    "left": 9,
+    "right": 6,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3169505,
+    "nome": "Tumiritinga",
+    "bottom": 2,
+    "left": 2,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3169604,
+    "nome": "Tupaciguara",
+    "bottom": 9,
+    "left": 10,
+    "right": 5,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3169703,
+    "nome": "Turmalina",
+    "bottom": 7,
+    "left": 5,
+    "right": 10,
+    "bioma": "Cerrado",
+    "top": 4
+  },
+  {
+    "id": 3169802,
+    "nome": "Turvolândia",
+    "bottom": 7,
+    "left": 5,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3169901,
+    "nome": "Ubá",
+    "bottom": 8,
+    "left": 9,
+    "right": 4,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3170008,
+    "nome": "Ubaí",
+    "bottom": 1,
+    "left": 1,
+    "right": 2,
+    "bioma": "Cerrado",
+    "top": 3
+  },
+  {
+    "id": 3170057,
+    "nome": "Ubaporanga",
+    "bottom": 3,
+    "left": 4,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3170107,
+    "nome": "Uberaba",
+    "bottom": 10,
+    "left": 10,
+    "right": 6,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3170206,
+    "nome": "Uberlândia",
+    "bottom": 10,
+    "left": 10,
+    "right": 6,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3170305,
+    "nome": "Umburatiba",
+    "bottom": 6,
+    "left": 6,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 1
+  },
+  {
+    "id": 3170404,
+    "nome": "Unaí",
+    "bottom": 9,
+    "left": 8,
+    "right": 5,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3170438,
+    "nome": "União de Minas",
+    "bottom": 8,
+    "left": 7,
+    "right": 4,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3170479,
+    "nome": "Uruana de Minas",
+    "bottom": 7,
+    "left": 1,
+    "right": 9,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3170503,
+    "nome": "Urucânia",
+    "bottom": 8,
+    "left": 9,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 9
+  },
+  {
+    "id": 3170529,
+    "nome": "Urucuia",
+    "bottom": 1,
+    "left": 1,
+    "right": 2,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3170578,
+    "nome": "Vargem Alegre",
+    "bottom": 2,
+    "left": 7,
+    "right": 8,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3170602,
+    "nome": "Vargem Bonita",
+    "bottom": 8,
+    "left": 8,
+    "right": 10,
+    "bioma": "Cerrado",
+    "top": 1
+  },
+  {
+    "id": 3170651,
+    "nome": "Vargem Grande do Rio Pardo",
+    "bottom": 2,
+    "left": 1,
+    "right": 3,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3170701,
+    "nome": "Varginha",
+    "bottom": 10,
+    "left": 10,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3170750,
+    "nome": "Varjão de Minas",
+    "bottom": 8,
+    "left": 7,
+    "right": 9,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3170800,
+    "nome": "Várzea da Palma",
+    "bottom": 7,
+    "left": 1,
+    "right": 3,
+    "bioma": "Cerrado",
+    "top": 4
+  },
+  {
+    "id": 3170909,
+    "nome": "Varzelândia",
+    "bottom": 1,
+    "left": 1,
+    "right": 4,
+    "bioma": "Caatinga, Cerrado",
+    "top": 6
+  },
+  {
+    "id": 3171006,
+    "nome": "Vazante",
+    "bottom": 9,
+    "left": 9,
+    "right": 4,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3171030,
+    "nome": "Verdelândia",
+    "bottom": 1,
+    "left": 2,
+    "right": 1,
+    "bioma": "Caatinga",
+    "top": 1
+  },
+  {
+    "id": 3171071,
+    "nome": "Veredinha",
+    "bottom": 7,
+    "left": 5,
+    "right": 6,
+    "bioma": "Cerrado",
+    "top": 2
+  },
+  {
+    "id": 3171105,
+    "nome": "Veríssimo",
+    "bottom": 9,
+    "left": 6,
+    "right": 1,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 1
+  },
+  {
+    "id": 3171154,
+    "nome": "Vermelho Novo",
+    "bottom": 2,
+    "left": 2,
+    "right": 1,
+    "bioma": "Mata Atlântica",
+    "top": 8
+  },
+  {
+    "id": 3171204,
+    "nome": "Vespasiano",
+    "bottom": 7,
+    "left": 10,
+    "right": 3,
+    "bioma": "Cerrado",
+    "top": 10
+  },
+  {
+    "id": 3171303,
+    "nome": "Viçosa",
+    "bottom": 7,
+    "left": 9,
+    "right": 9,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3171402,
+    "nome": "Vieiras",
+    "bottom": 3,
+    "left": 4,
+    "right": 10,
+    "bioma": "Mata Atlântica",
+    "top": 7
+  },
+  {
+    "id": 3171600,
+    "nome": "Virgem da Lapa",
+    "bottom": 1,
+    "left": 3,
+    "right": 1,
+    "bioma": "Cerrado, Mata Atlântica",
+    "top": 3
+  },
+  {
+    "id": 3171709,
+    "nome": "Virgínia",
+    "bottom": 6,
+    "left": 4,
+    "right": 3,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3171808,
+    "nome": "Virginópolis",
+    "bottom": 5,
+    "left": 4,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  },
+  {
+    "id": 3171907,
+    "nome": "Virgolândia",
+    "bottom": 2,
+    "left": 6,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 4
+  },
+  {
+    "id": 3172004,
+    "nome": "Visconde do Rio Branco",
+    "bottom": 9,
+    "left": 9,
+    "right": 5,
+    "bioma": "Mata Atlântica",
+    "top": 10
+  },
+  {
+    "id": 3172103,
+    "nome": "Volta Grande",
+    "bottom": 8,
+    "left": 6,
+    "right": 6,
+    "bioma": "Mata Atlântica",
+    "top": 5
+  },
+  {
+    "id": 3172202,
+    "nome": "Wenceslau Braz",
+    "bottom": 3,
+    "left": 1,
+    "right": 7,
+    "bioma": "Mata Atlântica",
+    "top": 6
+  }
+]

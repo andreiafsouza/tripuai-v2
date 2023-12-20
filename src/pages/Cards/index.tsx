@@ -1,5 +1,5 @@
 import { CityProps } from "@/@types/global";
-import citiesData from "../../../cities.json";
+import citiesData from "../../../citiesGrouped.json";
 import * as S from "./styles";
 import CityCardList from "@/components/CityCardList/CityCardList";
 

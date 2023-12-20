@@ -3,7 +3,7 @@ import styled from "styled-components";
 type ButtonProps = {
   size?: "small" | "default" | "large";
   color?: "primary" | "secondary";
-  outlined?: boolean;
+  outlined?: "true" | "false" | undefined;
 };
 
 export const ButtonContainer = styled.button<ButtonProps>`
@@ -15,7 +15,9 @@ export const ButtonContainer = styled.button<ButtonProps>`
       : "transparent"};
 
   --_out-color: ${({ outlined, theme }) =>
-    outlined ? `${theme.color.nudeDust}` : `${theme.color.nudeLion}`};
+    outlined === "true"
+      ? `${theme.color.nudeDust}`
+      : `${theme.color.nudeLion}`};
   background: var(--_bg);
   padding-inline: 1.5rem;
   padding-block: 1rem;

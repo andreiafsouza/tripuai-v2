@@ -30,43 +30,9 @@ const CityCardList = ({ cities }: { cities: CityProps[] }) => {
     setSuggestions(filteredCities);
   };
 
-  const assignGroups = (cities: CityProps[]) => {
-    const properties: (keyof CityProps)[] = ["top", "right", "left", "bottom"];
-    const groupSize = [87, 85, 85, 85, 85, 85, 85, 85, 85, 86];
-
-    const groupedCities: CityProps[] = cities.map((city) => ({ ...city }));
-
-    properties.forEach((property, index) => {
-      groupedCities.sort(
-        (a, b) => (a[property] as number) - (b[property] as number)
-      );
-
-      let group = 1;
-      let groupCount = 0;
-
-      for (const city of groupedCities) {
-        (city[property] as number) = group;
-
-        if (groupCount === groupSize[index]) {
-          group++;
-          groupCount = 0;
-        } else {
-          groupCount++;
-        }
-      }
-    });
-
-    const sortedGroupedCities = groupedCities.sort((a, b) => {
-      return a.nome.localeCompare(b.nome);
-    });
-
-    return sortedGroupedCities;
-  };
-
   useEffect(() => {
     if (cities) {
-      const cityCardList: CityProps[] = assignGroups(cities);
-      setCityCards(cityCardList);
+      setCityCards(cities);
     }
   }, []);
 
