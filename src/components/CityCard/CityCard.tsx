@@ -18,7 +18,7 @@ export const CityCard = ({
         </div>
         <S.MiddleScoreContainer>
           <h1>{left}</h1>
-          <h1>{nome}</h1>
+          <h1 style={{ padding: "4px" }}>{nome}</h1>
           <h1>{right}</h1>
         </S.MiddleScoreContainer>
         <div>

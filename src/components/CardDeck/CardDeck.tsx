@@ -1,22 +1,35 @@
-import { useEffect, useState } from "react";
 import { CityCard } from "../CityCard/CityCard";
-import { CityProps } from "@/@types/global";
+import { CityProps, CardButtonProps } from "@/@types/global";
 /* style */
 import * as S from "./styles";
+import { ReactNode, useEffect, useState } from "react";
 
-const CardDeck = ({ cards }: { cards: CityProps[] }) => {
+type CardDeckProps = {
+  cards: CityProps[];
+  onCardSelect: (id: number) => void;
+  isDeckTurn: boolean;
+};
+
+const CardDeck = ({ cards, onCardSelect, isDeckTurn }: CardDeckProps) => {
   return (
     <S.DeckContainer>
       {cards?.map((city) => (
-        <CityCard
-          nome={city.nome}
+        <S.CardButton
+          disabled={!isDeckTurn}
+          key={city.id}
           id={city.id}
-          top={city.top}
-          right={city.right}
-          left={city.left}
-          bottom={city.bottom}
-          bioma={city.bioma}
-        />
+          onClick={() => onCardSelect(city.id)}
+        >
+          <CityCard
+            nome={city.nome}
+            id={city.id}
+            top={city.top}
+            right={city.right}
+            left={city.left}
+            bottom={city.bottom}
+            bioma={city.bioma}
+          />
+        </S.CardButton>
       ))}
     </S.DeckContainer>
   );

@@ -18,3 +18,8 @@ export type CityProps = {
 export type CardProps = {
   title: string;
 };
+
+export type CardButtonProps = {
+  id: number;
+  children: ReactNode;
+};

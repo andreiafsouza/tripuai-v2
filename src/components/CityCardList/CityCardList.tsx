@@ -70,6 +70,7 @@ const CityCardList = ({ cities }: { cities: CityProps[] }) => {
         {cityCards.map((city) => (
           <SelectCityButton
             key={city.id}
+            id={city.id}
             title={city.nome}
             selectCity={handleChangeCityCard}
           >

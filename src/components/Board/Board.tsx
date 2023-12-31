@@ -1,23 +1,34 @@
 import * as S from "./styles";
 import { useState, useEffect, KeyboardEvent } from "react";
 import { CityProps } from "@/@types/global";
+import { CityCard } from "../CityCard/CityCard";
 
 export type BoardProps = {
   player: string;
   rival: string;
   playerDeck: CityProps[];
-  rivalDeck: CityProps[];
+  computerDeck: CityProps[];
+  selectedCard?: CityProps | null;
   playerPoints: number;
-  rivalPoints: number;
+  computerPoints: number;
 };
 
-const Board = () => {
-  const [selectedSpace, setSelectedSpace] = useState<number>(0);
+const Board = ({
+  player,
+  rival,
+  playerDeck,
+  computerDeck,
+  selectedCard,
+  playerPoints,
+  computerPoints,
+}: BoardProps) => {
+  const [selectedSpace, setSelectedSpace] = useState<number | null>(null);
+  //const [selectedCard, setSelectedCard] = useState<CityProps | null>(null);
   const columns = 3;
 
   const handleKeyDown = (event: KeyboardEvent) => {
     setSelectedSpace((prevSelectedSpace) => {
-      let newSelectedSpace = prevSelectedSpace;
+      let newSelectedSpace = prevSelectedSpace !== null ? prevSelectedSpace : 0;
 
       switch (event.key) {
         case "ArrowLeft":
@@ -59,18 +70,40 @@ const Board = () => {
     };
   }, []);
 
+  /*   useEffect(() => {
+    if (!selectedCard) {
+      setSelectedSpace(null);
+    }
+  }, [selectedCard]); */
+
   return (
-    <S.BoardContainer>
-      {Array.from({ length: 9 }).map((_, index) => (
-        <S.BoardSpace
-          key={index}
-          selected={selectedSpace === index}
-          onClick={() => handleSpaceClick(index)}
-        >
-          {/* card component */}
-        </S.BoardSpace>
-      ))}
-    </S.BoardContainer>
+    <S.Container>
+      <S.BoardContainer>
+        {Array.from({ length: 9 }).map((_, index) => (
+          <S.BoardSpace
+            key={index}
+            selected={selectedSpace === index}
+            onClick={() => handleSpaceClick(index)}
+          >
+            {selectedCard ? (
+              <CityCard
+                nome={selectedCard.nome}
+                id={selectedCard.id}
+                top={selectedCard.top}
+                right={selectedCard.right}
+                left={selectedCard.left}
+                bottom={selectedCard.bottom}
+                bioma={selectedCard.bioma}
+              />
+            ) : null}
+          </S.BoardSpace>
+        ))}
+      </S.BoardContainer>
+      <S.ScoreContainer>
+        <S.ScoreDisplay>{computerPoints}</S.ScoreDisplay>
+        <S.ScoreDisplay>{playerPoints}</S.ScoreDisplay>
+      </S.ScoreContainer>
+    </S.Container>
   );
 };
 
