@@ -1,15 +1,13 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { CityCard } from "../CityCard/CityCard";
 import { CityProps } from "@/@types/global";
 /* style */
 import * as S from "./styles";
 
-const Deck = () => {
-  const [cityCards, setCityCards] = useState<CityProps[]>([]);
-
+const CardDeck = ({ cards }: { cards: CityProps[] }) => {
   return (
     <S.DeckContainer>
-      {cityCards.map((city) => (
+      {cards?.map((city) => (
         <CityCard
           nome={city.nome}
           id={city.id}
@@ -24,4 +22,4 @@ const Deck = () => {
   );
 };
 
-export default Deck;
+export default CardDeck;
