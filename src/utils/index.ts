@@ -36,3 +36,9 @@ export const assignGroups = (cities: CityProps[]) => {
 
   return sortedGroupedCities;
 };
+
+export function getRandomCards(cityCard: CityProps[], count: number) {
+  const shuffledCities = cityCard.slice().sort(() => Math.random() - 0.5); // Shuffle the array
+  const selectedCards = shuffledCities.slice(0, count);
+  return selectedCards;
+}

@@ -6,8 +6,6 @@ import { CityCard } from "../CityCard/CityCard";
 export type BoardProps = {
   player: string;
   rival: string;
-  playerDeck: CityProps[];
-  computerDeck: CityProps[];
   selectedCard?: CityProps | null;
   playerPoints: number;
   computerPoints: number;
@@ -16,8 +14,6 @@ export type BoardProps = {
 const Board = ({
   player,
   rival,
-  playerDeck,
-  computerDeck,
   selectedCard,
   playerPoints,
   computerPoints,
