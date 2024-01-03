@@ -32,24 +32,22 @@ const Play = () => {
     setSelectedCardId(id);
   };
 
-  console.log(selectedCardId);
-
   useEffect(() => {
     if (selectedCardId && deckTurn === "dedeia") {
-      const card = playerCardDeck.find((card) => card.id === selectedCardId); // Added 'return' statement
-      setSelectedCard(card || null); // Assign card or null if not found
+      const card = playerCardDeck.find((card) => card.id === selectedCardId);
+      setSelectedCard(card || null);
     }
 
     if (selectedCardId && deckTurn === "computer") {
-      const card = computerCardDeck.find((card) => card.id === selectedCardId); // Added 'return' statement
-      setSelectedCard(card || null); // Assign card or null if not found
+      const card = computerCardDeck.find((card) => card.id === selectedCardId);
+      setSelectedCard(card || null);
     }
   }, [selectedCardId, deckTurn]);
 
   return (
     <S.Main>
       <CardDeck
-        cards={playerCardDeck}
+        cards={computerCardDeck}
         onCardSelect={handleSelectCard}
         isDeckTurn={deckTurn === "computer"}
       />
@@ -64,7 +62,7 @@ const Play = () => {
       />
 
       <CardDeck
-        cards={computerCardDeck}
+        cards={playerCardDeck}
         onCardSelect={handleSelectCard}
         isDeckTurn={deckTurn === "dedeia"}
       />

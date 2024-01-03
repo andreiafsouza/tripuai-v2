@@ -15,6 +15,10 @@ export const BoardContainer = styled.div`
   height: fit-content;
 `;
 
+export const BoardMessage = styled.h1`
+  font-size: ${(props) => props.theme.fontSize["16"]};
+`;
+
 export const BoardSpace = styled.button<BoardSpaceProps>`
   width: 173px;
   height: 216px;
@@ -28,7 +32,7 @@ export const ScoreContainer = styled.div`
   justify-content: space-between;
 `;
 
-export const ScoreDisplay = styled.h1`
+export const ScoreDisplay = styled.p`
   background-color: ${(props) => props.theme.color.nudeRose};
   font-size: ${(props) => props.theme.fontSize["24"]};
 `;
