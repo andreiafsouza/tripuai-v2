@@ -6,27 +6,27 @@ import * as S from "./styles";
 import { useEffect, useState } from "react";
 import { getRandomCards } from "@/utils";
 import { useAppDispatch, useAppSelector } from "@/hooks";
-import { playerCardAdded } from "@/store/slices/playerDeckSlice";
-import { rivalCardAdded } from "@/store/slices/rivalDeckSlice";
+import { cardAdded, userAdded } from "@/store/slices/deckSlice";
 
 const Play = () => {
   const dispatch = useAppDispatch();
   const cities: CityProps[] = citiesData;
-  const playerDeck = useAppSelector((state) => state.playerDeck.cards);
-  const rivalDeck = useAppSelector((state) => state.rivalDeck.cards);
+  const playerDeck = useAppSelector((state) => state.decks.playerOne.cards);
+  const rivalDeck = useAppSelector((state) => state.decks.playerTwo.cards);
   const [selectedCardId, setSelectedCardId] = useState<number | null>(null);
   const [selectedCard, setSelectedCard] = useState<CityProps | null>(null);
   const [deckTurn, setDeckTurn] = useState("dedeia");
 
   useEffect(() => {
-    const playerDeck = getRandomCards(cities, 5);
+    const playerDeck = getRandomCards(cities, 10);
     playerDeck.forEach((card) => {
-      dispatch(playerCardAdded(card));
+      dispatch(cardAdded({ player: "playerOne", card: card }));
     });
 
+    //call getRandomCards again so both players have chances of getting same cards
     const rivalDeck = getRandomCards(cities, 5);
     rivalDeck.forEach((card) => {
-      dispatch(rivalCardAdded(card));
+      dispatch(cardAdded({ player: "playerTwo", card: card }));
     });
   }, []);
 

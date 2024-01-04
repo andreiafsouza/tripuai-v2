@@ -1,11 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import playerDeckSlice from "./slices/playerDeckSlice";
-import rivalDeckSlice from "./slices/rivalDeckSlice";
+import deckSlice from "./slices/deckSlice";
 
 const store = configureStore({
   reducer: {
-    playerDeck: playerDeckSlice,
-    rivalDeck: rivalDeckSlice,
+    decks: deckSlice,
   },
 });
 
