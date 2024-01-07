@@ -42,3 +42,15 @@ export function getRandomCards(cityCard: CityProps[], count: number) {
   const selectedCards = shuffledCities.slice(0, count);
   return selectedCards;
 }
+
+// Check if selected card is already placed on the Board
+export function checkAlreadyPlacedCards(
+  board: (CityProps | null)[],
+  newSelectedCard: CityProps
+) {
+  const isCardAlreadyPlaced = board.some(
+    (card) => card && card.id === newSelectedCard.id
+  );
+
+  return isCardAlreadyPlaced;
+}

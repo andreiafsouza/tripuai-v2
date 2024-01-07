@@ -9,16 +9,15 @@ import {
 } from "@/store/slices/boardSlice";
 import { useAppDispatch, useAppSelector } from "@/hooks";
 import { cardRemoved } from "@/store/slices/deckSlice";
+import { checkAlreadyPlacedCards } from "@/utils";
 
 export type BoardProps = {
-  player: string;
-  rival: string;
   selectedCard?: CityProps | null;
   playerPoints: number;
   computerPoints: number;
 };
 
-const Board = ({ player, rival, playerPoints, computerPoints }: BoardProps) => {
+const Board = ({ playerPoints, computerPoints }: BoardProps) => {
   const dispatch = useAppDispatch();
   const boardState = useAppSelector((state) => state.board.board);
   const turnState = useAppSelector((state) => state.board.turn);
@@ -34,7 +33,9 @@ const Board = ({ player, rival, playerPoints, computerPoints }: BoardProps) => {
 
   const handleSpaceClick = (index: number) => {
     if (selectedCard) {
-      setMessage("Escolha uma nova carta para adicionar ao tabuleiro");
+      setMessage(
+        `${turnState} Escolha uma nova carta para adicionar ao tabuleiro`
+      );
       const updatedBoardState = [...boardState];
       const isCardAlreadyPlaced = checkAlreadyPlacedCards(
         updatedBoardState,
@@ -45,24 +46,12 @@ const Board = ({ player, rival, playerPoints, computerPoints }: BoardProps) => {
         const nextTurn = turnState === playerTwo ? playerOne : playerTwo; //set next turn
         updatedBoardState[index] = selectedCard;
         dispatch(boardUpdated(updatedBoardState)); // updated board state with new card added
-        dispatch(cardRemoved({ player: turnState, card: selectedCard }));
-        dispatch(turnChanged(nextTurn)); // updated turn on redux state
+        dispatch(cardRemoved({ player: turnState, card: selectedCard })); //
+        dispatch(turnChanged(nextTurn)); // updated turn on redux state to the next player to make a move
         setSelectedSpace(index);
       }
     }
   };
-
-  // Check if selected card is already placed on the Board
-  function checkAlreadyPlacedCards(
-    board: (CityProps | null)[],
-    newSelectedCard: CityProps
-  ) {
-    const isCardAlreadyPlaced = board.some(
-      (card) => card && card.id === newSelectedCard.id
-    );
-
-    return isCardAlreadyPlaced;
-  }
 
   const handleKeyDown = (event: KeyboardEvent) => {
     setSelectedSpace((prevSelectedSpace) => {
@@ -98,7 +87,10 @@ const Board = ({ player, rival, playerPoints, computerPoints }: BoardProps) => {
   useEffect(() => {
     if (selectedCard) {
       setMessage("Escolha onde quer colocar a carta selecionada");
-      setSelectedSpace(0);
+      const nextAvailableBoardSpace = boardState.findIndex(
+        (space) => space === null
+      );
+      setSelectedSpace(nextAvailableBoardSpace);
 
       //if the card is selected add the event listener to move across the board with arrow keys
       document.addEventListener(
@@ -113,7 +105,7 @@ const Board = ({ player, rival, playerPoints, computerPoints }: BoardProps) => {
         );
       };
     }
-  }, [selectedCard]);
+  }, [boardState]);
 
   useEffect(() => {
     setMessage("Escolha uma carta para adicionar ao tabuleiro");

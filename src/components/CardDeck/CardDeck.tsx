@@ -14,18 +14,29 @@ type CardDeckProps = {
 const CardDeck = ({ cards, isDeckTurn }: CardDeckProps) => {
   const dispatch = useAppDispatch();
   const turnState = useAppSelector((state) => state.board.turn);
+  const [isSelected, setIsSelected] = useState<number | undefined>(0);
+  const [turnMessage, setTurnMessage] = useState<string>("");
 
   const selectCardFromDeck = (selectedId: number) => {
     const selectedCard = cards.find((card) => card.id === selectedId);
     dispatch(cardSelected({ player: turnState, card: selectedCard! }));
+    setIsSelected(selectedCard?.id);
   };
 
+  useEffect(() => {
+    const message = isDeckTurn
+      ? `sua vez ${turnState}!`
+      : `Aguarde o adversário`;
+    setTurnMessage(message);
+  }, [isDeckTurn]);
+
   return (
-    <S.DeckContainer>
+    <S.DeckContainer isDeckTurn={isDeckTurn}>
+      <S.DeckTurnTitle>{turnMessage}</S.DeckTurnTitle>
       {cards?.map((city) => (
         <S.CardButton
           disabled={!isDeckTurn}
-          isDisabled={isDeckTurn}
+          isSelected={isSelected === city.id}
           key={city.id}
           id={city.id}
           onClick={() => selectCardFromDeck(city.id)}

@@ -59,14 +59,7 @@ const Play = () => {
   return (
     <S.Main>
       <CardDeck cards={rivalDeck} isDeckTurn={turnState === playerTwo} />
-      <Board
-        player="dedeia"
-        rival="computer"
-        playerPoints={4}
-        computerPoints={2}
-        selectedCard={selectedCard}
-      />
-
+      <Board playerPoints={4} computerPoints={2} selectedCard={selectedCard} />
       <CardDeck cards={playerDeck} isDeckTurn={turnState === playerOne} />
     </S.Main>
   );
