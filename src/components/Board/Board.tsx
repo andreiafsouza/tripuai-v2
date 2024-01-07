@@ -2,6 +2,8 @@ import * as S from "./styles";
 import { useState, useEffect, KeyboardEvent } from "react";
 import { CityProps } from "@/@types/global";
 import { CityCard } from "../CityCard/CityCard";
+import { boardUpdated } from "@/store/slices/boardSlice";
+import { useAppDispatch, useAppSelector } from "@/hooks";
 
 export type BoardProps = {
   player: string;
@@ -18,9 +20,8 @@ const Board = ({
   playerPoints,
   computerPoints,
 }: BoardProps) => {
-  const [boardState, setBoardState] = useState<(CityProps | null)[]>(
-    Array.from({ length: 9 }, () => null)
-  );
+  const dispatch = useAppDispatch();
+  const boardState = useAppSelector((state) => state.board.board);
   const [selectedSpace, setSelectedSpace] = useState<number | null>(null);
   const [message, setMessage] = useState<string | null>(null);
   //const [selectedCard, setSelectedCard] = useState<CityProps | null>(null);
@@ -37,7 +38,7 @@ const Board = ({
 
       if (!isCardAlreadyPlaced) {
         updatedBoardState[index] = selectedCard;
-        setBoardState(updatedBoardState);
+        dispatch(boardUpdated(updatedBoardState));
         setSelectedSpace(index);
       }
     }

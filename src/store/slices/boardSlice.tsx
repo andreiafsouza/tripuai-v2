@@ -11,7 +11,7 @@ export interface BoardState {
 }
 
 const initialState: BoardState = {
-  board: [],
+  board: Array.from({ length: 9 }, () => null),
   turn: null,
   score: {
     playerOne: 0,
@@ -23,12 +23,12 @@ const boardSlice = createSlice({
   name: "board",
   initialState,
   reducers: {
-    cardAddedToBoard(state, action: PayloadAction<CityProps>) {
-      state.board.push(action.payload);
+    boardUpdated(state, action: PayloadAction<(CityProps | null)[]>) {
+      state.board = action.payload;
     },
   },
 });
 
-export const { cardAddedToBoard } = boardSlice.actions;
+export const { boardUpdated } = boardSlice.actions;
 
 export default boardSlice.reducer;
