@@ -11,6 +11,11 @@ export interface UserPayloadState {
   id: number | null;
 }
 
+export interface CardPayloadState {
+  player: "playerOne" | "playerTwo";
+  card: CityProps;
+}
+
 export interface DeckState {
   playerOne: {
     userId: number | null;
@@ -57,9 +62,13 @@ const deckSlice = createSlice({
       );
       state[action.payload.player].cards = filteredDeck;
     },
+    cardSelected(state, action: PayloadAction<CardPayloadState>) {
+      state[action.payload.player].selectedCard = action.payload.card;
+    },
   },
 });
 
-export const { userAdded, cardAdded, cardRemoved } = deckSlice.actions;
+export const { userAdded, cardAdded, cardRemoved, cardSelected } =
+  deckSlice.actions;
 
 export default deckSlice.reducer;

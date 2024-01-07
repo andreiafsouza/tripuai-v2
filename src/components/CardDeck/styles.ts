@@ -13,6 +13,8 @@ export const CardButton = styled.button<CardButtonProps>`
 
   cursor: pointer;
 
+  border: ${({ isDisabled }) => (isDisabled ? "none" : "1px solid red")};
+
   & :hover {
     background: ${(props) => props.theme.color.greenTea};
   }

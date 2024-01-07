@@ -2,8 +2,13 @@ import * as S from "./styles";
 import { useState, useEffect, KeyboardEvent } from "react";
 import { CityProps } from "@/@types/global";
 import { CityCard } from "../CityCard/CityCard";
-import { boardUpdated } from "@/store/slices/boardSlice";
+import {
+  boardUpdated,
+  turnChanged,
+  scoreUpdated,
+} from "@/store/slices/boardSlice";
 import { useAppDispatch, useAppSelector } from "@/hooks";
+import { cardRemoved } from "@/store/slices/deckSlice";
 
 export type BoardProps = {
   player: string;
@@ -13,17 +18,17 @@ export type BoardProps = {
   computerPoints: number;
 };
 
-const Board = ({
-  player,
-  rival,
-  selectedCard,
-  playerPoints,
-  computerPoints,
-}: BoardProps) => {
+const Board = ({ player, rival, playerPoints, computerPoints }: BoardProps) => {
   const dispatch = useAppDispatch();
   const boardState = useAppSelector((state) => state.board.board);
+  const turnState = useAppSelector((state) => state.board.turn);
+  const selectedCard = useAppSelector(
+    (state) => state.decks[turnState].selectedCard
+  );
   const [selectedSpace, setSelectedSpace] = useState<number | null>(null);
   const [message, setMessage] = useState<string | null>(null);
+  const playerOne = "playerOne";
+  const playerTwo = "playerTwo";
   //const [selectedCard, setSelectedCard] = useState<CityProps | null>(null);
   const columns = 3;
 
@@ -37,8 +42,11 @@ const Board = ({
       );
 
       if (!isCardAlreadyPlaced) {
+        const nextTurn = turnState === playerTwo ? playerOne : playerTwo; //set next turn
         updatedBoardState[index] = selectedCard;
-        dispatch(boardUpdated(updatedBoardState));
+        dispatch(boardUpdated(updatedBoardState)); // updated board state with new card added
+        dispatch(cardRemoved({ player: turnState, card: selectedCard }));
+        dispatch(turnChanged(nextTurn)); // updated turn on redux state
         setSelectedSpace(index);
       }
     }

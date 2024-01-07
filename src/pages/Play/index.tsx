@@ -7,15 +7,26 @@ import { useEffect, useState } from "react";
 import { getRandomCards } from "@/utils";
 import { useAppDispatch, useAppSelector } from "@/hooks";
 import { cardAdded, userAdded } from "@/store/slices/deckSlice";
+import {
+  boardUpdated,
+  turnChanged,
+  scoreUpdated,
+} from "@/store/slices/boardSlice";
 
 const Play = () => {
   const dispatch = useAppDispatch();
   const cities: CityProps[] = citiesData;
   const playerDeck = useAppSelector((state) => state.decks.playerOne.cards);
   const rivalDeck = useAppSelector((state) => state.decks.playerTwo.cards);
+  const turnState = useAppSelector((state) => state.board.turn);
   const [selectedCardId, setSelectedCardId] = useState<number | null>(null);
   const [selectedCard, setSelectedCard] = useState<CityProps | null>(null);
-  const [deckTurn, setDeckTurn] = useState("dedeia");
+  const playerOne = "playerOne";
+  const playerTwo = "playerTwo";
+
+  const handleSelectCard = (id: number) => {
+    setSelectedCardId(id);
+  };
 
   useEffect(() => {
     const playerDeck = getRandomCards(cities, 10);
@@ -28,31 +39,26 @@ const Play = () => {
     rivalDeck.forEach((card) => {
       dispatch(cardAdded({ player: "playerTwo", card: card }));
     });
+
+    const randomPlayer = Math.random() < 0.5 ? playerOne : playerTwo;
+    dispatch(turnChanged(randomPlayer));
   }, []);
 
-  const handleSelectCard = (id: number) => {
-    setSelectedCardId(id);
-  };
-
   useEffect(() => {
-    if (selectedCardId && deckTurn === "dedeia") {
+    if (selectedCardId && turnState === playerOne) {
       const card = playerDeck.find((card) => card.id === selectedCardId);
       setSelectedCard(card || null);
     }
 
-    if (selectedCardId && deckTurn === "computer") {
+    if (selectedCardId && turnState === playerTwo) {
       const card = rivalDeck.find((card) => card.id === selectedCardId);
       setSelectedCard(card || null);
     }
-  }, [selectedCardId, deckTurn]);
+  }, [selectedCardId]);
 
   return (
     <S.Main>
-      <CardDeck
-        cards={rivalDeck}
-        onCardSelect={handleSelectCard}
-        isDeckTurn={deckTurn === "computer"}
-      />
+      <CardDeck cards={rivalDeck} isDeckTurn={turnState === playerTwo} />
       <Board
         player="dedeia"
         rival="computer"
@@ -61,11 +67,7 @@ const Play = () => {
         selectedCard={selectedCard}
       />
 
-      <CardDeck
-        cards={playerDeck}
-        onCardSelect={handleSelectCard}
-        isDeckTurn={deckTurn === "dedeia"}
-      />
+      <CardDeck cards={playerDeck} isDeckTurn={turnState === playerOne} />
     </S.Main>
   );
 };

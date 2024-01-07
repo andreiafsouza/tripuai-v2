@@ -22,4 +22,6 @@ export type CardProps = {
 export type CardButtonProps = {
   id: number;
   children: ReactNode;
+  isSelected?: boolean;
+  isDisabled?: boolean;
 };
