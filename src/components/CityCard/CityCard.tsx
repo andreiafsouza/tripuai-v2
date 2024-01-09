@@ -1,5 +1,5 @@
 import * as S from "./styles";
-import { CityProps } from "@/@types/global";
+import { CardProps } from "@/@types/global";
 
 export const CityCard = ({
   id,
@@ -9,7 +9,7 @@ export const CityCard = ({
   left,
   bottom,
   bioma,
-}: CityProps) => {
+}: CardProps) => {
   return (
     <S.CardContainer title={nome}>
       <S.CardContent>

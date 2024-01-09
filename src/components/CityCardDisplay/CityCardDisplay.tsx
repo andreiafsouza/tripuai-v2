@@ -1,10 +1,10 @@
 import * as S from "./styles";
 
-export type CardProps = {
+export type DisplayCardProps = {
   title: string;
 };
 
-export const CityCardDisplay = ({ title }: CardProps) => {
+export const CityCardDisplay = ({ title }: DisplayCardProps) => {
   return (
     <S.DisplayCardContainer>
       <S.CardContent>

@@ -11,10 +11,12 @@ import { checkAlreadyPlacedCards } from "@/utils";
 
 const Board = () => {
   const dispatch = useAppDispatch();
-  const boardState = useAppSelector((state) => state.board.board);
-  const turnState = useAppSelector((state) => state.board.turn);
+  const board = useAppSelector((state) => state.board.spaces);
+  const playerOneScore = useAppSelector((state) => state.board.score.playerOne);
+  const playerTwoScore = useAppSelector((state) => state.board.score.playerTwo);
+  const turn = useAppSelector((state) => state.board.turn);
   const selectedCard = useAppSelector(
-    (state) => state.decks[turnState].selectedCard
+    (state) => state.decks[turn].selectedCard
   );
   const [selectedBoardSpace, setSelectedBoardSpace] = useState<number | null>(
     null
@@ -26,23 +28,79 @@ const Board = () => {
   const playerTwo = "playerTwo";
   const columns = 3;
 
+  const getAdjacentIndexes = (index: number) => {
+    const adjacentIndexes: number[] = [];
+
+    if (index % columns !== 0) adjacentIndexes.push(index - 1); // Left
+    if (index % columns < columns - 1) adjacentIndexes.push(index + 1); // Right
+    if (index - columns >= 0) adjacentIndexes.push(index - columns); // Top
+    if (index + columns < columns * columns)
+      adjacentIndexes.push(index + columns); // Bottom
+
+    return adjacentIndexes;
+  };
+
+  const checkIfPlayerScored = (index: number) => {
+    const adjacentIndexes = getAdjacentIndexes(index);
+
+    adjacentIndexes.forEach((adjacentIndex) => {
+      const currentPlacedCard = selectedCard;
+      const adjacentCard = board[adjacentIndex];
+
+      if (
+        adjacentCard &&
+        currentPlacedCard &&
+        adjacentCard.player !== currentPlacedCard.player
+      ) {
+        const comparisons = [
+          {
+            index: adjacentIndex === index - 1,
+            condition: currentPlacedCard.left > adjacentCard.right,
+          },
+          {
+            index: adjacentIndex === index + 1,
+            condition: currentPlacedCard.right > adjacentCard.left,
+          },
+          {
+            index: adjacentIndex === index - columns,
+            condition: currentPlacedCard.top > adjacentCard.bottom,
+          },
+          {
+            index: adjacentIndex === index + columns,
+            condition: currentPlacedCard.bottom > adjacentCard.top,
+          },
+        ];
+
+        comparisons.forEach(({ index, condition }) => {
+          if (index && condition) {
+            dispatch(
+              scoreUpdated({
+                player: currentPlacedCard.player,
+                turnedCard: adjacentCard,
+                addScore: 1,
+              })
+            );
+          }
+        });
+      }
+    });
+  };
+
   const handleAddCardToBoard = (index: number) => {
     if (selectedCard) {
-      const isCardAlreadyPlaced = checkAlreadyPlacedCards(
-        boardState,
-        selectedCard
-      );
+      const isCardAlreadyPlaced = checkAlreadyPlacedCards(board, selectedCard);
 
       if (!isCardAlreadyPlaced) {
         dispatch(cardAddedToBoard({ index: index, card: selectedCard }));
-        const nextPlayerTurn = turnState === playerTwo ? playerOne : playerTwo;
+        const nextPlayerTurn = turn === playerTwo ? playerOne : playerTwo;
         dispatch(turnChanged(nextPlayerTurn));
         setSelectedBoardSpace(index);
+        checkIfPlayerScored(index);
       }
     }
   };
 
-  const handleKeyDown = (event: KeyboardEvent) => {
+  const handleSelectSpaceOnKeyPress = (event: KeyboardEvent) => {
     setSelectedBoardSpace((prevSelectedBoardSpace) => {
       let newSelectedBoardSpace =
         prevSelectedBoardSpace !== null ? prevSelectedBoardSpace : 0;
@@ -79,7 +137,7 @@ const Board = () => {
   useEffect(() => {
     if (selectedCard) {
       setMessage("Escolha onde quer colocar a carta selecionada");
-      const nextAvailableBoardSpace = boardState.findIndex(
+      const nextAvailableBoardSpace = board.findIndex(
         (space) => space === null
       );
       setSelectedBoardSpace(nextAvailableBoardSpace);
@@ -87,28 +145,27 @@ const Board = () => {
       //if the card is selected add the event listener to move across the board with arrow keys
       document.addEventListener(
         "keydown",
-        handleKeyDown as unknown as EventListener
+        handleSelectSpaceOnKeyPress as unknown as EventListener
       );
 
       return () => {
         document.removeEventListener(
           "keydown",
-          handleKeyDown as unknown as EventListener
+          handleSelectSpaceOnKeyPress as unknown as EventListener
         );
       };
     }
-  }, [boardState, selectedCard]);
+  }, [board, selectedCard]);
 
   useEffect(() => {
-    setMessage(
-      `${turnState} Escolha uma nova carta para adicionar ao tabuleiro`
-    );
-  }, [turnState]);
+    setMessage(`${turn} Escolha uma nova carta para adicionar ao tabuleiro`);
+  }, [turn]);
 
   useEffect(() => {
     if (boardSpaceWhenEnterIsPressed !== null) {
-      handleAddCardToBoard(boardSpaceWhenEnterIsPressed);
-      setBoardSpaceWhenEnterIsPressed(null); // Reset the pending click after handling
+      const boardIndex = boardSpaceWhenEnterIsPressed;
+      handleAddCardToBoard(boardIndex);
+      setBoardSpaceWhenEnterIsPressed(null);
     }
   }, [boardSpaceWhenEnterIsPressed]);
 
@@ -120,29 +177,30 @@ const Board = () => {
     <S.Container>
       <S.BoardMessage>{message}</S.BoardMessage>
       <S.BoardContainer>
-        {boardState.map((_, index) => (
+        {board.map((_, index) => (
           <S.BoardSpace
             key={index}
             selected={selectedBoardSpace === index}
+            $player={board[index]?.player}
             onClick={() => handleAddCardToBoard(index)}
           >
-            {boardState[index] !== null ? (
+            {board[index] !== null ? (
               <CityCard
-                nome={boardState[index]!.nome}
-                id={boardState[index]!.id}
-                top={boardState[index]!.top}
-                right={boardState[index]!.right}
-                left={boardState[index]!.left}
-                bottom={boardState[index]!.bottom}
-                bioma={boardState[index]!.bioma}
+                nome={board[index]!.nome}
+                id={board[index]!.id}
+                top={board[index]!.top}
+                right={board[index]!.right}
+                left={board[index]!.left}
+                bottom={board[index]!.bottom}
+                bioma={board[index]!.bioma}
               />
             ) : null}
           </S.BoardSpace>
         ))}
       </S.BoardContainer>
       <S.ScoreContainer>
-        <S.ScoreDisplay>{2}</S.ScoreDisplay>
-        <S.ScoreDisplay>{4}</S.ScoreDisplay>
+        <S.ScoreDisplay>{playerTwoScore}</S.ScoreDisplay>
+        <S.ScoreDisplay>{playerOneScore}</S.ScoreDisplay>
       </S.ScoreContainer>
     </S.Container>
   );

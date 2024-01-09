@@ -1,11 +1,11 @@
 export type ButtonProps = {
-  text: string;
+  text?: string;
   size: "small" | "default" | "large";
   color?: "primary" | "secondary";
-  outlined?: "true" | "false" | undefined;
+  $outlined?: "true" | "false";
 };
 
-export type CityProps = {
+export type CardProps = {
   id: number;
   nome: string;
   top: number; //Indicador IBGE 96386 - População - Densidade Demográfica.
@@ -15,9 +15,7 @@ export type CityProps = {
   bioma: string; //Indicador IBGE 77861 - Biomas.
 };
 
-export type CardProps = {
-  title: string;
-};
+export type CardInGameProps = CardProps & { player: "playerOne" | "playerTwo" };
 
 export type CardButtonProps = {
   id: number;

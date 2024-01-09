@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 type BoardSpaceProps = {
   selected: boolean;
+  $player?: "playerOne" | "playerTwo";
   children: ReactNode;
 };
 
@@ -25,8 +26,14 @@ export const BoardSpace = styled.button<BoardSpaceProps>`
   height: 216px;
   outline: none;
 
-  border: ${({ selected }) =>
-    selected ? `2px solid blue` : `1px solid black`};
+  border: ${({ selected, $player }) =>
+    $player === "playerOne"
+      ? `2px solid red`
+      : $player === "playerTwo"
+      ? `2px solid blue`
+      : selected && !$player
+      ? `2px solid lightgreen`
+      : `1px solid black`};
 `;
 
 export const ScoreContainer = styled.div`

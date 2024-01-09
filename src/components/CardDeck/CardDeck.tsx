@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { CityProps } from "@/@types/global";
+import { CardProps, CardInGameProps } from "@/@types/global";
 import { getRandomCards } from "@/utils";
 import citiesData from "../../../citiesGrouped.json";
 /* redux */
@@ -16,31 +16,26 @@ type CardDeckProps = {
 };
 
 const CardDeck = ({ player }: CardDeckProps) => {
-  const cities: CityProps[] = citiesData;
+  const cities: CardProps[] = citiesData;
   const dispatch = useAppDispatch();
-  const turnState = useAppSelector((state) => state.board.turn);
-  const boardState = useAppSelector((state) => state.board.board);
+  const currentPlayerTurn = useAppSelector((state) => state.board.turn);
+  const board = useAppSelector((state) => state.board.spaces);
   const playerDeck = useAppSelector((state) => state.decks[player].cards);
-  /*   const playerDeckSelectedCard = useAppSelector(
-    (state) => state.decks[player].selectedCard
-  ); */
   const [isSelected, setIsSelected] = useState<number | undefined>(0);
   const [turnMessage, setTurnMessage] = useState<string>("");
   const playerOne = "playerOne";
   const playerTwo = "playerTwo";
-  const isDeckTurn = turnState === player;
+  const isPlayerTurn = currentPlayerTurn === player;
 
   const selectCardFromDeck = (selectedId: number) => {
     const selectedCard = playerDeck.find((card) => card.id === selectedId);
-    dispatch(cardSelected({ player: turnState, card: selectedCard! }));
+    dispatch(cardSelected({ player: currentPlayerTurn, card: selectedCard! }));
     setIsSelected(selectedCard?.id);
   };
 
   useEffect(() => {
     const cardAlreadyPlacedOnTheBoard = playerDeck.find((playerCard) =>
-      boardState.some(
-        (boardCard) => boardCard && boardCard.id === playerCard.id
-      )
+      board.some((boardCard) => boardCard && boardCard.id === playerCard.id)
     );
 
     if (cardAlreadyPlacedOnTheBoard) {
@@ -48,19 +43,20 @@ const CardDeck = ({ player }: CardDeckProps) => {
         cardRemoved({ player: player, card: cardAlreadyPlacedOnTheBoard })
       );
     }
-  }, [boardState]);
+  }, [board]);
 
   useEffect(() => {
-    const message = isDeckTurn
-      ? `sua vez ${turnState}!`
+    const message = isPlayerTurn
+      ? `sua vez ${currentPlayerTurn}!`
       : `Aguarde o adversário`;
     setTurnMessage(message);
-  }, [isDeckTurn]);
+  }, [isPlayerTurn]);
 
   useEffect(() => {
     const playerDeck = getRandomCards(cities, 5);
     playerDeck.forEach((card) => {
-      dispatch(cardAdded({ player: player, card: card }));
+      const cardInGame: CardInGameProps = { ...card, player: player };
+      dispatch(cardAdded({ player: player, card: cardInGame }));
     });
 
     const randomPlayer = Math.random() < 0.5 ? playerOne : playerTwo;
@@ -68,11 +64,14 @@ const CardDeck = ({ player }: CardDeckProps) => {
   }, []);
 
   return (
-    <S.DeckContainer $isDeckTurn={isDeckTurn}>
+    <S.DeckContainer
+      $isPlayerTurn={isPlayerTurn}
+      $currentPlayerTurn={currentPlayerTurn}
+    >
       <S.DeckTurnTitle>{turnMessage}</S.DeckTurnTitle>
       {playerDeck?.map((city) => (
         <S.CardButton
-          disabled={!isDeckTurn}
+          disabled={!isPlayerTurn}
           $isSelected={isSelected === city.id}
           key={city.id}
           id={city.id}

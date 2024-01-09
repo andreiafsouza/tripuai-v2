@@ -1,12 +1,12 @@
-import { CityProps } from "@/@types/global";
+import { CardProps } from "@/@types/global";
 
-export const assignGroups = (cities: CityProps[]) => {
+export const assignGroups = (cities: CardProps[]) => {
   //definir propriedades a serem mapeadas
-  const properties: (keyof CityProps)[] = ["top", "right", "left", "bottom"];
+  const properties: (keyof CardProps)[] = ["top", "right", "left", "bottom"];
   //definir a quantidade de cartas que vão estar em cada grupo(853 cartas divididas em 10 grupos).
   const groupSize = [87, 85, 85, 85, 85, 85, 85, 85, 85, 86];
 
-  const groupedCities: CityProps[] = cities.map((city) => ({ ...city }));
+  const groupedCities: CardProps[] = cities.map((city) => ({ ...city }));
 
   //O valor de cada propriedade pode ir de 1 até 10, então as primeiras 87 cartas com menor valor de "top",
   //vão receber o valor 1 nessa propriedade, e assim sucessivamente.
@@ -37,7 +37,7 @@ export const assignGroups = (cities: CityProps[]) => {
   return sortedGroupedCities;
 };
 
-export function getRandomCards(cityCard: CityProps[], count: number) {
+export function getRandomCards(cityCard: CardProps[], count: number) {
   const shuffledCities = cityCard.slice().sort(() => Math.random() - 0.5); // Shuffle the array
   const selectedCards = shuffledCities.slice(0, count);
   return selectedCards;
@@ -45,8 +45,8 @@ export function getRandomCards(cityCard: CityProps[], count: number) {
 
 // Check if selected card is already placed on the Board
 export function checkAlreadyPlacedCards(
-  board: (CityProps | null)[],
-  newSelectedCard: CityProps
+  board: (CardProps | null)[],
+  newSelectedCard: CardProps
 ) {
   const isCardAlreadyPlaced = board.some(
     (card) => card && card.id === newSelectedCard.id

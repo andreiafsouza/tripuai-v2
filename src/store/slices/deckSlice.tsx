@@ -1,9 +1,9 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { CityProps } from "@/@types/global";
+import { CardProps, CardInGameProps } from "@/@types/global";
 
 export interface DeckPayloadState {
   player: "playerOne" | "playerTwo";
-  card: CityProps;
+  card: CardInGameProps;
 }
 
 export interface UserPayloadState {
@@ -13,21 +13,21 @@ export interface UserPayloadState {
 
 export interface CardPayloadState {
   player: "playerOne" | "playerTwo";
-  card: CityProps;
+  card: CardInGameProps;
 }
 
-export interface DeckState {
+type DeckState = {
   playerOne: {
     userId: number | null;
-    cards: CityProps[];
-    selectedCard: CityProps | null;
+    cards: CardInGameProps[];
+    selectedCard: CardInGameProps | null;
   };
   playerTwo: {
     userId: number | null;
-    cards: CityProps[];
-    selectedCard: CityProps | null;
+    cards: CardInGameProps[];
+    selectedCard: CardInGameProps | null;
   };
-}
+};
 
 const initialState: DeckState = {
   playerOne: {

@@ -3,16 +3,16 @@ import { useState, ChangeEvent, useEffect } from "react";
 import { CityCard } from "@/components/CityCard/CityCard";
 import { CityCardDisplay } from "@/components/CityCardDisplay/CityCardDisplay";
 import SelectCityButton from "@/components/SelectCityButton/SelectCityButton";
-import { CityProps } from "@/@types/global";
+import { CardProps } from "@/@types/global";
 
-const CityCardList = ({ cities }: { cities: CityProps[] }) => {
+const CityCardList = ({ cities }: { cities: CardProps[] }) => {
   const [selectedCity, setSelectedCIty] = useState(cities[0].nome);
   const [searchTerm, setSearchTerm] = useState("");
-  const [suggestions, setSuggestions] = useState<CityProps[]>([]);
-  const [cityCards, setCityCards] = useState<CityProps[]>([]);
+  const [suggestions, setSuggestions] = useState<CardProps[]>([]);
+  const [cityCards, setCityCards] = useState<CardProps[]>([]);
 
   const handleChangeCityCard = (name: string) => {
-    const cardName: CityProps[] = cities.filter((city) => name === city.nome);
+    const cardName: CardProps[] = cities.filter((city) => name === city.nome);
     const selectedName = cardName[0].nome;
     setSelectedCIty(selectedName);
   };

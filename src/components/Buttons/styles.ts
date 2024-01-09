@@ -1,10 +1,5 @@
 import styled from "styled-components";
-
-type ButtonProps = {
-  size?: "small" | "default" | "large";
-  color?: "primary" | "secondary";
-  outlined?: "true" | "false" | undefined;
-};
+import { ButtonProps } from "@/@types/global";
 
 export const ButtonContainer = styled.button<ButtonProps>`
   --_bg: ${({ color, theme }) =>
@@ -14,8 +9,8 @@ export const ButtonContainer = styled.button<ButtonProps>`
       ? `${theme.color.nudeDust}`
       : "transparent"};
 
-  --_out-color: ${({ outlined, theme }) =>
-    outlined === "true"
+  --_out-color: ${({ $outlined, theme }) =>
+    $outlined === "true"
       ? `${theme.color.nudeDust}`
       : `${theme.color.nudeLion}`};
   background: var(--_bg);
