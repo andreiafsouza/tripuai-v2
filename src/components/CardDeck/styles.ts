@@ -2,15 +2,15 @@ import styled from "styled-components";
 import { CardButtonProps } from "@/@types/global";
 
 type DeckConteinerProps = {
-  isDeckTurn: boolean;
+  $isDeckTurn: boolean;
 };
 
 export const DeckContainer = styled.section<DeckConteinerProps>`
   display: flex;
   flex-direction: column;
 
-  border: ${({ isDeckTurn }) =>
-    isDeckTurn ? "2px solid green" : "2px solid tranparent"};
+  border: ${({ $isDeckTurn }) =>
+    $isDeckTurn ? "2px solid green" : "2px solid tranparent"};
 `;
 
 export const CardButton = styled.button<CardButtonProps>`
@@ -20,8 +20,8 @@ export const CardButton = styled.button<CardButtonProps>`
 
   cursor: pointer;
 
-  border: ${({ isSelected }) =>
-    isSelected ? "2px solid green" : "2px solid tranparent"};
+  border: ${({ $isSelected }) =>
+    $isSelected ? "2px solid green" : "2px solid tranparent"};
 
   & :hover {
     background: ${(props) => props.theme.color.greenTea};

@@ -31,12 +31,12 @@ const CardDeck = ({ cards, isDeckTurn }: CardDeckProps) => {
   }, [isDeckTurn]);
 
   return (
-    <S.DeckContainer isDeckTurn={isDeckTurn}>
+    <S.DeckContainer $isDeckTurn={isDeckTurn}>
       <S.DeckTurnTitle>{turnMessage}</S.DeckTurnTitle>
       {cards?.map((city) => (
         <S.CardButton
           disabled={!isDeckTurn}
-          isSelected={isSelected === city.id}
+          $isSelected={isSelected === city.id}
           key={city.id}
           id={city.id}
           onClick={() => selectCardFromDeck(city.id)}

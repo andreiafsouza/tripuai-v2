@@ -19,14 +19,8 @@ const Play = () => {
   const playerDeck = useAppSelector((state) => state.decks.playerOne.cards);
   const rivalDeck = useAppSelector((state) => state.decks.playerTwo.cards);
   const turnState = useAppSelector((state) => state.board.turn);
-  const [selectedCardId, setSelectedCardId] = useState<number | null>(null);
-  const [selectedCard, setSelectedCard] = useState<CityProps | null>(null);
   const playerOne = "playerOne";
   const playerTwo = "playerTwo";
-
-  const handleSelectCard = (id: number) => {
-    setSelectedCardId(id);
-  };
 
   useEffect(() => {
     const playerDeck = getRandomCards(cities, 10);
@@ -44,22 +38,10 @@ const Play = () => {
     dispatch(turnChanged(randomPlayer));
   }, []);
 
-  useEffect(() => {
-    if (selectedCardId && turnState === playerOne) {
-      const card = playerDeck.find((card) => card.id === selectedCardId);
-      setSelectedCard(card || null);
-    }
-
-    if (selectedCardId && turnState === playerTwo) {
-      const card = rivalDeck.find((card) => card.id === selectedCardId);
-      setSelectedCard(card || null);
-    }
-  }, [selectedCardId]);
-
   return (
     <S.Main>
       <CardDeck cards={rivalDeck} isDeckTurn={turnState === playerTwo} />
-      <Board playerPoints={4} computerPoints={2} selectedCard={selectedCard} />
+      <Board />
       <CardDeck cards={playerDeck} isDeckTurn={turnState === playerOne} />
     </S.Main>
   );

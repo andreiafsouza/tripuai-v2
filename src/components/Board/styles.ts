@@ -20,11 +20,13 @@ export const BoardMessage = styled.h1`
 `;
 
 export const BoardSpace = styled.button<BoardSpaceProps>`
+  display: flex;
   width: 173px;
   height: 216px;
   outline: none;
 
-  border: ${({ selected }) => (selected ? `2px solid blue` : `1px solid red`)};
+  border: ${({ selected }) =>
+    selected ? `2px solid blue` : `1px solid black`};
 `;
 
 export const ScoreContainer = styled.div`

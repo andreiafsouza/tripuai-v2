@@ -6,18 +6,13 @@ import {
   boardUpdated,
   turnChanged,
   scoreUpdated,
+  cardAddedToBoard,
 } from "@/store/slices/boardSlice";
 import { useAppDispatch, useAppSelector } from "@/hooks";
 import { cardRemoved } from "@/store/slices/deckSlice";
 import { checkAlreadyPlacedCards } from "@/utils";
 
-export type BoardProps = {
-  selectedCard?: CityProps | null;
-  playerPoints: number;
-  computerPoints: number;
-};
-
-const Board = ({ playerPoints, computerPoints }: BoardProps) => {
+const Board = () => {
   const dispatch = useAppDispatch();
   const boardState = useAppSelector((state) => state.board.board);
   const turnState = useAppSelector((state) => state.board.turn);
@@ -28,7 +23,6 @@ const Board = ({ playerPoints, computerPoints }: BoardProps) => {
   const [message, setMessage] = useState<string | null>(null);
   const playerOne = "playerOne";
   const playerTwo = "playerTwo";
-  //const [selectedCard, setSelectedCard] = useState<CityProps | null>(null);
   const columns = 3;
 
   const handleSpaceClick = (index: number) => {
@@ -36,19 +30,18 @@ const Board = ({ playerPoints, computerPoints }: BoardProps) => {
       setMessage(
         `${turnState} Escolha uma nova carta para adicionar ao tabuleiro`
       );
-      const updatedBoardState = [...boardState];
+
       const isCardAlreadyPlaced = checkAlreadyPlacedCards(
-        updatedBoardState,
+        boardState,
         selectedCard
       );
 
       if (!isCardAlreadyPlaced) {
         const nextTurn = turnState === playerTwo ? playerOne : playerTwo; //set next turn
-        updatedBoardState[index] = selectedCard;
-        dispatch(boardUpdated(updatedBoardState)); // updated board state with new card added
-        dispatch(cardRemoved({ player: turnState, card: selectedCard })); //
+        dispatch(cardRemoved({ player: turnState, card: selectedCard }));
         dispatch(turnChanged(nextTurn)); // updated turn on redux state to the next player to make a move
         setSelectedSpace(index);
+        dispatch(cardAddedToBoard({ index: index, card: selectedCard })); // updated board state with new card added
       }
     }
   };
@@ -105,7 +98,7 @@ const Board = ({ playerPoints, computerPoints }: BoardProps) => {
         );
       };
     }
-  }, [boardState]);
+  }, [boardState, selectedCard]);
 
   useEffect(() => {
     setMessage("Escolha uma carta para adicionar ao tabuleiro");
@@ -115,7 +108,7 @@ const Board = ({ playerPoints, computerPoints }: BoardProps) => {
     <S.Container>
       <S.BoardMessage>{message}</S.BoardMessage>
       <S.BoardContainer>
-        {Array.from({ length: 9 }).map((_, index) => (
+        {boardState.map((_, index) => (
           <S.BoardSpace
             key={index}
             selected={selectedSpace === index}
@@ -136,8 +129,8 @@ const Board = ({ playerPoints, computerPoints }: BoardProps) => {
         ))}
       </S.BoardContainer>
       <S.ScoreContainer>
-        <S.ScoreDisplay>{computerPoints}</S.ScoreDisplay>
-        <S.ScoreDisplay>{playerPoints}</S.ScoreDisplay>
+        <S.ScoreDisplay>{2}</S.ScoreDisplay>
+        <S.ScoreDisplay>{4}</S.ScoreDisplay>
       </S.ScoreContainer>
     </S.Container>
   );
