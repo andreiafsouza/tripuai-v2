@@ -1,15 +1,12 @@
 import * as S from "./styles";
 import { useState, useEffect, KeyboardEvent } from "react";
-import { CityProps } from "@/@types/global";
 import { CityCard } from "../CityCard/CityCard";
 import {
-  boardUpdated,
   turnChanged,
   scoreUpdated,
   cardAddedToBoard,
 } from "@/store/slices/boardSlice";
 import { useAppDispatch, useAppSelector } from "@/hooks";
-import { cardRemoved } from "@/store/slices/deckSlice";
 import { checkAlreadyPlacedCards } from "@/utils";
 
 const Board = () => {
@@ -19,61 +16,63 @@ const Board = () => {
   const selectedCard = useAppSelector(
     (state) => state.decks[turnState].selectedCard
   );
-  const [selectedSpace, setSelectedSpace] = useState<number | null>(null);
+  const [selectedBoardSpace, setSelectedBoardSpace] = useState<number | null>(
+    null
+  );
+  const [boardSpaceWhenEnterIsPressed, setBoardSpaceWhenEnterIsPressed] =
+    useState<number | null>(null);
   const [message, setMessage] = useState<string | null>(null);
   const playerOne = "playerOne";
   const playerTwo = "playerTwo";
   const columns = 3;
 
-  const handleSpaceClick = (index: number) => {
+  const handleAddCardToBoard = (index: number) => {
     if (selectedCard) {
-      setMessage(
-        `${turnState} Escolha uma nova carta para adicionar ao tabuleiro`
-      );
-
       const isCardAlreadyPlaced = checkAlreadyPlacedCards(
         boardState,
         selectedCard
       );
 
       if (!isCardAlreadyPlaced) {
-        const nextTurn = turnState === playerTwo ? playerOne : playerTwo; //set next turn
-        dispatch(cardRemoved({ player: turnState, card: selectedCard }));
-        dispatch(turnChanged(nextTurn)); // updated turn on redux state to the next player to make a move
-        setSelectedSpace(index);
-        dispatch(cardAddedToBoard({ index: index, card: selectedCard })); // updated board state with new card added
+        dispatch(cardAddedToBoard({ index: index, card: selectedCard }));
+        const nextPlayerTurn = turnState === playerTwo ? playerOne : playerTwo;
+        dispatch(turnChanged(nextPlayerTurn));
+        setSelectedBoardSpace(index);
       }
     }
   };
 
   const handleKeyDown = (event: KeyboardEvent) => {
-    setSelectedSpace((prevSelectedSpace) => {
-      let newSelectedSpace = prevSelectedSpace !== null ? prevSelectedSpace : 0;
+    setSelectedBoardSpace((prevSelectedBoardSpace) => {
+      let newSelectedBoardSpace =
+        prevSelectedBoardSpace !== null ? prevSelectedBoardSpace : 0;
 
       switch (event.key) {
         case "ArrowLeft":
-          if (newSelectedSpace % columns !== 0) newSelectedSpace -= 1;
+          if (newSelectedBoardSpace % columns !== 0) newSelectedBoardSpace -= 1;
           break;
         case "ArrowRight":
-          if (newSelectedSpace % columns < columns - 1) newSelectedSpace += 1;
+          if (newSelectedBoardSpace % columns < columns - 1)
+            newSelectedBoardSpace += 1;
           break;
         case "ArrowUp":
-          if (newSelectedSpace - columns >= 0) newSelectedSpace -= columns;
+          if (newSelectedBoardSpace - columns >= 0)
+            newSelectedBoardSpace -= columns;
           break;
         case "ArrowDown":
-          if (newSelectedSpace + columns < columns * columns)
-            newSelectedSpace += columns;
+          if (newSelectedBoardSpace + columns < columns * columns)
+            newSelectedBoardSpace += columns;
           break;
         case "Enter":
-          if (newSelectedSpace || newSelectedSpace === 0) {
-            handleSpaceClick(newSelectedSpace);
+          if (newSelectedBoardSpace || newSelectedBoardSpace === 0) {
+            setBoardSpaceWhenEnterIsPressed(newSelectedBoardSpace);
           }
           break;
         default:
           break;
       }
 
-      return newSelectedSpace;
+      return newSelectedBoardSpace;
     });
   };
 
@@ -83,7 +82,7 @@ const Board = () => {
       const nextAvailableBoardSpace = boardState.findIndex(
         (space) => space === null
       );
-      setSelectedSpace(nextAvailableBoardSpace);
+      setSelectedBoardSpace(nextAvailableBoardSpace);
 
       //if the card is selected add the event listener to move across the board with arrow keys
       document.addEventListener(
@@ -101,6 +100,19 @@ const Board = () => {
   }, [boardState, selectedCard]);
 
   useEffect(() => {
+    setMessage(
+      `${turnState} Escolha uma nova carta para adicionar ao tabuleiro`
+    );
+  }, [turnState]);
+
+  useEffect(() => {
+    if (boardSpaceWhenEnterIsPressed !== null) {
+      handleAddCardToBoard(boardSpaceWhenEnterIsPressed);
+      setBoardSpaceWhenEnterIsPressed(null); // Reset the pending click after handling
+    }
+  }, [boardSpaceWhenEnterIsPressed]);
+
+  useEffect(() => {
     setMessage("Escolha uma carta para adicionar ao tabuleiro");
   }, []);
 
@@ -111,8 +123,8 @@ const Board = () => {
         {boardState.map((_, index) => (
           <S.BoardSpace
             key={index}
-            selected={selectedSpace === index}
-            onClick={() => handleSpaceClick(index)}
+            selected={selectedBoardSpace === index}
+            onClick={() => handleAddCardToBoard(index)}
           >
             {boardState[index] !== null ? (
               <CityCard
