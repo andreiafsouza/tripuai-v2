@@ -34,6 +34,11 @@ export const BoardSpace = styled.button<BoardSpaceProps>`
       : selected && !$player
       ? `2px solid lightgreen`
       : `1px solid black`};
+
+  &:hover {
+    background: ${({ $player, theme }) =>
+      !$player ? theme.color.greenTea : ""};
+  }
 `;
 
 export const ScoreContainer = styled.div`
