@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { CardProps, CardInGameProps } from "@/@types/global";
+import { CardInGameProps } from "@/@types/global";
 
 export interface DeckPayloadState {
   player: "playerOne" | "playerTwo";
@@ -13,7 +13,7 @@ export interface UserPayloadState {
 
 export interface CardPayloadState {
   player: "playerOne" | "playerTwo";
-  card: CardInGameProps;
+  card: CardInGameProps | null;
 }
 
 type DeckState = {

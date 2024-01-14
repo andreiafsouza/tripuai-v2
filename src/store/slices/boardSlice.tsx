@@ -51,7 +51,8 @@ const boardSlice = createSlice({
       });
     },
     cardAddedToBoard(state, action: PayloadAction<AddCardState>) {
-      state.spaces[action.payload.index] = action.payload.card;
+      if (state.spaces[action.payload.index] === null)
+        state.spaces[action.payload.index] = action.payload.card;
     },
   },
 });

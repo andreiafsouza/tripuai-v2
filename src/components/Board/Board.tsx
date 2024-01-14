@@ -6,8 +6,8 @@ import {
   scoreUpdated,
   cardAddedToBoard,
 } from "@/store/slices/boardSlice";
+import { cardSelected } from "@/store/slices/deckSlice";
 import { useAppDispatch, useAppSelector } from "@/hooks";
-import { checkAlreadyPlacedCards } from "@/utils";
 
 const Board = () => {
   const dispatch = useAppDispatch();
@@ -15,6 +15,7 @@ const Board = () => {
   const playerOneScore = useAppSelector((state) => state.board.score.playerOne);
   const playerTwoScore = useAppSelector((state) => state.board.score.playerTwo);
   const turn = useAppSelector((state) => state.board.turn);
+  const playerDeck = useAppSelector((state) => state.decks[turn].cards);
   const selectedCard = useAppSelector(
     (state) => state.decks[turn].selectedCard
   );
@@ -88,10 +89,15 @@ const Board = () => {
 
   const handleAddCardToBoard = (index: number) => {
     if (selectedCard) {
-      const isCardAlreadyPlaced = checkAlreadyPlacedCards(board, selectedCard);
+      const isCardPlacedOnTheBoard = playerDeck.find((playerCard) =>
+        board.some((boardCard) => boardCard && boardCard.id === playerCard.id)
+      );
 
-      if (!isCardAlreadyPlaced) {
+      const isBoardSpaceEmpty = board[index] === null;
+
+      if (!isCardPlacedOnTheBoard && isBoardSpaceEmpty) {
         dispatch(cardAddedToBoard({ index: index, card: selectedCard }));
+        dispatch(cardSelected({ player: turn, card: null }));
         const nextPlayerTurn = turn === playerTwo ? playerOne : playerTwo;
         dispatch(turnChanged(nextPlayerTurn));
         setSelectedBoardSpace(index);
