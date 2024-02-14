@@ -21,23 +21,27 @@ export const BoardMessage = styled.h1`
 `;
 
 export const BoardSpace = styled.button<BoardSpaceProps>`
+  all: unset;
   display: flex;
   width: 173px;
   height: 216px;
   outline: none;
+  background: ${(props) => props.theme.color.nudeRose};
+  border: 2px solid transparent;
 
-  border: ${({ selected, $player }) =>
+  border: ${({ selected, $player, theme }) =>
     $player === "playerOne"
       ? `2px solid red`
       : $player === "playerTwo"
       ? `2px solid blue`
       : selected && !$player
-      ? `2px solid lightgreen`
-      : `1px solid black`};
+      ? `2px solid ${theme.color.greenWasabi}`
+      : `2px solid ${theme.color.nudeDust}`};
 
-  &:hover {
+  &:hover:not(:disabled) {
+    cursor: pointer;
     background: ${({ $player, theme }) =>
-      !$player ? theme.color.greenTea : ""};
+      !$player ? theme.color.greenWasabi : ""};
   }
 `;
 

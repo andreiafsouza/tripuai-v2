@@ -21,17 +21,97 @@ const CardDeck = ({ player }: CardDeckProps) => {
   const currentPlayerTurn = useAppSelector((state) => state.board.turn);
   const board = useAppSelector((state) => state.board.spaces);
   const playerDeck = useAppSelector((state) => state.decks[player].cards);
+  const selectedCard = useAppSelector(
+    (state) => state.decks[player].selectedCard
+  );
   const [isSelected, setIsSelected] = useState<number | undefined>(0);
   const [turnMessage, setTurnMessage] = useState<string>("");
-  const playerOne = "playerOne";
-  const playerTwo = "playerTwo";
   const isPlayerTurn = currentPlayerTurn === player;
+  const [selectedDeckIndex, setSelectedDeckIndex] = useState<number | null>(
+    null
+  );
+  const [deckIndexWhenEnterIsPressed, setDeckIndexWhenEnterIsPressed] =
+    useState<number | null>(null);
 
-  const selectCardFromDeck = (selectedId: number) => {
+  const selectCardFromDeck = (selectedId: number, index: number) => {
     const selectedCard = playerDeck.find((card) => card.id === selectedId);
     dispatch(cardSelected({ player: currentPlayerTurn, card: selectedCard! }));
     setIsSelected(selectedCard?.id);
+    setSelectedDeckIndex(index);
   };
+
+  const handleSelectCardOnKeyPress = (event: KeyboardEvent) => {
+    setSelectedDeckIndex((prevselectedDeckIndex) => {
+      let newSelectedDeckIndex =
+        prevselectedDeckIndex !== null ? prevselectedDeckIndex : 0;
+
+      switch (event.key) {
+        case "ArrowUp":
+          newSelectedDeckIndex = Math.max(0, newSelectedDeckIndex - 1);
+          break;
+        case "ArrowDown":
+          newSelectedDeckIndex = Math.min(
+            playerDeck.length > 0 ? playerDeck.length - 1 : 0,
+            newSelectedDeckIndex + 1
+          );
+          break;
+        case "Enter":
+          if (newSelectedDeckIndex !== null) {
+            setDeckIndexWhenEnterIsPressed(newSelectedDeckIndex);
+          }
+          break;
+        default:
+          break;
+      }
+
+      return newSelectedDeckIndex;
+    });
+  };
+
+  const handleEscape = (event: KeyboardEvent) => {
+    switch (event.key) {
+      case "Escape":
+        dispatch(cardSelected({ player: currentPlayerTurn, card: null }));
+        setSelectedDeckIndex(0);
+        setDeckIndexWhenEnterIsPressed(null);
+        setIsSelected(0);
+        break;
+      default:
+        break;
+    }
+  };
+
+  useEffect(() => {
+    if (isPlayerTurn && selectedCard) {
+      document.addEventListener(
+        "keydown",
+        handleEscape as unknown as EventListener
+      );
+
+      return () => {
+        document.removeEventListener(
+          "keydown",
+          handleEscape as unknown as EventListener
+        );
+      };
+    }
+  }, [isPlayerTurn, selectedCard]);
+
+  useEffect(() => {
+    if (
+      deckIndexWhenEnterIsPressed !== null &&
+      deckIndexWhenEnterIsPressed >= 0 &&
+      deckIndexWhenEnterIsPressed < playerDeck.length
+    ) {
+      const cardOnDeckIndex = playerDeck[deckIndexWhenEnterIsPressed];
+
+      if (cardOnDeckIndex) {
+        const cardId = cardOnDeckIndex.id;
+        selectCardFromDeck(cardId, deckIndexWhenEnterIsPressed);
+      }
+      setDeckIndexWhenEnterIsPressed(null);
+    }
+  }, [deckIndexWhenEnterIsPressed, playerDeck, selectCardFromDeck]);
 
   useEffect(() => {
     const cardAlreadyPlacedOnTheBoard = playerDeck.find((playerCard) =>
@@ -46,10 +126,10 @@ const CardDeck = ({ player }: CardDeckProps) => {
   }, [board]);
 
   useEffect(() => {
-    const message = isPlayerTurn
-      ? `sua vez ${currentPlayerTurn}!`
-      : `Aguarde o adversário`;
+    if(isPlayerTurn){
+      const message = isPlayerTurn ? `sua vez ${currentPlayerTurn}!` : " ";
     setTurnMessage(message);
+    }
   }, [isPlayerTurn]);
 
   useEffect(() => {
@@ -58,24 +138,44 @@ const CardDeck = ({ player }: CardDeckProps) => {
       const cardInGame: CardInGameProps = { ...card, player: player };
       dispatch(cardAdded({ player: player, card: cardInGame }));
     });
-
-    const randomPlayer = Math.random() < 0.5 ? playerOne : playerTwo;
-    dispatch(turnChanged(randomPlayer));
   }, []);
 
+  useEffect(() => {
+    if (!selectedCard && isPlayerTurn) {
+      setSelectedDeckIndex(0)
+      document.addEventListener(
+        "keydown",
+        handleSelectCardOnKeyPress as unknown as EventListener
+      );
+
+      return () => {
+        document.removeEventListener(
+          "keydown",
+          handleSelectCardOnKeyPress as unknown as EventListener
+        );
+      };
+    }
+  }, [selectedCard, isPlayerTurn]);
+
+console.log("HELLO")
+
   return (
-    <S.DeckContainer
-      $isPlayerTurn={isPlayerTurn}
-      $currentPlayerTurn={currentPlayerTurn}
-    >
+    <S.DeckContainer id={player}>
       <S.DeckTurnTitle>{turnMessage}</S.DeckTurnTitle>
-      {playerDeck?.map((city) => (
+      {playerDeck?.map((city, index) => (
         <S.CardButton
+          $currentPlayerTurn={currentPlayerTurn}
           disabled={!isPlayerTurn}
-          $isSelected={isSelected === city.id}
+          $isCardSelected={isSelected === city.id}
+          $isIndexSelected={selectedDeckIndex === index}
           key={city.id}
           id={city.id}
-          onClick={() => selectCardFromDeck(city.id)}
+          onClick={() => isPlayerTurn ? selectCardFromDeck(city.id, index) : null}
+          onMouseOver={() => isPlayerTurn ? setSelectedDeckIndex(index) : null}
+          onMouseLeave={() =>
+            !selectedCard && isPlayerTurn ? setSelectedDeckIndex(0) : setSelectedDeckIndex(null)
+          }
+          onFocus={() => setSelectedDeckIndex(index)}
         >
           <CityCard
             nome={city.nome}

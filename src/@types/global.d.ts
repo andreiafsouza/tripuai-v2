@@ -20,6 +20,9 @@ export type CardInGameProps = CardProps & { player: "playerOne" | "playerTwo" };
 export type CardButtonProps = {
   id: number;
   children: ReactNode;
-  $isSelected?: boolean;
+  $isCardSelected?: boolean;
+  $isIndexSelected?: boolean;
   $isDisabled?: boolean;
+  $isPlayerTurn?: boolean;
+  $currentPlayerTurn?: "playerOne" | "playerTwo";
 };

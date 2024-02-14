@@ -33,6 +33,7 @@ export const defaultTheme = {
 
     orangeSaffron: "#ff9233",
     redCarmine: "#eb4747",
+    blueCerulean: "#1D7BAE",
   },
 
   /* fonts */

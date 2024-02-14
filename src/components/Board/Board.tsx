@@ -186,6 +186,7 @@ const Board = () => {
         {board.map((_, index) => (
           <S.BoardSpace
             key={index}
+            disabled={!selectedCard}
             selected={selectedBoardSpace === index}
             $player={board[index]?.player}
             onClick={() => handleAddCardToBoard(index)}

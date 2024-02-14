@@ -1,21 +1,9 @@
 import styled from "styled-components";
 import { CardButtonProps } from "@/@types/global";
 
-type DeckConteinerProps = {
-  $isPlayerTurn: boolean;
-  $currentPlayerTurn: "playerOne" | "playerTwo";
-};
-
-export const DeckContainer = styled.section<DeckConteinerProps>`
+export const DeckContainer = styled.section`
   display: flex;
   flex-direction: column;
-
-  border: ${({ $isPlayerTurn, $currentPlayerTurn }) =>
-    $isPlayerTurn && $currentPlayerTurn === "playerOne"
-      ? "2px solid red"
-      : $isPlayerTurn && $currentPlayerTurn === "playerTwo"
-      ? "2px solid blue"
-      : "2px solid tranparent"};
 `;
 
 export const CardButton = styled.button<CardButtonProps>`
@@ -25,11 +13,43 @@ export const CardButton = styled.button<CardButtonProps>`
 
   cursor: pointer;
 
-  border: ${({ $isSelected }) =>
-    $isSelected ? "2px solid green" : "2px solid tranparent"};
+  background: ${({ $isCardSelected, theme }) =>
+    $isCardSelected ? theme.color.greenWasabi : ""};
 
-  & :hover {
-    background: ${(props) => props.theme.color.greenTea};
+  border-radius: 32px;
+  border: 2px solid transparent;
+
+  &:not(:disabled) {
+    border: ${({
+      $isCardSelected,
+      $currentPlayerTurn,
+      $isIndexSelected,
+      theme,
+    }) =>
+      !$isCardSelected && $isIndexSelected
+        ? $currentPlayerTurn === "playerOne"
+          ? `2px solid ${theme.color.redCarmine}`
+          : $currentPlayerTurn === "playerTwo"
+          ? `2px solid ${theme.color.blueCerulean}`
+          : "2px solid transparent"
+        : "2px solid transparent"};
+  }
+
+  &:hover:not(:disabled),
+  &:focus:not(:disabled) {
+    border: ${({
+      $isCardSelected,
+      $currentPlayerTurn,
+      $isIndexSelected,
+      theme,
+    }) =>
+      !$isCardSelected || $isIndexSelected
+        ? $currentPlayerTurn === "playerOne"
+          ? `2px solid ${theme.color.redCarmine}`
+          : $currentPlayerTurn === "playerTwo"
+          ? `2px solid ${theme.color.blueCerulean}`
+          : "2px solid transparent"
+        : "2px solid transparent"};
   }
 `;
 
