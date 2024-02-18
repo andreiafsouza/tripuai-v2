@@ -3,7 +3,6 @@ import { CardProps, CardInGameProps } from "@/@types/global";
 import { getRandomCards } from "@/utils";
 import citiesData from "../../../citiesGrouped.json";
 /* redux */
-import { turnChanged } from "@/store/slices/boardSlice";
 import { cardAdded, cardRemoved, cardSelected } from "@/store/slices/deckSlice";
 import { useAppDispatch, useAppSelector } from "@/hooks";
 /* components */
@@ -72,7 +71,6 @@ const CardDeck = ({ player }: CardDeckProps) => {
     switch (event.key) {
       case "Escape":
         dispatch(cardSelected({ player: currentPlayerTurn, card: null }));
-        setSelectedDeckIndex(0);
         setDeckIndexWhenEnterIsPressed(null);
         setIsSelected(0);
         break;
@@ -80,22 +78,6 @@ const CardDeck = ({ player }: CardDeckProps) => {
         break;
     }
   };
-
-  useEffect(() => {
-    if (isPlayerTurn && selectedCard) {
-      document.addEventListener(
-        "keydown",
-        handleEscape as unknown as EventListener
-      );
-
-      return () => {
-        document.removeEventListener(
-          "keydown",
-          handleEscape as unknown as EventListener
-        );
-      };
-    }
-  }, [isPlayerTurn, selectedCard]);
 
   useEffect(() => {
     if (
@@ -126,9 +108,9 @@ const CardDeck = ({ player }: CardDeckProps) => {
   }, [board]);
 
   useEffect(() => {
-    if(isPlayerTurn){
+    if (isPlayerTurn) {
       const message = isPlayerTurn ? `sua vez ${currentPlayerTurn}!` : " ";
-    setTurnMessage(message);
+      setTurnMessage(message);
     }
   }, [isPlayerTurn]);
 
@@ -141,8 +123,22 @@ const CardDeck = ({ player }: CardDeckProps) => {
   }, []);
 
   useEffect(() => {
+    if (isPlayerTurn && selectedCard) {
+      document.addEventListener(
+        "keydown",
+        handleEscape as unknown as EventListener
+      );
+
+      return () => {
+        document.removeEventListener(
+          "keydown",
+          handleEscape as unknown as EventListener
+        );
+      };
+    }
+
     if (!selectedCard && isPlayerTurn) {
-      setSelectedDeckIndex(0)
+      setSelectedDeckIndex(0);
       document.addEventListener(
         "keydown",
         handleSelectCardOnKeyPress as unknown as EventListener
@@ -157,25 +153,35 @@ const CardDeck = ({ player }: CardDeckProps) => {
     }
   }, [selectedCard, isPlayerTurn]);
 
-console.log("HELLO")
+  const handleMouseOverCard = (index: number) => {
+    !selectedCard && isPlayerTurn && setSelectedDeckIndex(index)
+  };
+
+  const handleMouseLeaveCard = () => {
+    !selectedCard && isPlayerTurn
+      ? setSelectedDeckIndex(0)
+      : setSelectedDeckIndex(null);
+  };
+
+  const handleOnClickCard = (id: number, index: number) => {
+    isPlayerTurn && selectCardFromDeck(id, index);
+  };
 
   return (
     <S.DeckContainer id={player}>
       <S.DeckTurnTitle>{turnMessage}</S.DeckTurnTitle>
       {playerDeck?.map((city, index) => (
         <S.CardButton
-          $currentPlayerTurn={currentPlayerTurn}
-          disabled={!isPlayerTurn}
-          $isCardSelected={isSelected === city.id}
-          $isIndexSelected={selectedDeckIndex === index}
           key={city.id}
           id={city.id}
-          onClick={() => isPlayerTurn ? selectCardFromDeck(city.id, index) : null}
-          onMouseOver={() => isPlayerTurn ? setSelectedDeckIndex(index) : null}
-          onMouseLeave={() =>
-            !selectedCard && isPlayerTurn ? setSelectedDeckIndex(0) : setSelectedDeckIndex(null)
-          }
+          $currentPlayerTurn={currentPlayerTurn}
+          $isCardSelected={isSelected === city.id}
+          $isIndexSelected={selectedDeckIndex === index}
+          onClick={() => handleOnClickCard(city.id, index)}
+          onMouseOver={() => handleMouseOverCard(index)}
+          onMouseLeave={handleMouseLeaveCard}
           onFocus={() => setSelectedDeckIndex(index)}
+          disabled={!isPlayerTurn}
         >
           <CityCard
             nome={city.nome}

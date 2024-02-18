@@ -34,23 +34,6 @@ export const CardButton = styled.button<CardButtonProps>`
           : "2px solid transparent"
         : "2px solid transparent"};
   }
-
-  &:hover:not(:disabled),
-  &:focus:not(:disabled) {
-    border: ${({
-      $isCardSelected,
-      $currentPlayerTurn,
-      $isIndexSelected,
-      theme,
-    }) =>
-      !$isCardSelected || $isIndexSelected
-        ? $currentPlayerTurn === "playerOne"
-          ? `2px solid ${theme.color.redCarmine}`
-          : $currentPlayerTurn === "playerTwo"
-          ? `2px solid ${theme.color.blueCerulean}`
-          : "2px solid transparent"
-        : "2px solid transparent"};
-  }
 `;
 
 export const DeckTurnTitle = styled.p`
