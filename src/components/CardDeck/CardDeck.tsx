@@ -81,6 +81,14 @@ const CardDeck = ({ player }: CardDeckProps) => {
     }
   };
 
+  const assignCardsToDeck = () => {
+    const playerDeck = getRandomCards(cities, 5);
+    playerDeck.forEach((card) => {
+      const cardInGame: CardInGameProps = { ...card, player: player };
+      dispatch(cardAdded({ player: player, card: cardInGame }));
+    });
+  };
+
   useEffect(() => {
     if (!selectedCard && isPlayerTurn) {
       document.addEventListener("keydown", handleSelectCardOnKeyPress);
@@ -124,18 +132,22 @@ const CardDeck = ({ player }: CardDeckProps) => {
       );
     }
   }, [board]);
-  
-  useEffect(() => {
-    setSelectedDeckIndex(0)
-  }, [isPlayerTurn])
-  
 
   useEffect(() => {
-    const playerDeck = getRandomCards(cities, 5);
-    playerDeck.forEach((card) => {
-      const cardInGame: CardInGameProps = { ...card, player: player };
-      dispatch(cardAdded({ player: player, card: cardInGame }));
-    });
+    setSelectedDeckIndex(0);
+  }, [isPlayerTurn]);
+
+  useEffect(() => {
+    //reset the deck if match is over (board is full)
+    const isBoardNotFull = board.filter((space) => space === null);
+    if (!isBoardNotFull.length) {
+      //ADD LOADING AND THEN RESET DECK
+      assignCardsToDeck();
+    }
+  }, [board]);
+
+  useEffect(() => {
+    assignCardsToDeck();
   }, []);
 
   return (

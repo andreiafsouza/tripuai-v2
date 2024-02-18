@@ -37,6 +37,15 @@ const boardSlice = createSlice({
     boardUpdated(state, action: PayloadAction<(CardInGameProps | null)[]>) {
       state.spaces = action.payload;
     },
+    boardReset(state, action: PayloadAction<boolean>) {
+      if (action.payload) {
+        return {
+          ...initialState,
+        };
+      }
+
+      return state;
+    },
     turnChanged(state, action: PayloadAction<"playerOne" | "playerTwo">) {
       state.turn = action.payload;
     },
@@ -57,7 +66,12 @@ const boardSlice = createSlice({
   },
 });
 
-export const { boardUpdated, turnChanged, scoreUpdated, cardAddedToBoard } =
-  boardSlice.actions;
+export const {
+  boardUpdated,
+  turnChanged,
+  scoreUpdated,
+  cardAddedToBoard,
+  boardReset,
+} = boardSlice.actions;
 
 export default boardSlice.reducer;

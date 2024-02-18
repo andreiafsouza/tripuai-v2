@@ -5,6 +5,7 @@ import {
   turnChanged,
   scoreUpdated,
   cardAddedToBoard,
+  boardReset,
 } from "@/store/slices/boardSlice";
 import { cardSelected } from "@/store/slices/deckSlice";
 import { useAppDispatch, useAppSelector } from "@/hooks";
@@ -24,10 +25,12 @@ const Board = () => {
   );
   const [boardSpaceWhenEnterIsPressed, setBoardSpaceWhenEnterIsPressed] =
     useState<number | null>(null);
-  const [message, setMessage] = useState<string | null>(null);
   const playerOne = "playerOne";
   const playerTwo = "playerTwo";
   const columns = 3;
+  const boarMessage = selectedCard
+    ? "Escolha onde quer colocar a carta selecionada"
+    : "Escolha uma carta para adicionar ao tabuleiro";
 
   const getAdjacentIndexes = (index: number) => {
     const adjacentIndexes: number[] = [];
@@ -142,7 +145,6 @@ const Board = () => {
 
   useEffect(() => {
     if (selectedCard) {
-      setMessage("Escolha onde quer colocar a carta selecionada");
       const nextAvailableBoardSpace = board.findIndex(
         (space) => space === null
       );
@@ -161,11 +163,14 @@ const Board = () => {
         );
       };
     }
-  }, [board, selectedCard]);
 
-  useEffect(() => {
-    setMessage(`${turn} Escolha uma nova carta para adicionar ao tabuleiro`);
-  }, [turn]);
+    //reset the board if it is full (match is over)
+    const isBoardNotFull = board.filter((space) => space === null);
+    if (!isBoardNotFull.length) {
+      //ADD LOADING AND THEN RESET BOARD
+      dispatch(boardReset(true));
+    }
+  }, [board, selectedCard]);
 
   useEffect(() => {
     if (boardSpaceWhenEnterIsPressed !== null) {
@@ -175,13 +180,9 @@ const Board = () => {
     }
   }, [boardSpaceWhenEnterIsPressed]);
 
-  useEffect(() => {
-    setMessage("Escolha uma carta para adicionar ao tabuleiro");
-  }, []);
-
   return (
     <S.Container>
-      <S.BoardMessage>{message}</S.BoardMessage>
+      <S.BoardMessage>{boarMessage}</S.BoardMessage>
       <S.BoardContainer>
         {board.map((_, index) => (
           <S.BoardSpace
