@@ -11,9 +11,7 @@ const Play = () => {
   const playerTwo = "playerTwo";
 
   useEffect(() => {
-    //defines a random player to start the match
-    const randomPlayer = Math.random() < 0.5 ? playerOne : playerTwo;
-    dispatch(turnChanged(randomPlayer));
+    dispatch(turnChanged(Math.random() < 0.5 ? "playerOne" : "playerTwo"));
   }, []);
 
   return (
