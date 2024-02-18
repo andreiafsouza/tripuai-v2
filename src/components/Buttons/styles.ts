@@ -6,7 +6,7 @@ export const ButtonContainer = styled.button<ButtonProps>`
     color === "primary"
       ? `${theme.color.greenTea}`
       : color === "secondary"
-      ? `${theme.color.nudeDust}`
+      ? `${theme.color.greenOlive}`
       : "transparent"};
 
   --_out-color: ${({ $outlined, theme }) =>
@@ -30,6 +30,8 @@ export const ButtonContainer = styled.button<ButtonProps>`
   align-items: center;
   justify-content: center;
   height: fit-content;
+
+  transition: 0.25s;
 
   & .outlinedText {
     --stroke-color: ${(props) => props.theme.color.nudeDust};
@@ -66,6 +68,22 @@ export const ButtonContainer = styled.button<ButtonProps>`
         var(--stroke-color),
       calc(var(--stroke-width) * 0.9239) calc(var(--stroke-width) * -0.3827) 0
         var(--stroke-color);
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover,
+    &:focus-within {
+      cursor: pointer;
+      --_bg: ${({ $outlined, theme }) =>
+        $outlined === "true"
+          ? `${theme.color.nudeLion}`
+          : `${theme.color.nudeRose}`};
+
+      filter: drop-shadow(
+        ${(props) => props.theme.color.greenPalmOpacity["20"]} -8px 8px 4px
+      );
+      transform: translateY(-0.25em);
+    }
   }
 `;
 

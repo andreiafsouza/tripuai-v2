@@ -3,6 +3,7 @@ export type ButtonProps = {
   size: "small" | "default" | "large";
   color?: "primary" | "secondary";
   $outlined?: "true" | "false";
+  onClick?: () => void;
 };
 
 export type CardProps = {
