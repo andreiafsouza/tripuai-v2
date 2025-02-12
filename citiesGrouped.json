@@ -591,7 +591,8 @@
     "left": 10,
     "right": 5,
     "bioma": "Cerrado, Mata Atlântica",
-    "top": 10
+    "top": 10,
+    "image": "./pao_de_queijo_belo_horizonte_300.png"
   },
   {
     "id": 3106309,

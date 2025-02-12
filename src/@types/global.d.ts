@@ -14,6 +14,7 @@ export type CardProps = {
   left: number; //Indicador IBGE 60030 - Meio Ambiente - Esgotamento sanitário adequado.
   bottom: number; //Indicador IBGE 47001 - Economia - PIB per Capta.
   bioma: string; //Indicador IBGE 77861 - Biomas.
+  image?: string;
 };
 
 export type CardInGameProps = CardProps & { player: "playerOne" | "playerTwo" };

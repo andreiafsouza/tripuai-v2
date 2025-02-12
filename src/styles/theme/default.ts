@@ -13,6 +13,7 @@ export const defaultTheme = {
       "80": "rgba(179, 190, 110, 0.8)",
     },
     greenTea: "#77c091",
+    greenTeaLight: "#a8ddb5",
     greenTeaOpacity: {
       "50": "rgba(119, 192, 145, 0.5)",
       "80": "rgba(119, 192, 145, 0.8)",

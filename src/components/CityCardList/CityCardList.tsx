@@ -82,6 +82,7 @@ const CityCardList = ({ cities }: { cities: CardProps[] }) => {
               left={city.left}
               bottom={city.bottom}
               bioma={city.bioma}
+              image={city.image || ""}
             />
           </SelectCityButton>
         ))}

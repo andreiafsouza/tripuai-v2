@@ -1,30 +1,28 @@
-import * as S from "./styles";
-import { CardProps } from "@/@types/global";
+import * as S from "./styles"
+import type { CardProps } from "@/@types/global"
 
-export const CityCard = ({
-  id,
-  nome,
-  top,
-  right,
-  left,
-  bottom,
-  bioma,
-}: CardProps) => {
+export const CityCard = ({ id, nome, top, right, left, bottom, bioma, image }: CardProps) => {
+  if(nome === "Belo Horizonte"){
+    console.log("Belo Horizonte", image)
+  }
   return (
     <S.CardContainer title={nome}>
       <S.CardContent>
-        <div>
-          <h1>{top}</h1>
-        </div>
-        <S.MiddleScoreContainer>
-          <h1>{left}</h1>
-          <h1 style={{ padding: "4px" }}>{nome}</h1>
-          <h1>{right}</h1>
-        </S.MiddleScoreContainer>
-        <div>
-          <h1>{bottom}</h1>
-        </div>
+        <S.Title>{nome}</S.Title>
+
+        <S.NumberContainer position="top">{top}</S.NumberContainer>
+
+        <S.NumberContainer position="right">{right}</S.NumberContainer>
+
+        <S.NumberContainer position="bottom">{bottom}</S.NumberContainer>
+
+        <S.NumberContainer position="left">{left}</S.NumberContainer>
+
+        <S.ImageContainer >
+          <img width={60} src={image || ""} alt={nome} />
+        </S.ImageContainer>
       </S.CardContent>
     </S.CardContainer>
-  );
-};
+  )
+}
+
