@@ -42,45 +42,54 @@ export const NumberContainer = styled.div<{
   position: "top" | "right" | "bottom" | "left";
 }>`
   position: absolute;
-  font-size: ${(props) => props.theme.fontSize["20"]};
+  font-family: ${({ theme }) => theme.font.display};
+  font-size: ${({ theme }) => theme.fontSize["24"]};
   font-weight: bold;
 
-  ${({ position }) => {
+  ${({ position, theme }) => {
     switch (position) {
       case "top":
         return `
           top: 0.5rem;
           left: 50%;
           transform: translateX(-50%);
-          color: ${(props: { theme: { color: { greenSpring: string } } }) =>
-            props.theme.color.greenSpring};
+          color: ${theme.color.greenSpring};
         `;
       case "right":
         return `
           top: 50%;
           right: 0.5rem;
           transform: translateY(-50%);
-          color: ${(props: { theme: { color: { redCarmine: string } } }) =>
-            props.theme.color.redCarmine};
+          color: ${theme.color.redCarmine};
         `;
       case "bottom":
         return `
           bottom: 0.5rem;
           left: 50%;
           transform: translateX(-50%);
-          color: ${(props: { theme: { color: { greenSpring: string } } }) =>
-            props.theme.color.greenSpring};
+          color: ${theme.color.greenWasabi};
         `;
       case "left":
         return `
           top: 50%;
           left: 0.5rem;
           transform: translateY(-50%);
-          color: ${(props: { theme: { color: { orangeSaffron: string } } }) =>
-            props.theme.color.orangeSaffron};
+          color: ${theme.color.orangeSaffronDark};
         `;
+      default:
+        return "";
     }
   }}
+
+  &::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    color: ${({ theme }) => theme.color.nudeDust};
+    -webkit-text-stroke: 2px ${({ theme }) => theme.color.nudeDust};
+  }
 `;
 
 export const ImageContainer = styled.div`

@@ -33,6 +33,7 @@ export const defaultTheme = {
     nudeCoffee: "#674a32",
 
     orangeSaffron: "#ff9233",
+    orangeSaffronDark: "#e57d2a",
     redCarmine: "#eb4747",
     blueCerulean: "#1D7BAE",
   },
