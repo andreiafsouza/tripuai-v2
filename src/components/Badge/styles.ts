@@ -2,15 +2,16 @@ import styled, { css } from "styled-components";
 
 const sizeStyles = {
   small: css`
-    font-size: 10px;
+    font-size: ${(props) => props.theme.fontSize[10]};
     padding: 4px 8px;
   `,
   medium: css`
-    font-size: 12px;
+    font-size: ${(props) => props.theme.fontSize[12]};
+    padding: 4px 8px;
     padding: 6px 10px;
   `,
   large: css`
-    font-size: 14px;
+    font-size: ${(props) => props.theme.fontSize[14]};
     padding: 8px 12px;
   `,
 };
@@ -62,9 +63,14 @@ export const Badge = styled.span<{
 }>`
   display: inline-block;
   border-radius: 12px;
-  border: 1px solid;
+  border: 2px solid;
   border-color: ${(props) => props.theme.color.nudeDust};
+  filter: drop-shadow(
+    ${(props) => props.theme.color.greenPalmOpacity["20"]} -1px 2px 2px
+  );
+
   font-weight: bold;
+  white-space: nowrap;
   ${({ size }) => sizeStyles[size]};
 
   ${({ variant, theme }) => {

@@ -11,8 +11,8 @@ const Home = () => {
       <Logo />
       <S.ButtonWrapper>
         <div style={{ position: "relative" }}>
-          <Badge variant="danger" size="medium" position="bottom-center">
-            Em Breve
+          <Badge variant="primary" size="medium" position="bottom-center">
+            Em breve!
           </Badge>
           <DefaultBtn
             text="Ver Cartas"
@@ -23,7 +23,7 @@ const Home = () => {
         </div>
         <div style={{ position: "relative" }}>
           <Badge variant="danger" size="medium" position="bottom-center">
-            Em Breve
+            Em breve!
           </Badge>
           <DefaultBtn
             text="Jogue Agora"
