@@ -10,7 +10,7 @@ const Home = () => {
     <S.Main>
       <Logo />
       <S.ButtonWrapper>
-        <div style={{ position: "relative" }}>
+        {/* <div style={{ position: "relative" }}>
           <Badge variant="primary" size="medium" position="bottom-center">
             Em breve!
           </Badge>
@@ -20,7 +20,7 @@ const Home = () => {
             color="primary"
             onClick={() => navigate("/cartas")}
           />
-        </div>
+        </div> */}
         <div style={{ position: "relative" }}>
           <Badge variant="danger" size="medium" position="bottom-center">
             Em breve!
